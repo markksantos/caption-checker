@@ -61,6 +61,10 @@ for (const cue of result.cues) for (const issue of cue.issues) console.log(cue.n
 
 `check()` accepts a standard id or your own standard object with the same fields as `STANDARDS` in `index.js`.
 
+## Version history
+
+See [CHANGELOG.md](CHANGELOG.md) and [releases](https://github.com/markksantos/caption-checker/releases).
+
 ## Tests
 
 ```
