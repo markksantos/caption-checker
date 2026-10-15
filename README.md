@@ -4,6 +4,8 @@ Check SRT and WebVTT captions against a published caption standard: **Netflix En
 
 No dependencies. Node 18+. The same checker runs in the browser, with no install and no upload, at **[markstudios.com/tools/caption-checker](https://www.markstudios.com/tools/caption-checker)**.
 
+![caption-check flagging a travel vlog's SRT file: 2 of 8 captions meet Netflix English limits](docs/preview.png)
+
 ```
 $ caption-check examples/travel-vlog.srt
 travel-vlog.srt: 2 of 8 captions meet Netflix English, adult programs
