@@ -56,6 +56,7 @@ function summary(vs) {
     medianMinutes: r1(quant(vs.map((v) => v.minutes), 0.5)), medianOfMedianCps: r1(quant(vs.map((v) => v.medianCps), 0.5)),
     medianRateWpm: Math.round(quant(vs.map((v) => v.rateWpm), 0.5)), p25RateWpm: Math.round(quant(vs.map((v) => v.rateWpm), 0.25)), p75RateWpm: Math.round(quant(vs.map((v) => v.rateWpm), 0.75)),
     rateOver130: vs.filter((v) => v.rateWpm > 130).length, rateOver140: vs.filter((v) => v.rateWpm > 140).length, rateOver160: vs.filter((v) => v.rateWpm > 160).length, rateOver180: vs.filter((v) => v.rateWpm > 180).length,
+    rateBands: [[0, 130], [130, 140], [140, 160], [160, 180], [180, Infinity]].map(([lo, hi]) => vs.filter((v) => v.rateWpm > lo && v.rateWpm <= hi).length),
     maxLineMedian: quant(vs.map((v) => v.maxLine), 0.5), maxLineMax: Math.max(...vs.map((v) => v.maxLine)), median: {}, any: {}, atLeast10: {}, none: {} };
   for (const k of Object.keys(PRED)) {
     o.median[k] = r1(quant(vs.map((v) => v.share[k]), 0.5));

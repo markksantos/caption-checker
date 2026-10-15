@@ -15,6 +15,13 @@
   "rateOver140": 105,
   "rateOver160": 81,
   "rateOver180": 46,
+  "rateBands": [
+   25,
+   9,
+   24,
+   35,
+   46
+  ],
   "maxLineMedian": 42,
   "maxLineMax": 127,
   "median": {
@@ -103,6 +110,13 @@
   "rateOver140": 92,
   "rateOver160": 68,
   "rateOver180": 38,
+  "rateBands": [
+   23,
+   6,
+   24,
+   30,
+   38
+  ],
   "maxLineMedian": 42,
   "maxLineMax": 127,
   "median": {
@@ -191,6 +205,13 @@
   "rateOver140": 13,
   "rateOver160": 13,
   "rateOver180": 8,
+  "rateBands": [
+   2,
+   3,
+   0,
+   5,
+   8
+  ],
   "maxLineMedian": 42,
   "maxLineMax": 83,
   "median": {
@@ -279,6 +300,13 @@
   "rateOver140": 182,
   "rateOver160": 87,
   "rateOver180": 23,
+  "rateBands": [
+   42,
+   24,
+   95,
+   64,
+   23
+  ],
   "maxLineMedian": 32,
   "maxLineMax": 120,
   "median": {
@@ -367,6 +395,13 @@
   "rateOver140": 287,
   "rateOver160": 168,
   "rateOver180": 69,
+  "rateBands": [
+   67,
+   33,
+   119,
+   99,
+   69
+  ],
   "maxLineMedian": 32,
   "maxLineMax": 127,
   "median": {
