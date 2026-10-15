@@ -1,0 +1,2004 @@
+{
+ "ocw": [
+  {
+   "source": "ocw",
+   "id": "/courses/1-258j-public-transportation-systems-spring-2017/resources/lecture-1-introduction/",
+   "course": "1-258j-public-transportation-systems-spring-2017",
+   "url": "https://ocw.mit.edu/courses/1-258j-public-transportation-systems-spring-2017/250a863b41c755d0a676927634e15921_wzB8Rhm3xCU.vtt",
+   "page": "https://ocw.mit.edu/courses/1-258j-public-transportation-systems-spring-2017/resources/lecture-1-introduction/",
+   "file": "ocw/1-258j-public-transportation-systems-spring-2017__lecture-1-introduction.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/1-258j-public-transportation-systems-spring-2017/resources/lecture-2-data-collection-techniques-and-program-design/",
+   "course": "1-258j-public-transportation-systems-spring-2017",
+   "url": "https://ocw.mit.edu/courses/1-258j-public-transportation-systems-spring-2017/ae72f3b666bd55ebabe91c04b268a64b_JPCA2qE9MSw.vtt",
+   "page": "https://ocw.mit.edu/courses/1-258j-public-transportation-systems-spring-2017/resources/lecture-2-data-collection-techniques-and-program-design/",
+   "file": "ocw/1-258j-public-transportation-systems-spring-2017__lecture-2-data-collection-techniques-and.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/1-258j-public-transportation-systems-spring-2017/resources/lecture-3-modal-characteristics-and-roles/",
+   "course": "1-258j-public-transportation-systems-spring-2017",
+   "url": "https://ocw.mit.edu/courses/1-258j-public-transportation-systems-spring-2017/01a1c3c10ae4521487947213a345be43_MlDdfgjpBe0.vtt",
+   "page": "https://ocw.mit.edu/courses/1-258j-public-transportation-systems-spring-2017/resources/lecture-3-modal-characteristics-and-roles/",
+   "file": "ocw/1-258j-public-transportation-systems-spring-2017__lecture-3-modal-characteristics-and-role.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/1-258j-public-transportation-systems-spring-2017/resources/lecture-4-short-range-planning-part-1/",
+   "course": "1-258j-public-transportation-systems-spring-2017",
+   "url": "https://ocw.mit.edu/courses/1-258j-public-transportation-systems-spring-2017/e41ed673a7fb5af8980af7a258937dea_h5x7-zejY8c.vtt",
+   "page": "https://ocw.mit.edu/courses/1-258j-public-transportation-systems-spring-2017/resources/lecture-4-short-range-planning-part-1/",
+   "file": "ocw/1-258j-public-transportation-systems-spring-2017__lecture-4-short-range-planning-part-1.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/1-258j-public-transportation-systems-spring-2017/resources/lecture-5-short-range-planning-part-2/",
+   "course": "1-258j-public-transportation-systems-spring-2017",
+   "url": "https://ocw.mit.edu/courses/1-258j-public-transportation-systems-spring-2017/34c566ae46a75531912a36ed0fb02b46_aLqEG43nKVE.vtt",
+   "page": "https://ocw.mit.edu/courses/1-258j-public-transportation-systems-spring-2017/resources/lecture-5-short-range-planning-part-2/",
+   "file": "ocw/1-258j-public-transportation-systems-spring-2017__lecture-5-short-range-planning-part-2.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/1-258j-public-transportation-systems-spring-2017/resources/lecture-6-modal-capacities-and-costs/",
+   "course": "1-258j-public-transportation-systems-spring-2017",
+   "url": "https://ocw.mit.edu/courses/1-258j-public-transportation-systems-spring-2017/1549b65ebff15410945b98341349280c_dttSgzTJKK4.vtt",
+   "page": "https://ocw.mit.edu/courses/1-258j-public-transportation-systems-spring-2017/resources/lecture-6-modal-capacities-and-costs/",
+   "file": "ocw/1-258j-public-transportation-systems-spring-2017__lecture-6-modal-capacities-and-costs.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/resources/1a-overview-and-introduction-to-lisp/",
+   "course": "6-001-structure-and-interpretation-of-computer-programs-spring-2005",
+   "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/aea06401a58858bbb7f1d1916dbe7330_-J_xL4IGhJA.vtt",
+   "page": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/resources/1a-overview-and-introduction-to-lisp/",
+   "file": "ocw/6-001-structure-and-interpretation-of-computer-pro__1a-overview-and-introduction-to-lisp.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/resources/1b-procedures-and-processes-substitution-model/",
+   "course": "6-001-structure-and-interpretation-of-computer-programs-spring-2005",
+   "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/86cf45b23b295d4d81c0c86e1953cc10_V_7mmwpgJHU.vtt",
+   "page": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/resources/1b-procedures-and-processes-substitution-model/",
+   "file": "ocw/6-001-structure-and-interpretation-of-computer-pro__1b-procedures-and-processes-substitution.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/resources/2a-higher-order-procedures/",
+   "course": "6-001-structure-and-interpretation-of-computer-programs-spring-2005",
+   "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/50882de36f555880a6805947153ab2aa_eJeMOEiHv8c.vtt",
+   "page": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/resources/2a-higher-order-procedures/",
+   "file": "ocw/6-001-structure-and-interpretation-of-computer-pro__2a-higher-order-procedures.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/resources/2b-compound-data/",
+   "course": "6-001-structure-and-interpretation-of-computer-programs-spring-2005",
+   "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/b46995d31ca355288e0677f72f419d79_DrFkf-T-6Co.vtt",
+   "page": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/resources/2b-compound-data/",
+   "file": "ocw/6-001-structure-and-interpretation-of-computer-pro__2b-compound-data.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/resources/3a-henderson-escher-example/",
+   "course": "6-001-structure-and-interpretation-of-computer-programs-spring-2005",
+   "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/9171ad8f150653fe9a1d42a93586459c_PEwZL3H2oKg.vtt",
+   "page": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/resources/3a-henderson-escher-example/",
+   "file": "ocw/6-001-structure-and-interpretation-of-computer-pro__3a-henderson-escher-example.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/resources/3b-symbolic-differentiation-quotation/",
+   "course": "6-001-structure-and-interpretation-of-computer-programs-spring-2005",
+   "url": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/ae177fa89d9251e69271a53a3d8cdf39_bV87UzKMRtE.vtt",
+   "page": "https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/resources/3b-symbolic-differentiation-quotation/",
+   "file": "ocw/6-001-structure-and-interpretation-of-computer-pro__3b-symbolic-differentiation-quotation.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-450-principles-of-digital-communications-i-fall-2006/resources/lecture-1-introduction/",
+   "course": "6-450-principles-of-digital-communications-i-fall-2006",
+   "url": "https://ocw.mit.edu/courses/6-450-principles-of-digital-communications-i-fall-2006/95a1a995a4aa5dc58fc9860b01f2be5c_KXFF8m4uGDc.vtt",
+   "page": "https://ocw.mit.edu/courses/6-450-principles-of-digital-communications-i-fall-2006/resources/lecture-1-introduction/",
+   "file": "ocw/6-450-principles-of-digital-communications-i-fall-__lecture-1-introduction.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-450-principles-of-digital-communications-i-fall-2006/resources/lecture-2-discrete-source-encoding/",
+   "course": "6-450-principles-of-digital-communications-i-fall-2006",
+   "url": "https://ocw.mit.edu/courses/6-450-principles-of-digital-communications-i-fall-2006/39ec6a0c1de25ccab23f413a77a4cb24_503wzjz8czs.vtt",
+   "page": "https://ocw.mit.edu/courses/6-450-principles-of-digital-communications-i-fall-2006/resources/lecture-2-discrete-source-encoding/",
+   "file": "ocw/6-450-principles-of-digital-communications-i-fall-__lecture-2-discrete-source-encoding.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-450-principles-of-digital-communications-i-fall-2006/resources/lecture-3-memory-less-sources/",
+   "course": "6-450-principles-of-digital-communications-i-fall-2006",
+   "url": "https://ocw.mit.edu/courses/6-450-principles-of-digital-communications-i-fall-2006/130d5cc85ed35fd2874ed3f9c8d1cb99_o8XojnApGc4.vtt",
+   "page": "https://ocw.mit.edu/courses/6-450-principles-of-digital-communications-i-fall-2006/resources/lecture-3-memory-less-sources/",
+   "file": "ocw/6-450-principles-of-digital-communications-i-fall-__lecture-3-memory-less-sources.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-450-principles-of-digital-communications-i-fall-2006/resources/lecture-4-entropy-and-asymptotic-equipartition-property/",
+   "course": "6-450-principles-of-digital-communications-i-fall-2006",
+   "url": "https://ocw.mit.edu/courses/6-450-principles-of-digital-communications-i-fall-2006/f938442be8e150a1a131c4eee1c3547c_dSviy9E6Pz0.vtt",
+   "page": "https://ocw.mit.edu/courses/6-450-principles-of-digital-communications-i-fall-2006/resources/lecture-4-entropy-and-asymptotic-equipartition-property/",
+   "file": "ocw/6-450-principles-of-digital-communications-i-fall-__lecture-4-entropy-and-asymptotic-equipar.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-450-principles-of-digital-communications-i-fall-2006/resources/lecture-5-markov-sources/",
+   "course": "6-450-principles-of-digital-communications-i-fall-2006",
+   "url": "https://ocw.mit.edu/courses/6-450-principles-of-digital-communications-i-fall-2006/6267e8ce3ca851d8a6c5915ddf21cf24_IgN5JQSh8w4.vtt",
+   "page": "https://ocw.mit.edu/courses/6-450-principles-of-digital-communications-i-fall-2006/resources/lecture-5-markov-sources/",
+   "file": "ocw/6-450-principles-of-digital-communications-i-fall-__lecture-5-markov-sources.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-450-principles-of-digital-communications-i-fall-2006/resources/lecture-6-quantization/",
+   "course": "6-450-principles-of-digital-communications-i-fall-2006",
+   "url": "https://ocw.mit.edu/courses/6-450-principles-of-digital-communications-i-fall-2006/eb263b8a1f2650acbc1c707d136ac5d0_rei6tud0Tsg.vtt",
+   "page": "https://ocw.mit.edu/courses/6-450-principles-of-digital-communications-i-fall-2006/resources/lecture-6-quantization/",
+   "file": "ocw/6-450-principles-of-digital-communications-i-fall-__lecture-6-quantization.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/resources/6100l-lecture-2-multi-version-4_1_mp4/",
+   "course": "6-100l-introduction-to-cs-and-programming-using-python-fall-2022",
+   "url": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/6100l-lecture-2-multi-version-4_1_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/resources/6100l-lecture-2-multi-version-4_1_mp4/",
+   "file": "ocw/6-100l-introduction-to-cs-and-programming-using-py__6100l-lecture-2-multi-version-4_1_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/resources/lecture-1-this-course-and-the-u-s/",
+   "course": "15-031j-energy-decisions-markets-and-policies-spring-2012",
+   "url": "https://ocw.mit.edu/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/e0fcb1d6aef154388fc9a9195e987074_-7dYXCHtTFY.vtt",
+   "page": "https://ocw.mit.edu/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/resources/lecture-1-this-course-and-the-u-s/",
+   "file": "ocw/15-031j-energy-decisions-markets-and-policies-spri__lecture-1-this-course-and-the-u-s.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/resources/lecture-2-comparative-energy-systems/",
+   "course": "15-031j-energy-decisions-markets-and-policies-spring-2012",
+   "url": "https://ocw.mit.edu/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/6d7348828da552efaf66a16b20eea392_2wGduvHRck4.vtt",
+   "page": "https://ocw.mit.edu/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/resources/lecture-2-comparative-energy-systems/",
+   "file": "ocw/15-031j-energy-decisions-markets-and-policies-spri__lecture-2-comparative-energy-systems.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/resources/lecture-3-u-s/",
+   "course": "15-031j-energy-decisions-markets-and-policies-spring-2012",
+   "url": "https://ocw.mit.edu/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/31f37a1bde0956338114e7ffbbf9fae7_XJdqfhuqLJA.vtt",
+   "page": "https://ocw.mit.edu/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/resources/lecture-3-u-s/",
+   "file": "ocw/15-031j-energy-decisions-markets-and-policies-spri__lecture-3-u-s.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/resources/lecture-4-the-market-and-the-state/",
+   "course": "15-031j-energy-decisions-markets-and-policies-spring-2012",
+   "url": "https://ocw.mit.edu/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/ca31e38d7d5d5bb3bb91dadaca9c3193_LoXGM05lqKc.vtt",
+   "page": "https://ocw.mit.edu/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/resources/lecture-4-the-market-and-the-state/",
+   "file": "ocw/15-031j-energy-decisions-markets-and-policies-spri__lecture-4-the-market-and-the-state.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/resources/lecture-5-path-dependence-in-energy-systems/",
+   "course": "15-031j-energy-decisions-markets-and-policies-spring-2012",
+   "url": "https://ocw.mit.edu/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/4118d142ac1c5d3197ec307529a569df_WpcbBk5ckas.vtt",
+   "page": "https://ocw.mit.edu/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/resources/lecture-5-path-dependence-in-energy-systems/",
+   "file": "ocw/15-031j-energy-decisions-markets-and-policies-spri__lecture-5-path-dependence-in-energy-syst.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/resources/lecture-6-climate-science-and-policy/",
+   "course": "15-031j-energy-decisions-markets-and-policies-spring-2012",
+   "url": "https://ocw.mit.edu/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/7bacdd2cef6c53ee8f12c20b230124d2_2oooMpS_3vg.vtt",
+   "page": "https://ocw.mit.edu/courses/15-031j-energy-decisions-markets-and-policies-spring-2012/resources/lecture-6-climate-science-and-policy/",
+   "file": "ocw/15-031j-energy-decisions-markets-and-policies-spri__lecture-6-climate-science-and-policy.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-003-signals-and-systems-fall-2011/resources/lecture-1-signals-and-systems/",
+   "course": "6-003-signals-and-systems-fall-2011",
+   "url": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/ffd5c64a93b95e078aa2a1fb6afc56d1_-FHm2pQmiSM.vtt",
+   "page": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/resources/lecture-1-signals-and-systems/",
+   "file": "ocw/6-003-signals-and-systems-fall-2011__lecture-1-signals-and-systems.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-003-signals-and-systems-fall-2011/resources/lecture-2-discrete-time-dt-systems/",
+   "course": "6-003-signals-and-systems-fall-2011",
+   "url": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/fce58323db5b5081b7604058331475e5_Ih4s5IFphCw.vtt",
+   "page": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/resources/lecture-2-discrete-time-dt-systems/",
+   "file": "ocw/6-003-signals-and-systems-fall-2011__lecture-2-discrete-time-dt-systems.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-003-signals-and-systems-fall-2011/resources/lecture-3-feedback-poles-and-fundamental-modes/",
+   "course": "6-003-signals-and-systems-fall-2011",
+   "url": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/e414461b8483533abf1445a2188a4ef4_K3OFb7RlbVE.vtt",
+   "page": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/resources/lecture-3-feedback-poles-and-fundamental-modes/",
+   "file": "ocw/6-003-signals-and-systems-fall-2011__lecture-3-feedback-poles-and-fundamental.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-003-signals-and-systems-fall-2011/resources/lecture-4-continuous-time-ct-systems/",
+   "course": "6-003-signals-and-systems-fall-2011",
+   "url": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/a6c54279a9665de1b5990ffea15edf34_4PlHFcfB8DA.vtt",
+   "page": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/resources/lecture-4-continuous-time-ct-systems/",
+   "file": "ocw/6-003-signals-and-systems-fall-2011__lecture-4-continuous-time-ct-systems.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-003-signals-and-systems-fall-2011/resources/lecture-5-z-transform/",
+   "course": "6-003-signals-and-systems-fall-2011",
+   "url": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/7e47bf9c5d9d50df8d52cc915f22dffd_iI-ejO9hczw.vtt",
+   "page": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/resources/lecture-5-z-transform/",
+   "file": "ocw/6-003-signals-and-systems-fall-2011__lecture-5-z-transform.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-003-signals-and-systems-fall-2011/resources/lecture-6-laplace-transform/",
+   "course": "6-003-signals-and-systems-fall-2011",
+   "url": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/88768e04b169577e90cfc346369b0994_MRy8xxvsZA4.vtt",
+   "page": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/resources/lecture-6-laplace-transform/",
+   "file": "ocw/6-003-signals-and-systems-fall-2011__lecture-6-laplace-transform.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-s50-poker-theory-and-analytics-january-iap-2015/resources/introduction-to-poker-theory/",
+   "course": "15-s50-poker-theory-and-analytics-january-iap-2015",
+   "url": "https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/3f627d338c275af7aa72075060a65e1e_OTkq4OsG_Yc.vtt",
+   "page": "https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/resources/introduction-to-poker-theory/",
+   "file": "ocw/15-s50-poker-theory-and-analytics-january-iap-2015__introduction-to-poker-theory.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-s50-poker-theory-and-analytics-january-iap-2015/resources/analytical-techniques/",
+   "course": "15-s50-poker-theory-and-analytics-january-iap-2015",
+   "url": "https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/96cda25a39a95ac9a8c11636a0d95c46_tXVDY1HvrVU.vtt",
+   "page": "https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/resources/analytical-techniques/",
+   "file": "ocw/15-s50-poker-theory-and-analytics-january-iap-2015__analytical-techniques.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-s50-poker-theory-and-analytics-january-iap-2015/resources/basic-strategy/",
+   "course": "15-s50-poker-theory-and-analytics-january-iap-2015",
+   "url": "https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/bea70a6b3e0f577abfadb6999162d85a_LCoPLFaeq0U.vtt",
+   "page": "https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/resources/basic-strategy/",
+   "file": "ocw/15-s50-poker-theory-and-analytics-january-iap-2015__basic-strategy.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-s50-poker-theory-and-analytics-january-iap-2015/resources/preflop-analysis/",
+   "course": "15-s50-poker-theory-and-analytics-january-iap-2015",
+   "url": "https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/8ea104385db952f0a66d87decf0866ed_tssNDp5I6zA.vtt",
+   "page": "https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/resources/preflop-analysis/",
+   "file": "ocw/15-s50-poker-theory-and-analytics-january-iap-2015__preflop-analysis.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-s50-poker-theory-and-analytics-january-iap-2015/resources/tournament-play/",
+   "course": "15-s50-poker-theory-and-analytics-january-iap-2015",
+   "url": "https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/6e1bd550548c52d58218a530b107ea40_JQSTRkGEiWw.vtt",
+   "page": "https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/resources/tournament-play/",
+   "file": "ocw/15-s50-poker-theory-and-analytics-january-iap-2015__tournament-play.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-s50-poker-theory-and-analytics-january-iap-2015/resources/poker-economics/",
+   "course": "15-s50-poker-theory-and-analytics-january-iap-2015",
+   "url": "https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/4a4b4ee9891f50d5824ce0efebfaa252_IZZ4y5GfdOU.vtt",
+   "page": "https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/resources/poker-economics/",
+   "file": "ocw/15-s50-poker-theory-and-analytics-january-iap-2015__poker-economics.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-773-hands-on-deep-learning-spring-2024/resources/15773-sp24-lecture-1-version-3_mp4/",
+   "course": "15-773-hands-on-deep-learning-spring-2024",
+   "url": "https://ocw.mit.edu/courses/15-773-hands-on-deep-learning-spring-2024/15773-sp24-lecture-1-version-3_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/15-773-hands-on-deep-learning-spring-2024/resources/15773-sp24-lecture-1-version-3_mp4/",
+   "file": "ocw/15-773-hands-on-deep-learning-spring-2024__15773-sp24-lecture-1-version-3_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-773-hands-on-deep-learning-spring-2024/resources/15773-sp24-lecture-2-version-2_mp4/",
+   "course": "15-773-hands-on-deep-learning-spring-2024",
+   "url": "https://ocw.mit.edu/courses/15-773-hands-on-deep-learning-spring-2024/15773-sp24-lecture-2-version-2_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/15-773-hands-on-deep-learning-spring-2024/resources/15773-sp24-lecture-2-version-2_mp4/",
+   "file": "ocw/15-773-hands-on-deep-learning-spring-2024__15773-sp24-lecture-2-version-2_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-773-hands-on-deep-learning-spring-2024/resources/15773-sp24-lecture-3-version-2_mp4/",
+   "course": "15-773-hands-on-deep-learning-spring-2024",
+   "url": "https://ocw.mit.edu/courses/15-773-hands-on-deep-learning-spring-2024/15773-sp24-lecture-3-version-2_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/15-773-hands-on-deep-learning-spring-2024/resources/15773-sp24-lecture-3-version-2_mp4/",
+   "file": "ocw/15-773-hands-on-deep-learning-spring-2024__15773-sp24-lecture-3-version-2_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-773-hands-on-deep-learning-spring-2024/resources/15773-sp24-lecture-4-version-2_mp4/",
+   "course": "15-773-hands-on-deep-learning-spring-2024",
+   "url": "https://ocw.mit.edu/courses/15-773-hands-on-deep-learning-spring-2024/15773-sp24-lecture-4-version-2_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/15-773-hands-on-deep-learning-spring-2024/resources/15773-sp24-lecture-4-version-2_mp4/",
+   "file": "ocw/15-773-hands-on-deep-learning-spring-2024__15773-sp24-lecture-4-version-2_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-773-hands-on-deep-learning-spring-2024/resources/15773-sp24-lecture-5-version-2_mp4/",
+   "course": "15-773-hands-on-deep-learning-spring-2024",
+   "url": "https://ocw.mit.edu/courses/15-773-hands-on-deep-learning-spring-2024/15773-sp24-lecture-5-version-2_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/15-773-hands-on-deep-learning-spring-2024/resources/15773-sp24-lecture-5-version-2_mp4/",
+   "file": "ocw/15-773-hands-on-deep-learning-spring-2024__15773-sp24-lecture-5-version-2_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-773-hands-on-deep-learning-spring-2024/resources/15773-sp24-lecture-6-version-2_mp4/",
+   "course": "15-773-hands-on-deep-learning-spring-2024",
+   "url": "https://ocw.mit.edu/courses/15-773-hands-on-deep-learning-spring-2024/15773-sp24-lecture-6-version-2_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/15-773-hands-on-deep-learning-spring-2024/resources/15773-sp24-lecture-6-version-2_mp4/",
+   "file": "ocw/15-773-hands-on-deep-learning-spring-2024__15773-sp24-lecture-6-version-2_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/resources/a-new-way-to-start-linear-algebra/",
+   "course": "res-18-010-a-2020-vision-of-linear-algebra-spring-2020",
+   "url": "https://ocw.mit.edu/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/0b9e21b9b8a45e708a03bb72d1004cb1_YrHlHbtiSM0.vtt",
+   "page": "https://ocw.mit.edu/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/resources/a-new-way-to-start-linear-algebra/",
+   "file": "ocw/res-18-010-a-2020-vision-of-linear-algebra-spring-__a-new-way-to-start-linear-algebra.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/resources/the-column-space-of-a-matrix/",
+   "course": "res-18-010-a-2020-vision-of-linear-algebra-spring-2020",
+   "url": "https://ocw.mit.edu/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/a5df6000d5c65609952afc61bd169d39_azzrfdysfI0.vtt",
+   "page": "https://ocw.mit.edu/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/resources/the-column-space-of-a-matrix/",
+   "file": "ocw/res-18-010-a-2020-vision-of-linear-algebra-spring-__the-column-space-of-a-matrix.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/resources/the-big-picture-of-linear-algebra/",
+   "course": "res-18-010-a-2020-vision-of-linear-algebra-spring-2020",
+   "url": "https://ocw.mit.edu/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/5605545a627d5216a034fb170a3eeb44_rwLOfdfc4dw.vtt",
+   "page": "https://ocw.mit.edu/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/resources/the-big-picture-of-linear-algebra/",
+   "file": "ocw/res-18-010-a-2020-vision-of-linear-algebra-spring-__the-big-picture-of-linear-algebra.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/resources/orthogonal-vectors/",
+   "course": "res-18-010-a-2020-vision-of-linear-algebra-spring-2020",
+   "url": "https://ocw.mit.edu/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/445758ba606b5bfb8f53949e24f7958e_j8hEnyOiwhw.vtt",
+   "page": "https://ocw.mit.edu/courses/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/resources/orthogonal-vectors/",
+   "file": "ocw/res-18-010-a-2020-vision-of-linear-algebra-spring-__orthogonal-vectors.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-1-algorithms-and-computation/",
+   "course": "6-006-introduction-to-algorithms-spring-2020",
+   "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/dd0823c3851b5df3a7e0b447eaa76050_ZA-tUyM_y7s.vtt",
+   "page": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-1-algorithms-and-computation/",
+   "file": "ocw/6-006-introduction-to-algorithms-spring-2020__lecture-1-algorithms-and-computation.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-2-data-structures-and-dynamic-arrays/",
+   "course": "6-006-introduction-to-algorithms-spring-2020",
+   "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/300863d48d855d35aba4867a911faf1e_CHhwJjR0mZA.vtt",
+   "page": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-2-data-structures-and-dynamic-arrays/",
+   "file": "ocw/6-006-introduction-to-algorithms-spring-2020__lecture-2-data-structures-and-dynamic-ar.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-006-introduction-to-algorithms-spring-2020/resources/problem-session-1/",
+   "course": "6-006-introduction-to-algorithms-spring-2020",
+   "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/26345826aaea5a729dcb245a5e472f98_IPSaG9RRc-k.vtt",
+   "page": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/problem-session-1/",
+   "file": "ocw/6-006-introduction-to-algorithms-spring-2020__problem-session-1.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-3-sets-and-sorting/",
+   "course": "6-006-introduction-to-algorithms-spring-2020",
+   "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/29bcfe7d3a1d5fbf8ffae177906f0992_oS9aPzUNG-s.vtt",
+   "page": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-3-sets-and-sorting/",
+   "file": "ocw/6-006-introduction-to-algorithms-spring-2020__lecture-3-sets-and-sorting.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-4-hashing/",
+   "course": "6-006-introduction-to-algorithms-spring-2020",
+   "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/0524dcdbc4d7552385ad2721532fea49_Nu8YGneFCWE.vtt",
+   "page": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-4-hashing/",
+   "file": "ocw/6-006-introduction-to-algorithms-spring-2020__lecture-4-hashing.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-006-introduction-to-algorithms-spring-2020/resources/problem-session-2/",
+   "course": "6-006-introduction-to-algorithms-spring-2020",
+   "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/5fa8fe5d137053709fa55b2f27670e21_KlQiwkhLBg0.vtt",
+   "page": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/problem-session-2/",
+   "file": "ocw/6-006-introduction-to-algorithms-spring-2020__problem-session-2.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-404j-theory-of-computation-fall-2020/resources/introduction-finite-automata-regular-expressions/",
+   "course": "18-404j-theory-of-computation-fall-2020",
+   "url": "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/5f3e3c8a5c2b588e86b99f7291393046_9syvZr-9xwk.vtt",
+   "page": "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/resources/introduction-finite-automata-regular-expressions/",
+   "file": "ocw/18-404j-theory-of-computation-fall-2020__introduction-finite-automata-regular-exp.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-404j-theory-of-computation-fall-2020/resources/nondeterminism-closure-properties-regular-expressions-2192-finite-automata/",
+   "course": "18-404j-theory-of-computation-fall-2020",
+   "url": "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/87edb14ff3155d58a9ab8d281a5bd3a2_oNsscmUwjMU.vtt",
+   "page": "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/resources/nondeterminism-closure-properties-regular-expressions-2192-finite-automata/",
+   "file": "ocw/18-404j-theory-of-computation-fall-2020__nondeterminism-closure-properties-regula.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-404j-theory-of-computation-fall-2020/resources/regular-pumping-lemma-finite-automata-2192-regular-expressions-cfgs/",
+   "course": "18-404j-theory-of-computation-fall-2020",
+   "url": "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/198849bbce9951cba630ac4faca25686_KAySmSEGc9U.vtt",
+   "page": "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/resources/regular-pumping-lemma-finite-automata-2192-regular-expressions-cfgs/",
+   "file": "ocw/18-404j-theory-of-computation-fall-2020__regular-pumping-lemma-finite-automata-21.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-404j-theory-of-computation-fall-2020/resources/pushdown-automata-cfg-2194-pda/",
+   "course": "18-404j-theory-of-computation-fall-2020",
+   "url": "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/682fdf8f90ef5277a8d77fef9548c8bb_m9eHViDPAJQ.vtt",
+   "page": "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/resources/pushdown-automata-cfg-2194-pda/",
+   "file": "ocw/18-404j-theory-of-computation-fall-2020__pushdown-automata-cfg-2194-pda.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-404j-theory-of-computation-fall-2020/resources/cf-pumping-lemma-turing-machines/",
+   "course": "18-404j-theory-of-computation-fall-2020",
+   "url": "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/9c54d4ad273b5c0281174d1948053324_IycOPFmEQk8.vtt",
+   "page": "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/resources/cf-pumping-lemma-turing-machines/",
+   "file": "ocw/18-404j-theory-of-computation-fall-2020__cf-pumping-lemma-turing-machines.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-404j-theory-of-computation-fall-2020/resources/tm-variants-church-turing-thesis/",
+   "course": "18-404j-theory-of-computation-fall-2020",
+   "url": "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/9cbb3888eb005aa48f76bd6df1598e51_TTArY7ojshU.vtt",
+   "page": "https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/resources/tm-variants-church-turing-thesis/",
+   "file": "ocw/18-404j-theory-of-computation-fall-2020__tm-variants-church-turing-thesis.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec01_2024sep04_mp4/",
+   "course": "14-41-public-finance-and-public-policy-fall-2024",
+   "url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec01_2024sep04_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec01_2024sep04_mp4/",
+   "file": "ocw/14-41-public-finance-and-public-policy-fall-2024__ocw_1441_lec01_2024sep04_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec02_2024sep06_mp4/",
+   "course": "14-41-public-finance-and-public-policy-fall-2024",
+   "url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec02_2024sep06_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec02_2024sep06_mp4/",
+   "file": "ocw/14-41-public-finance-and-public-policy-fall-2024__ocw_1441_lec02_2024sep06_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec03_2024sep11_mp4/",
+   "course": "14-41-public-finance-and-public-policy-fall-2024",
+   "url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec03_2024sep11_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec03_2024sep11_mp4/",
+   "file": "ocw/14-41-public-finance-and-public-policy-fall-2024__ocw_1441_lec03_2024sep11_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec04_2024sep16_mp4/",
+   "course": "14-41-public-finance-and-public-policy-fall-2024",
+   "url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec04_2024sep16_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec04_2024sep16_mp4/",
+   "file": "ocw/14-41-public-finance-and-public-policy-fall-2024__ocw_1441_lec04_2024sep16_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec05_2024sep18_mp4/",
+   "course": "14-41-public-finance-and-public-policy-fall-2024",
+   "url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec05_2024sep18_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec05_2024sep18_mp4/",
+   "file": "ocw/14-41-public-finance-and-public-policy-fall-2024__ocw_1441_lec05_2024sep18_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec06_2024sep23_mp4/",
+   "course": "14-41-public-finance-and-public-policy-fall-2024",
+   "url": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/ocw_1441_lec06_2024sep23_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/14-41-public-finance-and-public-policy-fall-2024/resources/ocw_1441_lec06_2024sep23_mp4/",
+   "file": "ocw/14-41-public-finance-and-public-policy-fall-2024__ocw_1441_lec06_2024sep23_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/resources/class-1-overview/",
+   "course": "6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012",
+   "url": "https://ocw.mit.edu/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/55da1e5fe0ed53f69d54506a09fe672b_FEmDxtkee_0.vtt",
+   "page": "https://ocw.mit.edu/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/resources/class-1-overview/",
+   "file": "ocw/6-849-geometric-folding-algorithms-linkages-origam__class-1-overview.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/resources/class-2-univeresality-simple-folds/",
+   "course": "6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012",
+   "url": "https://ocw.mit.edu/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/1283a7725e7e510aaf62c1f75512ce66_tnbzV-_pxbE.vtt",
+   "page": "https://ocw.mit.edu/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/resources/class-2-univeresality-simple-folds/",
+   "file": "ocw/6-849-geometric-folding-algorithms-linkages-origam__class-2-univeresality-simple-folds.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/resources/class-3-single-vertex-crease-patterns/",
+   "course": "6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012",
+   "url": "https://ocw.mit.edu/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/72eae66ae837542cae5b16d81124550f_yIjTCMlIgpU.vtt",
+   "page": "https://ocw.mit.edu/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/resources/class-3-single-vertex-crease-patterns/",
+   "file": "ocw/6-849-geometric-folding-algorithms-linkages-origam__class-3-single-vertex-crease-patterns.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/resources/class-4-efficient-origami-design/",
+   "course": "6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012",
+   "url": "https://ocw.mit.edu/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/08b66ae3b2f45406afb4cd6e0882212d_ylQ5-9f5KIs.vtt",
+   "page": "https://ocw.mit.edu/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/resources/class-4-efficient-origami-design/",
+   "file": "ocw/6-849-geometric-folding-algorithms-linkages-origam__class-4-efficient-origami-design.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/resources/class-5-tessellations-modulars/",
+   "course": "6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012",
+   "url": "https://ocw.mit.edu/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/d159a369f34d5c6db7c7ea68cd3f1294_wctRwpa6j4.vtt",
+   "page": "https://ocw.mit.edu/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/resources/class-5-tessellations-modulars/",
+   "file": "ocw/6-849-geometric-folding-algorithms-linkages-origam__class-5-tessellations-modulars.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/resources/class-6-architectural-origami/",
+   "course": "6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012",
+   "url": "https://ocw.mit.edu/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/46ccffd1644e52c78a16c0488d162456_PHy7iaX7rJU.vtt",
+   "page": "https://ocw.mit.edu/courses/6-849-geometric-folding-algorithms-linkages-origami-polyhedra-fall-2012/resources/class-6-architectural-origami/",
+   "file": "ocw/6-849-geometric-folding-algorithms-linkages-origam__class-6-architectural-origami.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/resources/introduction-to-part-ii-quantum-mechanical-methods/",
+   "course": "3-021j-introduction-to-modeling-and-simulation-spring-2012",
+   "url": "https://ocw.mit.edu/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/c3e4178f6f0c5e739a98545b58ba09ca_d3ChB1tDMyI.vtt",
+   "page": "https://ocw.mit.edu/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/resources/introduction-to-part-ii-quantum-mechanical-methods/",
+   "file": "ocw/3-021j-introduction-to-modeling-and-simulation-spr__introduction-to-part-ii-quantum-mechanic.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/resources/lecture-1/",
+   "course": "3-021j-introduction-to-modeling-and-simulation-spring-2012",
+   "url": "https://ocw.mit.edu/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/8ade9d9c86385b89b4b422d7946aa2f5_HGB8VlcFVzU.vtt",
+   "page": "https://ocw.mit.edu/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/resources/lecture-1/",
+   "file": "ocw/3-021j-introduction-to-modeling-and-simulation-spr__lecture-1.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/resources/lecture-2/",
+   "course": "3-021j-introduction-to-modeling-and-simulation-spring-2012",
+   "url": "https://ocw.mit.edu/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/b7ab02c3e6935e199d7e8f8725b126a1_CJkfedF3Y7k.vtt",
+   "page": "https://ocw.mit.edu/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/resources/lecture-2/",
+   "file": "ocw/3-021j-introduction-to-modeling-and-simulation-spr__lecture-2.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/resources/lecture-3/",
+   "course": "3-021j-introduction-to-modeling-and-simulation-spring-2012",
+   "url": "https://ocw.mit.edu/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/ee8e1faab4fb50b786f0c84612fc9b5f_HkoxlFUerR0.vtt",
+   "page": "https://ocw.mit.edu/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/resources/lecture-3/",
+   "file": "ocw/3-021j-introduction-to-modeling-and-simulation-spr__lecture-3.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/resources/lecture-4/",
+   "course": "3-021j-introduction-to-modeling-and-simulation-spring-2012",
+   "url": "https://ocw.mit.edu/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/47c0f06e2c3d59d484ec1a2bf7d161ed_U5zt5u-C_uY.vtt",
+   "page": "https://ocw.mit.edu/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/resources/lecture-4/",
+   "file": "ocw/3-021j-introduction-to-modeling-and-simulation-spr__lecture-4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/resources/lecture-5/",
+   "course": "3-021j-introduction-to-modeling-and-simulation-spring-2012",
+   "url": "https://ocw.mit.edu/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/95c5c0f6636155a2a2d4340ff927e41a_Iq8yyEHm_jI.vtt",
+   "page": "https://ocw.mit.edu/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/resources/lecture-5/",
+   "file": "ocw/3-021j-introduction-to-modeling-and-simulation-spr__lecture-5.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-371-innovation-teams-fall-2024/resources/ocw_15371_intro_v2_mp4/",
+   "course": "15-371-innovation-teams-fall-2024",
+   "url": "https://ocw.mit.edu/courses/15-371-innovation-teams-fall-2024/ocw_15371_intro_v2_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/15-371-innovation-teams-fall-2024/resources/ocw_15371_intro_v2_mp4/",
+   "file": "ocw/15-371-innovation-teams-fall-2024__ocw_15371_intro_v2_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-371-innovation-teams-fall-2024/resources/ocw_15371_video_01_v2_mp4/",
+   "course": "15-371-innovation-teams-fall-2024",
+   "url": "https://ocw.mit.edu/courses/15-371-innovation-teams-fall-2024/ocw_15371_video_01_v2_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/15-371-innovation-teams-fall-2024/resources/ocw_15371_video_01_v2_mp4/",
+   "file": "ocw/15-371-innovation-teams-fall-2024__ocw_15371_video_01_v2_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-371-innovation-teams-fall-2024/resources/ocw_15371_video_02_v2_mp4/",
+   "course": "15-371-innovation-teams-fall-2024",
+   "url": "https://ocw.mit.edu/courses/15-371-innovation-teams-fall-2024/ocw_15371_video_02_v2_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/15-371-innovation-teams-fall-2024/resources/ocw_15371_video_02_v2_mp4/",
+   "file": "ocw/15-371-innovation-teams-fall-2024__ocw_15371_video_02_v2_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-371-innovation-teams-fall-2024/resources/ocw_15371_video_03_v2_mp4/",
+   "course": "15-371-innovation-teams-fall-2024",
+   "url": "https://ocw.mit.edu/courses/15-371-innovation-teams-fall-2024/ocw_15371_video_03_v2_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/15-371-innovation-teams-fall-2024/resources/ocw_15371_video_03_v2_mp4/",
+   "file": "ocw/15-371-innovation-teams-fall-2024__ocw_15371_video_03_v2_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-371-innovation-teams-fall-2024/resources/ocw_15371_video_04_v2_mp4/",
+   "course": "15-371-innovation-teams-fall-2024",
+   "url": "https://ocw.mit.edu/courses/15-371-innovation-teams-fall-2024/ocw_15371_video_04_v2_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/15-371-innovation-teams-fall-2024/resources/ocw_15371_video_04_v2_mp4/",
+   "file": "ocw/15-371-innovation-teams-fall-2024__ocw_15371_video_04_v2_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-371-innovation-teams-fall-2024/resources/ocw_15371_video_05_v2_mp4/",
+   "course": "15-371-innovation-teams-fall-2024",
+   "url": "https://ocw.mit.edu/courses/15-371-innovation-teams-fall-2024/ocw_15371_video_05_v2_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/15-371-innovation-teams-fall-2024/resources/ocw_15371_video_05_v2_mp4/",
+   "file": "ocw/15-371-innovation-teams-fall-2024__ocw_15371_video_05_v2_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-6-008-digital-signal-processing-spring-2011/resources/demonstration-1-sampling-aliasing-and-frequency-response-part-1/",
+   "course": "res-6-008-digital-signal-processing-spring-2011",
+   "url": "https://ocw.mit.edu/courses/res-6-008-digital-signal-processing-spring-2011/fcbaeb7faaec5308abe942662892f8cf_zBJMh-m9b1E.vtt",
+   "page": "https://ocw.mit.edu/courses/res-6-008-digital-signal-processing-spring-2011/resources/demonstration-1-sampling-aliasing-and-frequency-response-part-1/",
+   "file": "ocw/res-6-008-digital-signal-processing-spring-2011__demonstration-1-sampling-aliasing-and-fr.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-6-008-digital-signal-processing-spring-2011/resources/demonstration-2-sampling-aliasing-and-frequency-response-part-2/",
+   "course": "res-6-008-digital-signal-processing-spring-2011",
+   "url": "https://ocw.mit.edu/courses/res-6-008-digital-signal-processing-spring-2011/afb54a6f6ff154a682cc79ee6139b708_OQNR099y8mM.vtt",
+   "page": "https://ocw.mit.edu/courses/res-6-008-digital-signal-processing-spring-2011/resources/demonstration-2-sampling-aliasing-and-frequency-response-part-2/",
+   "file": "ocw/res-6-008-digital-signal-processing-spring-2011__demonstration-2-sampling-aliasing-and-fr.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-6-008-digital-signal-processing-spring-2011/resources/lecture-1-introduction/",
+   "course": "res-6-008-digital-signal-processing-spring-2011",
+   "url": "https://ocw.mit.edu/courses/res-6-008-digital-signal-processing-spring-2011/092ef961a7675d249ab60e6edd8fe5df_rkvEM5Y3N60.vtt",
+   "page": "https://ocw.mit.edu/courses/res-6-008-digital-signal-processing-spring-2011/resources/lecture-1-introduction/",
+   "file": "ocw/res-6-008-digital-signal-processing-spring-2011__lecture-1-introduction.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-6-008-digital-signal-processing-spring-2011/resources/lecture-2-discrete-time-signals-and-systems-part-1/",
+   "course": "res-6-008-digital-signal-processing-spring-2011",
+   "url": "https://ocw.mit.edu/courses/res-6-008-digital-signal-processing-spring-2011/34efd5d016695cba8cc7547cd35b2b4a_TuCYGjp7WKU.vtt",
+   "page": "https://ocw.mit.edu/courses/res-6-008-digital-signal-processing-spring-2011/resources/lecture-2-discrete-time-signals-and-systems-part-1/",
+   "file": "ocw/res-6-008-digital-signal-processing-spring-2011__lecture-2-discrete-time-signals-and-syst.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-6-008-digital-signal-processing-spring-2011/resources/lecture-3-discrete-time-signals-and-systems-part-2/",
+   "course": "res-6-008-digital-signal-processing-spring-2011",
+   "url": "https://ocw.mit.edu/courses/res-6-008-digital-signal-processing-spring-2011/fcd3195d698c59a2add253789cdb0556_XT6o4IRTcLk.vtt",
+   "page": "https://ocw.mit.edu/courses/res-6-008-digital-signal-processing-spring-2011/resources/lecture-3-discrete-time-signals-and-systems-part-2/",
+   "file": "ocw/res-6-008-digital-signal-processing-spring-2011__lecture-3-discrete-time-signals-and-syst.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-6-008-digital-signal-processing-spring-2011/resources/lecture-4-the-discrete-time-fourier-transform/",
+   "course": "res-6-008-digital-signal-processing-spring-2011",
+   "url": "https://ocw.mit.edu/courses/res-6-008-digital-signal-processing-spring-2011/3088ef2a55c5577fa0117e51f62c37e2_dHveJh0UbY8.vtt",
+   "page": "https://ocw.mit.edu/courses/res-6-008-digital-signal-processing-spring-2011/resources/lecture-4-the-discrete-time-fourier-transform/",
+   "file": "ocw/res-6-008-digital-signal-processing-spring-2011__lecture-4-the-discrete-time-fourier-tran.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture03-2024feb20_v4_mp4/",
+   "course": "6-1200j-mathematics-for-computer-science-spring-2024",
+   "url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture03-2024feb20_v4_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture03-2024feb20_v4_mp4/",
+   "file": "ocw/6-1200j-mathematics-for-computer-science-spring-20__61200-sp24-lecture03-2024feb20_v4_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture04-2024feb15_v4_mp4/",
+   "course": "6-1200j-mathematics-for-computer-science-spring-2024",
+   "url": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/61200-sp24-lecture04-2024feb15_v4_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/6-1200j-mathematics-for-computer-science-spring-2024/resources/61200-sp24-lecture04-2024feb15_v4_mp4/",
+   "file": "ocw/6-1200j-mathematics-for-computer-science-spring-20__61200-sp24-lecture04-2024feb15_v4_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/21l-011-the-film-experience-fall-2013/resources/lecture-1-introduction-2007/",
+   "course": "21l-011-the-film-experience-fall-2013",
+   "url": "https://ocw.mit.edu/courses/21l-011-the-film-experience-fall-2013/14992aee130858e6b0dc8d3841391936_LFOsw1Vccac.vtt",
+   "page": "https://ocw.mit.edu/courses/21l-011-the-film-experience-fall-2013/resources/lecture-1-introduction-2007/",
+   "file": "ocw/21l-011-the-film-experience-fall-2013__lecture-1-introduction-2007.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/21l-011-the-film-experience-fall-2013/resources/lecture-2-keaton-2007/",
+   "course": "21l-011-the-film-experience-fall-2013",
+   "url": "https://ocw.mit.edu/courses/21l-011-the-film-experience-fall-2013/c17c37e53d565dc1a6b6200e3fd084b6_vpJba2qIXjs.vtt",
+   "page": "https://ocw.mit.edu/courses/21l-011-the-film-experience-fall-2013/resources/lecture-2-keaton-2007/",
+   "file": "ocw/21l-011-the-film-experience-fall-2013__lecture-2-keaton-2007.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/21l-011-the-film-experience-fall-2013/resources/lecture-3-chaplin-part-i-2007/",
+   "course": "21l-011-the-film-experience-fall-2013",
+   "url": "https://ocw.mit.edu/courses/21l-011-the-film-experience-fall-2013/80ed4550872e5d87b465f747e7f60aea_m4ZuXay_qOo.vtt",
+   "page": "https://ocw.mit.edu/courses/21l-011-the-film-experience-fall-2013/resources/lecture-3-chaplin-part-i-2007/",
+   "file": "ocw/21l-011-the-film-experience-fall-2013__lecture-3-chaplin-part-i-2007.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/21l-011-the-film-experience-fall-2013/resources/lecture-4-chaplin-part-ii-2007/",
+   "course": "21l-011-the-film-experience-fall-2013",
+   "url": "https://ocw.mit.edu/courses/21l-011-the-film-experience-fall-2013/652ba0248afc57b199c4fa5b16bf8937_0jWfHFBLnv0.vtt",
+   "page": "https://ocw.mit.edu/courses/21l-011-the-film-experience-fall-2013/resources/lecture-4-chaplin-part-ii-2007/",
+   "file": "ocw/21l-011-the-film-experience-fall-2013__lecture-4-chaplin-part-ii-2007.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/14-13-psychology-and-economics-spring-2020/resources/lec1-intro-and-overview-i/",
+   "course": "14-13-psychology-and-economics-spring-2020",
+   "url": "https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/910585a6b6ae52bc8dfb7d6df26e429a_j5XdY5wkVTA.vtt",
+   "page": "https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/resources/lec1-intro-and-overview-i/",
+   "file": "ocw/14-13-psychology-and-economics-spring-2020__lec1-intro-and-overview-i.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/14-13-psychology-and-economics-spring-2020/resources/lec2-intro-and-overview-ii/",
+   "course": "14-13-psychology-and-economics-spring-2020",
+   "url": "https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/55a14dc2e2035982aaa6ac75dc9e7723_lD_73cro7wc.vtt",
+   "page": "https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/resources/lec2-intro-and-overview-ii/",
+   "file": "ocw/14-13-psychology-and-economics-spring-2020__lec2-intro-and-overview-ii.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/14-13-psychology-and-economics-spring-2020/resources/lec3-time-pref-theory-i/",
+   "course": "14-13-psychology-and-economics-spring-2020",
+   "url": "https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/c5541576dc465e9fb82e3f97c1b92008_UbRlSqmN4uM.vtt",
+   "page": "https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/resources/lec3-time-pref-theory-i/",
+   "file": "ocw/14-13-psychology-and-economics-spring-2020__lec3-time-pref-theory-i.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/14-13-psychology-and-economics-spring-2020/resources/lec4-time-pref-theory-ii/",
+   "course": "14-13-psychology-and-economics-spring-2020",
+   "url": "https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/43f76b4142cf565fb3c673c7dc3922bc_iNqssktTto.vtt",
+   "page": "https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/resources/lec4-time-pref-theory-ii/",
+   "file": "ocw/14-13-psychology-and-economics-spring-2020__lec4-time-pref-theory-ii.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/14-13-psychology-and-economics-spring-2020/resources/lec5-time-pref-app-i/",
+   "course": "14-13-psychology-and-economics-spring-2020",
+   "url": "https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/a412ebf7b5f4514394e791df551e0a18_bBOBSC16NLU.vtt",
+   "page": "https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/resources/lec5-time-pref-app-i/",
+   "file": "ocw/14-13-psychology-and-economics-spring-2020__lec5-time-pref-app-i.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/14-13-psychology-and-economics-spring-2020/resources/lec6-time-pref-app-ii/",
+   "course": "14-13-psychology-and-economics-spring-2020",
+   "url": "https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/b3b6cf4fd3d55c6282697c52881bdde8_8WhNaFsFC8I.vtt",
+   "page": "https://ocw.mit.edu/courses/14-13-psychology-and-economics-spring-2020/resources/lec6-time-pref-app-ii/",
+   "file": "ocw/14-13-psychology-and-economics-spring-2020__lec6-time-pref-app-ii.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-21g-001-the-user-friendly-classroom-fall-2020/resources/video-1-expectations/",
+   "course": "res-21g-001-the-user-friendly-classroom-fall-2020",
+   "url": "https://ocw.mit.edu/courses/res-21g-001-the-user-friendly-classroom-fall-2020/553446ab98485b06ad927cd79a32e5db_b04CichdN5g.vtt",
+   "page": "https://ocw.mit.edu/courses/res-21g-001-the-user-friendly-classroom-fall-2020/resources/video-1-expectations/",
+   "file": "ocw/res-21g-001-the-user-friendly-classroom-fall-2020__video-1-expectations.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-21g-001-the-user-friendly-classroom-fall-2020/resources/video-2-phase-diagram/",
+   "course": "res-21g-001-the-user-friendly-classroom-fall-2020",
+   "url": "https://ocw.mit.edu/courses/res-21g-001-the-user-friendly-classroom-fall-2020/56bd36d4c0c45d55a133f1cabc88bc3d_94YsseQIXq0.vtt",
+   "page": "https://ocw.mit.edu/courses/res-21g-001-the-user-friendly-classroom-fall-2020/resources/video-2-phase-diagram/",
+   "file": "ocw/res-21g-001-the-user-friendly-classroom-fall-2020__video-2-phase-diagram.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-21g-001-the-user-friendly-classroom-fall-2020/resources/video-3-lift/",
+   "course": "res-21g-001-the-user-friendly-classroom-fall-2020",
+   "url": "https://ocw.mit.edu/courses/res-21g-001-the-user-friendly-classroom-fall-2020/bf30327ed20559ec8caae6a1d5559df6_ZgYuF0SbPDM.vtt",
+   "page": "https://ocw.mit.edu/courses/res-21g-001-the-user-friendly-classroom-fall-2020/resources/video-3-lift/",
+   "file": "ocw/res-21g-001-the-user-friendly-classroom-fall-2020__video-3-lift.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-21g-001-the-user-friendly-classroom-fall-2020/resources/video-4-the-first-day/",
+   "course": "res-21g-001-the-user-friendly-classroom-fall-2020",
+   "url": "https://ocw.mit.edu/courses/res-21g-001-the-user-friendly-classroom-fall-2020/15011047dfef53f0ae080b06a07b29de_EGvqg0vUBmU.vtt",
+   "page": "https://ocw.mit.edu/courses/res-21g-001-the-user-friendly-classroom-fall-2020/resources/video-4-the-first-day/",
+   "file": "ocw/res-21g-001-the-user-friendly-classroom-fall-2020__video-4-the-first-day.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-21g-001-the-user-friendly-classroom-fall-2020/resources/video-5-introductions/",
+   "course": "res-21g-001-the-user-friendly-classroom-fall-2020",
+   "url": "https://ocw.mit.edu/courses/res-21g-001-the-user-friendly-classroom-fall-2020/32742cdb91d15db6956c2cd905c43a2c_uPsMwJ116lQ.vtt",
+   "page": "https://ocw.mit.edu/courses/res-21g-001-the-user-friendly-classroom-fall-2020/resources/video-5-introductions/",
+   "file": "ocw/res-21g-001-the-user-friendly-classroom-fall-2020__video-5-introductions.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-21g-001-the-user-friendly-classroom-fall-2020/resources/video6-ohms-law/",
+   "course": "res-21g-001-the-user-friendly-classroom-fall-2020",
+   "url": "https://ocw.mit.edu/courses/res-21g-001-the-user-friendly-classroom-fall-2020/8f0dc22ec26251d4b44b1b7670d79f29_3zuEzPzbNPg.vtt",
+   "page": "https://ocw.mit.edu/courses/res-21g-001-the-user-friendly-classroom-fall-2020/resources/video6-ohms-law/",
+   "file": "ocw/res-21g-001-the-user-friendly-classroom-fall-2020__video6-ohms-law.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-421-atomic-and-optical-physics-i-spring-2014/resources/lecture-1-resonance-i/",
+   "course": "8-421-atomic-and-optical-physics-i-spring-2014",
+   "url": "https://ocw.mit.edu/courses/8-421-atomic-and-optical-physics-i-spring-2014/22ad5fd1a2365c6ca77df57156fc2d17_iwQ49oG-DO8.vtt",
+   "page": "https://ocw.mit.edu/courses/8-421-atomic-and-optical-physics-i-spring-2014/resources/lecture-1-resonance-i/",
+   "file": "ocw/8-421-atomic-and-optical-physics-i-spring-2014__lecture-1-resonance-i.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-421-atomic-and-optical-physics-i-spring-2014/resources/lecture-2-resonance-ii/",
+   "course": "8-421-atomic-and-optical-physics-i-spring-2014",
+   "url": "https://ocw.mit.edu/courses/8-421-atomic-and-optical-physics-i-spring-2014/d926c119f2bd5f4894f3f5247599138a_TcvY8Nt0ZGA.vtt",
+   "page": "https://ocw.mit.edu/courses/8-421-atomic-and-optical-physics-i-spring-2014/resources/lecture-2-resonance-ii/",
+   "file": "ocw/8-421-atomic-and-optical-physics-i-spring-2014__lecture-2-resonance-ii.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-421-atomic-and-optical-physics-i-spring-2014/resources/lecture-3-resonance-iii/",
+   "course": "8-421-atomic-and-optical-physics-i-spring-2014",
+   "url": "https://ocw.mit.edu/courses/8-421-atomic-and-optical-physics-i-spring-2014/027af370953f5c92b5a09d1a0348cd95_r70MEz4cZFc.vtt",
+   "page": "https://ocw.mit.edu/courses/8-421-atomic-and-optical-physics-i-spring-2014/resources/lecture-3-resonance-iii/",
+   "file": "ocw/8-421-atomic-and-optical-physics-i-spring-2014__lecture-3-resonance-iii.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-421-atomic-and-optical-physics-i-spring-2014/resources/lecture-4-resonance-iv/",
+   "course": "8-421-atomic-and-optical-physics-i-spring-2014",
+   "url": "https://ocw.mit.edu/courses/8-421-atomic-and-optical-physics-i-spring-2014/57c8936d192457749f8035b1d54dce41_OMdGWyruixk.vtt",
+   "page": "https://ocw.mit.edu/courses/8-421-atomic-and-optical-physics-i-spring-2014/resources/lecture-4-resonance-iv/",
+   "file": "ocw/8-421-atomic-and-optical-physics-i-spring-2014__lecture-4-resonance-iv.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-421-atomic-and-optical-physics-i-spring-2014/resources/lecture-5-resonance-v-and-atoms-i/",
+   "course": "8-421-atomic-and-optical-physics-i-spring-2014",
+   "url": "https://ocw.mit.edu/courses/8-421-atomic-and-optical-physics-i-spring-2014/1ec919857ebc5afdbf8f60467a99bd49_Lgqpoct9kk8.vtt",
+   "page": "https://ocw.mit.edu/courses/8-421-atomic-and-optical-physics-i-spring-2014/resources/lecture-5-resonance-v-and-atoms-i/",
+   "file": "ocw/8-421-atomic-and-optical-physics-i-spring-2014__lecture-5-resonance-v-and-atoms-i.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-421-atomic-and-optical-physics-i-spring-2014/resources/lecture-6-atoms-ii/",
+   "course": "8-421-atomic-and-optical-physics-i-spring-2014",
+   "url": "https://ocw.mit.edu/courses/8-421-atomic-and-optical-physics-i-spring-2014/bb8afabc155d525d84d887703b150e97_vkka1O2H5h4.vtt",
+   "page": "https://ocw.mit.edu/courses/8-421-atomic-and-optical-physics-i-spring-2014/resources/lecture-6-atoms-ii/",
+   "file": "ocw/8-421-atomic-and-optical-physics-i-spring-2014__lecture-6-atoms-ii.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/resources/mit22_04f25_lec01_1080p_mp4/",
+   "course": "22-04j-social-problems-of-nuclear-energy-fall-2025",
+   "url": "https://ocw.mit.edu/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/mit22_04f25_lec01_1080p_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/resources/mit22_04f25_lec01_1080p_mp4/",
+   "file": "ocw/22-04j-social-problems-of-nuclear-energy-fall-2025__mit22_04f25_lec01_1080p_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/resources/mit22_04f25_lec02_1080p_mp4/",
+   "course": "22-04j-social-problems-of-nuclear-energy-fall-2025",
+   "url": "https://ocw.mit.edu/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/mit22_04f25_lec02_1080p_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/resources/mit22_04f25_lec02_1080p_mp4/",
+   "file": "ocw/22-04j-social-problems-of-nuclear-energy-fall-2025__mit22_04f25_lec02_1080p_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/resources/mit22_04f25_lec03_1080p_mp4/",
+   "course": "22-04j-social-problems-of-nuclear-energy-fall-2025",
+   "url": "https://ocw.mit.edu/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/mit22_04f25_lec03_1080p_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/resources/mit22_04f25_lec03_1080p_mp4/",
+   "file": "ocw/22-04j-social-problems-of-nuclear-energy-fall-2025__mit22_04f25_lec03_1080p_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/resources/mit22_04f25_lec04_1080p_mp4/",
+   "course": "22-04j-social-problems-of-nuclear-energy-fall-2025",
+   "url": "https://ocw.mit.edu/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/mit22_04f25_lec04_1080p_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/resources/mit22_04f25_lec04_1080p_mp4/",
+   "file": "ocw/22-04j-social-problems-of-nuclear-energy-fall-2025__mit22_04f25_lec04_1080p_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/resources/mit22_04f25_lec05_1080p_mp4/",
+   "course": "22-04j-social-problems-of-nuclear-energy-fall-2025",
+   "url": "https://ocw.mit.edu/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/mit22_04f25_lec05_1080p_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/resources/mit22_04f25_lec05_1080p_mp4/",
+   "file": "ocw/22-04j-social-problems-of-nuclear-energy-fall-2025__mit22_04f25_lec05_1080p_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/resources/mit22_04f25_lec06_1080p_mp4/",
+   "course": "22-04j-social-problems-of-nuclear-energy-fall-2025",
+   "url": "https://ocw.mit.edu/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/mit22_04f25_lec06_1080p_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/22-04j-social-problems-of-nuclear-energy-fall-2025/resources/mit22_04f25_lec06_1080p_mp4/",
+   "file": "ocw/22-04j-social-problems-of-nuclear-energy-fall-2025__mit22_04f25_lec06_1080p_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026/resources/video-14-using-a-smartphone/",
+   "course": "res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026",
+   "url": "https://ocw.mit.edu/courses/res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026/6de843aa96fb598a9051c6c5c81f12a3_h1GtR8xJraw.vtt",
+   "page": "https://ocw.mit.edu/courses/res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026/resources/video-14-using-a-smartphone/",
+   "file": "ocw/res-10-001-making-science-and-engineering-pictures__video-14-using-a-smartphone.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026/resources/video-15-imaging-with-a-tablet-camera/",
+   "course": "res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026",
+   "url": "https://ocw.mit.edu/courses/res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026/32925639d839561a8290e65de7708cc5_MZTmdqC49WA.vtt",
+   "page": "https://ocw.mit.edu/courses/res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026/resources/video-15-imaging-with-a-tablet-camera/",
+   "file": "ocw/res-10-001-making-science-and-engineering-pictures__video-15-imaging-with-a-tablet-camera.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026/resources/video-16-beautiful-chemistry/",
+   "course": "res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026",
+   "url": "https://ocw.mit.edu/courses/res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026/0189d8e55c875a23b97dfdc0a235f0e2_sKYY6o71iNM.vtt",
+   "page": "https://ocw.mit.edu/courses/res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026/resources/video-16-beautiful-chemistry/",
+   "file": "ocw/res-10-001-making-science-and-engineering-pictures__video-16-beautiful-chemistry.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026/resources/video-17-looking-at-videos/",
+   "course": "res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026",
+   "url": "https://ocw.mit.edu/courses/res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026/796e005377935c87a669bb58984c74f8_plCuZVzK6kk.vtt",
+   "page": "https://ocw.mit.edu/courses/res-10-001-making-science-and-engineering-pictures-a-practical-guide-to-presenting-your-work-spring-2026/resources/video-17-looking-at-videos/",
+   "file": "ocw/res-10-001-making-science-and-engineering-pictures__video-17-looking-at-videos.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-tll-004-stem-concept-videos-fall-2013/resources/strategic-communication/",
+   "course": "res-tll-004-stem-concept-videos-fall-2013",
+   "url": "https://ocw.mit.edu/courses/res-tll-004-stem-concept-videos-fall-2013/9f44173fee3d5b499e77531217fc8538_8r_cJIHv3A0.vtt",
+   "page": "https://ocw.mit.edu/courses/res-tll-004-stem-concept-videos-fall-2013/resources/strategic-communication/",
+   "file": "ocw/res-tll-004-stem-concept-videos-fall-2013__strategic-communication.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/2-71-optics-spring-2009/resources/lecture-1-course-organization-introduction-to-optics/",
+   "course": "2-71-optics-spring-2009",
+   "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/435cf855ec0f54e0a614c567c5eecb45_IYBYmOVmICg.vtt",
+   "page": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-1-course-organization-introduction-to-optics/",
+   "file": "ocw/2-71-optics-spring-2009__lecture-1-course-organization-introducti.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/2-71-optics-spring-2009/resources/lecture-2-reflection-and-refraction-prisms-waveguides-and-dispersion/",
+   "course": "2-71-optics-spring-2009",
+   "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/d4cd90ceaed35e95b6cc25b1d3a86cab_Q84-DIyl5wQ.vtt",
+   "page": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-2-reflection-and-refraction-prisms-waveguides-and-dispersion/",
+   "file": "ocw/2-71-optics-spring-2009__lecture-2-reflection-and-refraction-pris.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/2-71-optics-spring-2009/resources/lecture-3-focusing-imaging-and-the-paraxial-approximation/",
+   "course": "2-71-optics-spring-2009",
+   "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/2de77698e35c5e4495fc3495c552c756_X6cea7dAhBc.vtt",
+   "page": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-3-focusing-imaging-and-the-paraxial-approximation/",
+   "file": "ocw/2-71-optics-spring-2009__lecture-3-focusing-imaging-and-the-parax.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/2-71-optics-spring-2009/resources/lecture-4-sign-conventions-thin-lenses-real-and-virtual-images/",
+   "course": "2-71-optics-spring-2009",
+   "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/79c8a199d452563790c27518320c813e_gAL5fCEBfac.vtt",
+   "page": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-4-sign-conventions-thin-lenses-real-and-virtual-images/",
+   "file": "ocw/2-71-optics-spring-2009__lecture-4-sign-conventions-thin-lenses-r.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/2-71-optics-spring-2009/resources/lecture-5-thick-lenses-the-composite-lens-the-eye/",
+   "course": "2-71-optics-spring-2009",
+   "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/8d9bfb320b52516a84ab6cf06f68036b_JmK0vSLULP8.vtt",
+   "page": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-5-thick-lenses-the-composite-lens-the-eye/",
+   "file": "ocw/2-71-optics-spring-2009__lecture-5-thick-lenses-the-composite-len.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/2-71-optics-spring-2009/resources/lecture-6-terms-apertures-stops-pupils-and-windows-single-lens-camera/",
+   "course": "2-71-optics-spring-2009",
+   "url": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/01c29d85fecb567b8e32d6cca21b4f25_jKHejk45Sg.vtt",
+   "page": "https://ocw.mit.edu/courses/2-71-optics-spring-2009/resources/lecture-6-terms-apertures-stops-pupils-and-windows-single-lens-camera/",
+   "file": "ocw/2-71-optics-spring-2009__lecture-6-terms-apertures-stops-pupils-a.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/lecture-1-introduction-financial-terms-and-concepts/",
+   "course": "18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013",
+   "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/259db961e75e533bb82fd35b8af5f8af_wvXDB9dMdEo.vtt",
+   "page": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/lecture-1-introduction-financial-terms-and-concepts/",
+   "file": "ocw/18-s096-topics-in-mathematics-with-applications-in__lecture-1-introduction-financial-terms-a.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/lecture-2-linear-algebra/",
+   "course": "18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013",
+   "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/88882ab842785fd8ae8ee139ab21f978_9YtmGy-wfE4.vtt",
+   "page": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/lecture-2-linear-algebra/",
+   "file": "ocw/18-s096-topics-in-mathematics-with-applications-in__lecture-2-linear-algebra.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/lecture-3-probability-theory/",
+   "course": "18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013",
+   "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/1ae1e661f1ef5e848fb433b9e6f786a7_f9XFM8YLccg.vtt",
+   "page": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/lecture-3-probability-theory/",
+   "file": "ocw/18-s096-topics-in-mathematics-with-applications-in__lecture-3-probability-theory.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/lecture-5-stochastic-processes-i/",
+   "course": "18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013",
+   "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/bfd51aee77035779b7db80bdb358f60e_TuTmC8aOQJE.vtt",
+   "page": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/lecture-5-stochastic-processes-i/",
+   "file": "ocw/18-s096-topics-in-mathematics-with-applications-in__lecture-5-stochastic-processes-i.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/lecture-6-regression-analysis/",
+   "course": "18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013",
+   "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/52bed286919f594ab77f7881831a4837_l1kLCrxL9Hk.vtt",
+   "page": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/lecture-6-regression-analysis/",
+   "file": "ocw/18-s096-topics-in-mathematics-with-applications-in__lecture-6-regression-analysis.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/lecture-7-value-at-risk-var-models/",
+   "course": "18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013",
+   "url": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/9f5c877175f25ea2aa86d226ca41e35b_92WaNz9mPeY.vtt",
+   "page": "https://ocw.mit.edu/courses/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/resources/lecture-7-value-at-risk-var-models/",
+   "file": "ocw/18-s096-topics-in-mathematics-with-applications-in__lecture-7-value-at-risk-var-models.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/11-350-sustainable-real-estate-spring-2023/resources/ocw_11350_lecture06_2023feb28_v2_mp4/",
+   "course": "11-350-sustainable-real-estate-spring-2023",
+   "url": "https://ocw.mit.edu/courses/11-350-sustainable-real-estate-spring-2023/ocw_11350_lecture06_2023feb28_v2_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/11-350-sustainable-real-estate-spring-2023/resources/ocw_11350_lecture06_2023feb28_v2_mp4/",
+   "file": "ocw/11-350-sustainable-real-estate-spring-2023__ocw_11350_lecture06_2023feb28_v2_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-422-atomic-and-optical-physics-ii-spring-2013/resources/lecture-1-introduction-to-atomic-physics/",
+   "course": "8-422-atomic-and-optical-physics-ii-spring-2013",
+   "url": "https://ocw.mit.edu/courses/8-422-atomic-and-optical-physics-ii-spring-2013/f4b83318a68953abbd0c0a25a03dfa2c_Agu68RGaoWM.vtt",
+   "page": "https://ocw.mit.edu/courses/8-422-atomic-and-optical-physics-ii-spring-2013/resources/lecture-1-introduction-to-atomic-physics/",
+   "file": "ocw/8-422-atomic-and-optical-physics-ii-spring-2013__lecture-1-introduction-to-atomic-physics.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-422-atomic-and-optical-physics-ii-spring-2013/resources/lecture-2-qed-hamiltonian/",
+   "course": "8-422-atomic-and-optical-physics-ii-spring-2013",
+   "url": "https://ocw.mit.edu/courses/8-422-atomic-and-optical-physics-ii-spring-2013/5c6fd1c135415340afa33281cfdf75b7_s83SihcFfYo.vtt",
+   "page": "https://ocw.mit.edu/courses/8-422-atomic-and-optical-physics-ii-spring-2013/resources/lecture-2-qed-hamiltonian/",
+   "file": "ocw/8-422-atomic-and-optical-physics-ii-spring-2013__lecture-2-qed-hamiltonian.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-422-atomic-and-optical-physics-ii-spring-2013/resources/lecture-3-quantum-description-of-light-part-1/",
+   "course": "8-422-atomic-and-optical-physics-ii-spring-2013",
+   "url": "https://ocw.mit.edu/courses/8-422-atomic-and-optical-physics-ii-spring-2013/fa5efcf71d2b5aa1bd97471bf54c38bd_k7DskqekDZk.vtt",
+   "page": "https://ocw.mit.edu/courses/8-422-atomic-and-optical-physics-ii-spring-2013/resources/lecture-3-quantum-description-of-light-part-1/",
+   "file": "ocw/8-422-atomic-and-optical-physics-ii-spring-2013__lecture-3-quantum-description-of-light-p.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-422-atomic-and-optical-physics-ii-spring-2013/resources/lecture-3-quantum-description-of-light-part-2/",
+   "course": "8-422-atomic-and-optical-physics-ii-spring-2013",
+   "url": "https://ocw.mit.edu/courses/8-422-atomic-and-optical-physics-ii-spring-2013/e23a7fb3e21b53809ee7c1c58f0d111d_r6OUO3an7-0.vtt",
+   "page": "https://ocw.mit.edu/courses/8-422-atomic-and-optical-physics-ii-spring-2013/resources/lecture-3-quantum-description-of-light-part-2/",
+   "file": "ocw/8-422-atomic-and-optical-physics-ii-spring-2013__lecture-3-quantum-description-of-light-p.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-422-atomic-and-optical-physics-ii-spring-2013/resources/lecture-4-non-classical-light-squeezing-part-1/",
+   "course": "8-422-atomic-and-optical-physics-ii-spring-2013",
+   "url": "https://ocw.mit.edu/courses/8-422-atomic-and-optical-physics-ii-spring-2013/63a5c13bb4a758018923b5af8fdfa2b5_QE-9hHvOles.vtt",
+   "page": "https://ocw.mit.edu/courses/8-422-atomic-and-optical-physics-ii-spring-2013/resources/lecture-4-non-classical-light-squeezing-part-1/",
+   "file": "ocw/8-422-atomic-and-optical-physics-ii-spring-2013__lecture-4-non-classical-light-squeezing-.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-422-atomic-and-optical-physics-ii-spring-2013/resources/lecture-4-non-classical-light-squeezing-part-2/",
+   "course": "8-422-atomic-and-optical-physics-ii-spring-2013",
+   "url": "https://ocw.mit.edu/courses/8-422-atomic-and-optical-physics-ii-spring-2013/039b4c6e2f5b5ec9916b3fc0ad5c257e_zfBXJQ-i6p8.vtt",
+   "page": "https://ocw.mit.edu/courses/8-422-atomic-and-optical-physics-ii-spring-2013/resources/lecture-4-non-classical-light-squeezing-part-2/",
+   "file": "ocw/8-422-atomic-and-optical-physics-ii-spring-2013__lecture-4-non-classical-light-squeezing-.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-01-single-variable-calculus-fall-2006/resources/lecture-1-derivatives/",
+   "course": "18-01-single-variable-calculus-fall-2006",
+   "url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/5fefbb43a83359c7876dfb32ea498ec6_7K1sB05pE0A.vtt",
+   "page": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lecture-1-derivatives/",
+   "file": "ocw/18-01-single-variable-calculus-fall-2006__lecture-1-derivatives.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-01-single-variable-calculus-fall-2006/resources/lecture-2-limits/",
+   "course": "18-01-single-variable-calculus-fall-2006",
+   "url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/0872c6a8a0ac5bde9a8f60d1bb726578_ryLdyDrBfvI.vtt",
+   "page": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lecture-2-limits/",
+   "file": "ocw/18-01-single-variable-calculus-fall-2006__lecture-2-limits.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-01-single-variable-calculus-fall-2006/resources/lecture-3-derivatives/",
+   "course": "18-01-single-variable-calculus-fall-2006",
+   "url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/2b051b3f00b25b8bb5a6c26ae0627a2a_kCPVBl953eY.vtt",
+   "page": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lecture-3-derivatives/",
+   "file": "ocw/18-01-single-variable-calculus-fall-2006__lecture-3-derivatives.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-01-single-variable-calculus-fall-2006/resources/lecture-4-chain-rule/",
+   "course": "18-01-single-variable-calculus-fall-2006",
+   "url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/5d87a14cb1f95218b112e6ec67068d3c_4sTKcvYMNxk.vtt",
+   "page": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lecture-4-chain-rule/",
+   "file": "ocw/18-01-single-variable-calculus-fall-2006__lecture-4-chain-rule.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-01-single-variable-calculus-fall-2006/resources/lecture-5-implicit-differentiation/",
+   "course": "18-01-single-variable-calculus-fall-2006",
+   "url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/f34170b47f01517ab746f9258a68060b_5q_3FDOkVRQ.vtt",
+   "page": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lecture-5-implicit-differentiation/",
+   "file": "ocw/18-01-single-variable-calculus-fall-2006__lecture-5-implicit-differentiation.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/18-01-single-variable-calculus-fall-2006/resources/lecture-6-exponential-and-log/",
+   "course": "18-01-single-variable-calculus-fall-2006",
+   "url": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/bd41fe500f275edb8bca3cf1d6f489ea_9v25gg2qJYE.vtt",
+   "page": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/resources/lecture-6-exponential-and-log/",
+   "file": "ocw/18-01-single-variable-calculus-fall-2006__lecture-6-exponential-and-log.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-370-the-battlecode-programming-competition-january-iap-2013/resources/lecture-1-introduction-to-battlecode/",
+   "course": "6-370-the-battlecode-programming-competition-january-iap-2013",
+   "url": "https://ocw.mit.edu/courses/6-370-the-battlecode-programming-competition-january-iap-2013/a326057959605ce5b8ede13736b96d97_BLExWo9Empk.vtt",
+   "page": "https://ocw.mit.edu/courses/6-370-the-battlecode-programming-competition-january-iap-2013/resources/lecture-1-introduction-to-battlecode/",
+   "file": "ocw/6-370-the-battlecode-programming-competition-janua__lecture-1-introduction-to-battlecode.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-370-the-battlecode-programming-competition-january-iap-2013/resources/lecture-2-writing-your-first-player/",
+   "course": "6-370-the-battlecode-programming-competition-january-iap-2013",
+   "url": "https://ocw.mit.edu/courses/6-370-the-battlecode-programming-competition-january-iap-2013/d2eeee98c33650dd9f23d70dac20311a_Fl6fKzon8LI.vtt",
+   "page": "https://ocw.mit.edu/courses/6-370-the-battlecode-programming-competition-january-iap-2013/resources/lecture-2-writing-your-first-player/",
+   "file": "ocw/6-370-the-battlecode-programming-competition-janua__lecture-2-writing-your-first-player.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-370-the-battlecode-programming-competition-january-iap-2013/resources/lecture-3-navigation/",
+   "course": "6-370-the-battlecode-programming-competition-january-iap-2013",
+   "url": "https://ocw.mit.edu/courses/6-370-the-battlecode-programming-competition-january-iap-2013/ef0dbc37b11a5e439696aa25f79fd031_PA3bcu83j38.vtt",
+   "page": "https://ocw.mit.edu/courses/6-370-the-battlecode-programming-competition-january-iap-2013/resources/lecture-3-navigation/",
+   "file": "ocw/6-370-the-battlecode-programming-competition-janua__lecture-3-navigation.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-370-the-battlecode-programming-competition-january-iap-2013/resources/lecture-4-git-repository/",
+   "course": "6-370-the-battlecode-programming-competition-january-iap-2013",
+   "url": "https://ocw.mit.edu/courses/6-370-the-battlecode-programming-competition-january-iap-2013/829d1c78b97055d9bc1377c2ad892521_g2NoQCEgsCM.vtt",
+   "page": "https://ocw.mit.edu/courses/6-370-the-battlecode-programming-competition-january-iap-2013/resources/lecture-4-git-repository/",
+   "file": "ocw/6-370-the-battlecode-programming-competition-janua__lecture-4-git-repository.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-370-the-battlecode-programming-competition-january-iap-2013/resources/lecture-5-swarms-artillery-and-mines/",
+   "course": "6-370-the-battlecode-programming-competition-january-iap-2013",
+   "url": "https://ocw.mit.edu/courses/6-370-the-battlecode-programming-competition-january-iap-2013/1e643a306fe352c49d3080f4e7660a74_dEXo0QyA-Rs.vtt",
+   "page": "https://ocw.mit.edu/courses/6-370-the-battlecode-programming-competition-january-iap-2013/resources/lecture-5-swarms-artillery-and-mines/",
+   "file": "ocw/6-370-the-battlecode-programming-competition-janua__lecture-5-swarms-artillery-and-mines.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-370-the-battlecode-programming-competition-january-iap-2013/resources/lecture-6-numerical-strategy/",
+   "course": "6-370-the-battlecode-programming-competition-january-iap-2013",
+   "url": "https://ocw.mit.edu/courses/6-370-the-battlecode-programming-competition-january-iap-2013/40aae211fa1e548883ab7d795807992c_tbsYFzmk_24.vtt",
+   "page": "https://ocw.mit.edu/courses/6-370-the-battlecode-programming-competition-january-iap-2013/resources/lecture-6-numerical-strategy/",
+   "file": "ocw/6-370-the-battlecode-programming-competition-janua__lecture-6-numerical-strategy.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/22-15-essential-numerical-methods-fall-2014/resources/octave-matlabae-for-beginners-part-1-starting-from-scratch/",
+   "course": "22-15-essential-numerical-methods-fall-2014",
+   "url": "https://ocw.mit.edu/courses/22-15-essential-numerical-methods-fall-2014/ea1fdf634372556fbff366a1e98a56e1_LhPZwdhutgU.vtt",
+   "page": "https://ocw.mit.edu/courses/22-15-essential-numerical-methods-fall-2014/resources/octave-matlabae-for-beginners-part-1-starting-from-scratch/",
+   "file": "ocw/22-15-essential-numerical-methods-fall-2014__octave-matlabae-for-beginners-part-1-sta.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/22-15-essential-numerical-methods-fall-2014/resources/octave-matlabae-for-beginners-part-2-fitting-data-and-plotting/",
+   "course": "22-15-essential-numerical-methods-fall-2014",
+   "url": "https://ocw.mit.edu/courses/22-15-essential-numerical-methods-fall-2014/af7563010a545073af923b02e5e75d1f_NtMOab_nhs0.vtt",
+   "page": "https://ocw.mit.edu/courses/22-15-essential-numerical-methods-fall-2014/resources/octave-matlabae-for-beginners-part-2-fitting-data-and-plotting/",
+   "file": "ocw/22-15-essential-numerical-methods-fall-2014__octave-matlabae-for-beginners-part-2-fit.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/22-15-essential-numerical-methods-fall-2014/resources/octave-matlabae-for-beginners-part-3-cleaning-up-saving-plots/",
+   "course": "22-15-essential-numerical-methods-fall-2014",
+   "url": "https://ocw.mit.edu/courses/22-15-essential-numerical-methods-fall-2014/1b841ea2dbe65b4184b6568eb612d5ad_WUxImdA7k8E.vtt",
+   "page": "https://ocw.mit.edu/courses/22-15-essential-numerical-methods-fall-2014/resources/octave-matlabae-for-beginners-part-3-cleaning-up-saving-plots/",
+   "file": "ocw/22-15-essential-numerical-methods-fall-2014__octave-matlabae-for-beginners-part-3-cle.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-042j-mathematics-for-computer-science-fall-2010/resources/lecture-1-introduction-and-proofs/",
+   "course": "6-042j-mathematics-for-computer-science-fall-2010",
+   "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/85c8033144aa50c8ae567f744dc1356b_L3LMbpZIKhQ.vtt",
+   "page": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/resources/lecture-1-introduction-and-proofs/",
+   "file": "ocw/6-042j-mathematics-for-computer-science-fall-2010__lecture-1-introduction-and-proofs.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-042j-mathematics-for-computer-science-fall-2010/resources/lecture-2-induction/",
+   "course": "6-042j-mathematics-for-computer-science-fall-2010",
+   "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/bf62753df9ea5b6cbdf73887ca43ffd1_z8HKWUWS-lA.vtt",
+   "page": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/resources/lecture-2-induction/",
+   "file": "ocw/6-042j-mathematics-for-computer-science-fall-2010__lecture-2-induction.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-042j-mathematics-for-computer-science-fall-2010/resources/lecture-3-strong-induction/",
+   "course": "6-042j-mathematics-for-computer-science-fall-2010",
+   "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/9e1fdc4fadf45c179910013b3448249e_NuGDkmwEObM.vtt",
+   "page": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/resources/lecture-3-strong-induction/",
+   "file": "ocw/6-042j-mathematics-for-computer-science-fall-2010__lecture-3-strong-induction.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-042j-mathematics-for-computer-science-fall-2010/resources/lecture-4-number-theory-i/",
+   "course": "6-042j-mathematics-for-computer-science-fall-2010",
+   "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/20c5d8395f425cb8910e3f678419be40_NuY7szYSXSw.vtt",
+   "page": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/resources/lecture-4-number-theory-i/",
+   "file": "ocw/6-042j-mathematics-for-computer-science-fall-2010__lecture-4-number-theory-i.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-042j-mathematics-for-computer-science-fall-2010/resources/lecture-5-number-theory-ii/",
+   "course": "6-042j-mathematics-for-computer-science-fall-2010",
+   "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/d6e814a190ae55b18b806c920060ae77_XX7ePR21Ook.vtt",
+   "page": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/resources/lecture-5-number-theory-ii/",
+   "file": "ocw/6-042j-mathematics-for-computer-science-fall-2010__lecture-5-number-theory-ii.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-042j-mathematics-for-computer-science-fall-2010/resources/lecture-6-graph-theory-and-coloring/",
+   "course": "6-042j-mathematics-for-computer-science-fall-2010",
+   "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/ebd05945c1b35a019089c5a683a66005_h9wxtqoa1jY.vtt",
+   "page": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/resources/lecture-6-graph-theory-and-coloring/",
+   "file": "ocw/6-042j-mathematics-for-computer-science-fall-2010__lecture-6-graph-theory-and-coloring.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-s897-machine-learning-for-healthcare-spring-2019/resources/lecture-1-what-makes-healthcare-unique/",
+   "course": "6-s897-machine-learning-for-healthcare-spring-2019",
+   "url": "https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/1dfcc6bfb8765f37a266cea0568026c5_vof7x8r_ZUA.vtt",
+   "page": "https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/resources/lecture-1-what-makes-healthcare-unique/",
+   "file": "ocw/6-s897-machine-learning-for-healthcare-spring-2019__lecture-1-what-makes-healthcare-unique.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-s897-machine-learning-for-healthcare-spring-2019/resources/lecture-2-overview-of-clinical-care/",
+   "course": "6-s897-machine-learning-for-healthcare-spring-2019",
+   "url": "https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/4ab19b421be95f0eb819909d8533b14f_DS97JV_o0Fs.vtt",
+   "page": "https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/resources/lecture-2-overview-of-clinical-care/",
+   "file": "ocw/6-s897-machine-learning-for-healthcare-spring-2019__lecture-2-overview-of-clinical-care.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-s897-machine-learning-for-healthcare-spring-2019/resources/lecture-3-deep-dive-into-clinical-data/",
+   "course": "6-s897-machine-learning-for-healthcare-spring-2019",
+   "url": "https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/d59159e497e35eb586cb2ef8e54c385d_0UFwGJe6ubg.vtt",
+   "page": "https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/resources/lecture-3-deep-dive-into-clinical-data/",
+   "file": "ocw/6-s897-machine-learning-for-healthcare-spring-2019__lecture-3-deep-dive-into-clinical-data.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-s897-machine-learning-for-healthcare-spring-2019/resources/lecture-4-risk-stratification-part-1/",
+   "course": "6-s897-machine-learning-for-healthcare-spring-2019",
+   "url": "https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/a99dad3f52c75c419b25f78c338c3884_shuV1tJbTU.vtt",
+   "page": "https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/resources/lecture-4-risk-stratification-part-1/",
+   "file": "ocw/6-s897-machine-learning-for-healthcare-spring-2019__lecture-4-risk-stratification-part-1.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-s897-machine-learning-for-healthcare-spring-2019/resources/lecture-5-risk-stratification-part-2/",
+   "course": "6-s897-machine-learning-for-healthcare-spring-2019",
+   "url": "https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/b6fc7f50d60d56e5a24b165ead556574_wqI_z1yumzY.vtt",
+   "page": "https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/resources/lecture-5-risk-stratification-part-2/",
+   "file": "ocw/6-s897-machine-learning-for-healthcare-spring-2019__lecture-5-risk-stratification-part-2.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-s897-machine-learning-for-healthcare-spring-2019/resources/lecture-6-physiological-time-series/",
+   "course": "6-s897-machine-learning-for-healthcare-spring-2019",
+   "url": "https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/e0ba23a713bc5a0e814080ae773e0d74_lLhfDSOwWtU.vtt",
+   "page": "https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/resources/lecture-6-physiological-time-series/",
+   "file": "ocw/6-s897-machine-learning-for-healthcare-spring-2019__lecture-6-physiological-time-series.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-962-general-relativity-spring-2020/resources/lecture-1-introduction-and-the-geometric-viewpoint-on-physics/",
+   "course": "8-962-general-relativity-spring-2020",
+   "url": "https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/478db2f1d82b53d69ce71652bda7c901_iRVfaR3N5K4.vtt",
+   "page": "https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/resources/lecture-1-introduction-and-the-geometric-viewpoint-on-physics/",
+   "file": "ocw/8-962-general-relativity-spring-2020__lecture-1-introduction-and-the-geometric.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-962-general-relativity-spring-2020/resources/lecture-2-introduction-to-tensors/",
+   "course": "8-962-general-relativity-spring-2020",
+   "url": "https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/558afb208d1d5f6ebb1215ff71013b2c_TiHHz3sKDbY.vtt",
+   "page": "https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/resources/lecture-2-introduction-to-tensors/",
+   "file": "ocw/8-962-general-relativity-spring-2020__lecture-2-introduction-to-tensors.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-962-general-relativity-spring-2020/resources/lecture-3-tensors-continued/",
+   "course": "8-962-general-relativity-spring-2020",
+   "url": "https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/8b583c4a76f351e2881cef0f011a9d8f_H6eR3sG524M.vtt",
+   "page": "https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/resources/lecture-3-tensors-continued/",
+   "file": "ocw/8-962-general-relativity-spring-2020__lecture-3-tensors-continued.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-962-general-relativity-spring-2020/resources/lecture-4-volumes-and-volume-elements-conservation-laws/",
+   "course": "8-962-general-relativity-spring-2020",
+   "url": "https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/218df8b2f6ba50f1a5877cd6cacf73e5_h9xaoGkyHwg.vtt",
+   "page": "https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/resources/lecture-4-volumes-and-volume-elements-conservation-laws/",
+   "file": "ocw/8-962-general-relativity-spring-2020__lecture-4-volumes-and-volume-elements-co.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-962-general-relativity-spring-2020/resources/lecture-5-the-stress-energy-tensor-and-the-christoffel-symbol/",
+   "course": "8-962-general-relativity-spring-2020",
+   "url": "https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/8796eafa8ad65177956341d02992c441_OOmZkNa72t4.vtt",
+   "page": "https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/resources/lecture-5-the-stress-energy-tensor-and-the-christoffel-symbol/",
+   "file": "ocw/8-962-general-relativity-spring-2020__lecture-5-the-stress-energy-tensor-and-t.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-962-general-relativity-spring-2020/resources/lecture-6-the-principle-of-equivalence/",
+   "course": "8-962-general-relativity-spring-2020",
+   "url": "https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/3c455c9645dd5c9b9882b967bf47e950_6MssatXXAzc.vtt",
+   "page": "https://ocw.mit.edu/courses/8-962-general-relativity-spring-2020/resources/lecture-6-the-principle-of-equivalence/",
+   "file": "ocw/8-962-general-relativity-spring-2020__lecture-6-the-principle-of-equivalence.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-286-the-early-universe-fall-2013/resources/lecture-1-inflationary-cosmology-is-our-universe-part-of-a-multiverse/",
+   "course": "8-286-the-early-universe-fall-2013",
+   "url": "https://ocw.mit.edu/courses/8-286-the-early-universe-fall-2013/65198a2e5538582b90b95ba057363ba2_ANCN7vr9FVk.vtt",
+   "page": "https://ocw.mit.edu/courses/8-286-the-early-universe-fall-2013/resources/lecture-1-inflationary-cosmology-is-our-universe-part-of-a-multiverse/",
+   "file": "ocw/8-286-the-early-universe-fall-2013__lecture-1-inflationary-cosmology-is-our-.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-286-the-early-universe-fall-2013/resources/lecture-2-inflationary-cosmology-is-our-universe-part-of-a-multiverse-part-ii/",
+   "course": "8-286-the-early-universe-fall-2013",
+   "url": "https://ocw.mit.edu/courses/8-286-the-early-universe-fall-2013/b1bfed98247b5981a42f8c741978379f_4OinSH6sAUo.vtt",
+   "page": "https://ocw.mit.edu/courses/8-286-the-early-universe-fall-2013/resources/lecture-2-inflationary-cosmology-is-our-universe-part-of-a-multiverse-part-ii/",
+   "file": "ocw/8-286-the-early-universe-fall-2013__lecture-2-inflationary-cosmology-is-our-.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-286-the-early-universe-fall-2013/resources/lecture-3-the-doppler-effect-and-special-relativity/",
+   "course": "8-286-the-early-universe-fall-2013",
+   "url": "https://ocw.mit.edu/courses/8-286-the-early-universe-fall-2013/694c043db5df573d97f30404553c4235_tJ2AJJMcQXs.vtt",
+   "page": "https://ocw.mit.edu/courses/8-286-the-early-universe-fall-2013/resources/lecture-3-the-doppler-effect-and-special-relativity/",
+   "file": "ocw/8-286-the-early-universe-fall-2013__lecture-3-the-doppler-effect-and-special.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-286-the-early-universe-fall-2013/resources/lecture-4-the-kinematics-of-the-homogeneous-expanding-universe/",
+   "course": "8-286-the-early-universe-fall-2013",
+   "url": "https://ocw.mit.edu/courses/8-286-the-early-universe-fall-2013/ee71a9a2a51c5ec49830b1a743c73d4f_wuPEmfon9lg.vtt",
+   "page": "https://ocw.mit.edu/courses/8-286-the-early-universe-fall-2013/resources/lecture-4-the-kinematics-of-the-homogeneous-expanding-universe/",
+   "file": "ocw/8-286-the-early-universe-fall-2013__lecture-4-the-kinematics-of-the-homogene.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-286-the-early-universe-fall-2013/resources/lecture-5-cosmological-redshift-and-the-dynamics-of-homogeneous-expansion/",
+   "course": "8-286-the-early-universe-fall-2013",
+   "url": "https://ocw.mit.edu/courses/8-286-the-early-universe-fall-2013/1bcd69cdc8435384ac4f1debd61b4952_45RQrWHzovU.vtt",
+   "page": "https://ocw.mit.edu/courses/8-286-the-early-universe-fall-2013/resources/lecture-5-cosmological-redshift-and-the-dynamics-of-homogeneous-expansion/",
+   "file": "ocw/8-286-the-early-universe-fall-2013__lecture-5-cosmological-redshift-and-the-.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-286-the-early-universe-fall-2013/resources/lecture-6-the-dynamics-of-homogeneous-expansion-part-ii/",
+   "course": "8-286-the-early-universe-fall-2013",
+   "url": "https://ocw.mit.edu/courses/8-286-the-early-universe-fall-2013/bb785df9c9a35ad4b47efc6a0855c48f_vKLqWj0FRyc.vtt",
+   "page": "https://ocw.mit.edu/courses/8-286-the-early-universe-fall-2013/resources/lecture-6-the-dynamics-of-homogeneous-expansion-part-ii/",
+   "file": "ocw/8-286-the-early-universe-fall-2013__lecture-6-the-dynamics-of-homogeneous-ex.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/resources/introduction-video-course-overview/",
+   "course": "res-10-s95-physics-of-covid-19-transmission-fall-2020",
+   "url": "https://ocw.mit.edu/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/91741cb94463554392a7a0ebed8d7c26_2Y__Z_PgAxQ.vtt",
+   "page": "https://ocw.mit.edu/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/resources/introduction-video-course-overview/",
+   "file": "ocw/res-10-s95-physics-of-covid-19-transmission-fall-2__introduction-video-course-overview.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/resources/video-1-transfer-of-respiratory-pathogens-chapter-1-overview/",
+   "course": "res-10-s95-physics-of-covid-19-transmission-fall-2020",
+   "url": "https://ocw.mit.edu/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/0e70ed8765215b28967f142e2b8aa794_K10Q4EUFE6k.vtt",
+   "page": "https://ocw.mit.edu/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/resources/video-1-transfer-of-respiratory-pathogens-chapter-1-overview/",
+   "file": "ocw/res-10-s95-physics-of-covid-19-transmission-fall-2__video-1-transfer-of-respiratory-pathogen.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/resources/video-1-1-transfer-of-respiratory-pathogens2014droplet-formation/",
+   "course": "res-10-s95-physics-of-covid-19-transmission-fall-2020",
+   "url": "https://ocw.mit.edu/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/c44cbf0047545db0b551cbf9d077c02f_6sXqF5pz0bs.vtt",
+   "page": "https://ocw.mit.edu/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/resources/video-1-1-transfer-of-respiratory-pathogens2014droplet-formation/",
+   "file": "ocw/res-10-s95-physics-of-covid-19-transmission-fall-2__video-1-1-transfer-of-respiratory-pathog.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/resources/video-1-2-transfer-of-respiratory-pathogens2014airborne-droplets/",
+   "course": "res-10-s95-physics-of-covid-19-transmission-fall-2020",
+   "url": "https://ocw.mit.edu/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/0b8f205d7fcd5e7ea332f848338f50f8_ysEeFyNjnkQ.vtt",
+   "page": "https://ocw.mit.edu/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/resources/video-1-2-transfer-of-respiratory-pathogens2014airborne-droplets/",
+   "file": "ocw/res-10-s95-physics-of-covid-19-transmission-fall-2__video-1-2-transfer-of-respiratory-pathog.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/resources/video-1-3-transfer-of-respiratory-pathogens2014wells-curve-derivation-aside/",
+   "course": "res-10-s95-physics-of-covid-19-transmission-fall-2020",
+   "url": "https://ocw.mit.edu/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/06e5025b59955e1face8d8aaf82106bb_9hdNPVEQLFE.vtt",
+   "page": "https://ocw.mit.edu/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/resources/video-1-3-transfer-of-respiratory-pathogens2014wells-curve-derivation-aside/",
+   "file": "ocw/res-10-s95-physics-of-covid-19-transmission-fall-2__video-1-3-transfer-of-respiratory-pathog.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/resources/video-1-4-transfer-of-respiratory-pathogens2014equilibrium-size-of-respiratory-aerosols/",
+   "course": "res-10-s95-physics-of-covid-19-transmission-fall-2020",
+   "url": "https://ocw.mit.edu/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/637de3a85e025e87a1907b3b50ebbb5b_7io-8_I6ZXA.vtt",
+   "page": "https://ocw.mit.edu/courses/res-10-s95-physics-of-covid-19-transmission-fall-2020/resources/video-1-4-transfer-of-respiratory-pathogens2014equilibrium-size-of-respiratory-aerosols/",
+   "file": "ocw/res-10-s95-physics-of-covid-19-transmission-fall-2__video-1-4-transfer-of-respiratory-pathog.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/5-310-laboratory-chemistry-fall-2019/resources/lecture-1-introductory-lecture-to-5/",
+   "course": "5-310-laboratory-chemistry-fall-2019",
+   "url": "https://ocw.mit.edu/courses/5-310-laboratory-chemistry-fall-2019/a8d21d98ba5658c98039227071c5393c_l1hMkDTg2lg.vtt",
+   "page": "https://ocw.mit.edu/courses/5-310-laboratory-chemistry-fall-2019/resources/lecture-1-introductory-lecture-to-5/",
+   "file": "ocw/5-310-laboratory-chemistry-fall-2019__lecture-1-introductory-lecture-to-5.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/5-310-laboratory-chemistry-fall-2019/resources/lecture-2-the-ferrocene-lecture/",
+   "course": "5-310-laboratory-chemistry-fall-2019",
+   "url": "https://ocw.mit.edu/courses/5-310-laboratory-chemistry-fall-2019/9908e552060a5b98943acaafca4cbf34_EuVpZmQ5v6A.vtt",
+   "page": "https://ocw.mit.edu/courses/5-310-laboratory-chemistry-fall-2019/resources/lecture-2-the-ferrocene-lecture/",
+   "file": "ocw/5-310-laboratory-chemistry-fall-2019__lecture-2-the-ferrocene-lecture.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/5-310-laboratory-chemistry-fall-2019/resources/lecture-3-writing-up-the-lab-report/",
+   "course": "5-310-laboratory-chemistry-fall-2019",
+   "url": "https://ocw.mit.edu/courses/5-310-laboratory-chemistry-fall-2019/e104169c645854538afc5b6581c060a0_J23egLCM2tc.vtt",
+   "page": "https://ocw.mit.edu/courses/5-310-laboratory-chemistry-fall-2019/resources/lecture-3-writing-up-the-lab-report/",
+   "file": "ocw/5-310-laboratory-chemistry-fall-2019__lecture-3-writing-up-the-lab-report.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/5-310-laboratory-chemistry-fall-2019/resources/lecture-4-whats-significant-in-laboratory-measurement-error-analysis-lecture/",
+   "course": "5-310-laboratory-chemistry-fall-2019",
+   "url": "https://ocw.mit.edu/courses/5-310-laboratory-chemistry-fall-2019/f1f2734e75fd5cd996736f20e3fc0c56_sV_yiHbMUF8.vtt",
+   "page": "https://ocw.mit.edu/courses/5-310-laboratory-chemistry-fall-2019/resources/lecture-4-whats-significant-in-laboratory-measurement-error-analysis-lecture/",
+   "file": "ocw/5-310-laboratory-chemistry-fall-2019__lecture-4-whats-significant-in-laborator.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/5-310-laboratory-chemistry-fall-2019/resources/lecture-5-ellen-swallow-richards-part-1/",
+   "course": "5-310-laboratory-chemistry-fall-2019",
+   "url": "https://ocw.mit.edu/courses/5-310-laboratory-chemistry-fall-2019/5819f90547bf5589a83979469c1dbc37_OQq7qH74T5E.vtt",
+   "page": "https://ocw.mit.edu/courses/5-310-laboratory-chemistry-fall-2019/resources/lecture-5-ellen-swallow-richards-part-1/",
+   "file": "ocw/5-310-laboratory-chemistry-fall-2019__lecture-5-ellen-swallow-richards-part-1.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/5-310-laboratory-chemistry-fall-2019/resources/lecture-6-ellen-swallow-richards-part-2/",
+   "course": "5-310-laboratory-chemistry-fall-2019",
+   "url": "https://ocw.mit.edu/courses/5-310-laboratory-chemistry-fall-2019/8267925e006a5a87905b01431369e775_-l9SfGuZJYE.vtt",
+   "page": "https://ocw.mit.edu/courses/5-310-laboratory-chemistry-fall-2019/resources/lecture-6-ellen-swallow-richards-part-2/",
+   "file": "ocw/5-310-laboratory-chemistry-fall-2019__lecture-6-ellen-swallow-richards-part-2.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/9-40-introduction-to-neural-computation-spring-2018/resources/overview-and-ionic-currents/",
+   "course": "9-40-introduction-to-neural-computation-spring-2018",
+   "url": "https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/399d605b2735501181349e09866c4ea2_PnJEj6TokDA.vtt",
+   "page": "https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/resources/overview-and-ionic-currents/",
+   "file": "ocw/9-40-introduction-to-neural-computation-spring-201__overview-and-ionic-currents.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/9-40-introduction-to-neural-computation-spring-2018/resources/2/",
+   "course": "9-40-introduction-to-neural-computation-spring-2018",
+   "url": "https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/970fe9bf37b25619b239647c7a9a23b5_3GC721pNRLE.vtt",
+   "page": "https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/resources/2/",
+   "file": "ocw/9-40-introduction-to-neural-computation-spring-201__2.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/9-40-introduction-to-neural-computation-spring-2018/resources/3/",
+   "course": "9-40-introduction-to-neural-computation-spring-2018",
+   "url": "https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/5d84df1082e35a208f66d55ac2eb088e_KXnHxZdn8NU.vtt",
+   "page": "https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/resources/3/",
+   "file": "ocw/9-40-introduction-to-neural-computation-spring-201__3.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/9-40-introduction-to-neural-computation-spring-2018/resources/4/",
+   "course": "9-40-introduction-to-neural-computation-spring-2018",
+   "url": "https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/80c9b242b94856f9ab459a310cbf5642_88tKZLGOr3M.vtt",
+   "page": "https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/resources/4/",
+   "file": "ocw/9-40-introduction-to-neural-computation-spring-201__4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/9-40-introduction-to-neural-computation-spring-2018/resources/5/",
+   "course": "9-40-introduction-to-neural-computation-spring-2018",
+   "url": "https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/8653b5290e5751dea7648c54c14ee62f_K1pxJVdqlxw.vtt",
+   "page": "https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/resources/5/",
+   "file": "ocw/9-40-introduction-to-neural-computation-spring-201__5.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/9-40-introduction-to-neural-computation-spring-2018/resources/6/",
+   "course": "9-40-introduction-to-neural-computation-spring-2018",
+   "url": "https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/6c1b4ca3e3dc5cdd82f7ddb986fcccce_dNHqd6nGr5o.vtt",
+   "page": "https://ocw.mit.edu/courses/9-40-introduction-to-neural-computation-spring-2018/resources/6/",
+   "file": "ocw/9-40-introduction-to-neural-computation-spring-201__6.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-002-circuits-and-electronics-spring-2007/resources/lecture-25/",
+   "course": "6-002-circuits-and-electronics-spring-2007",
+   "url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/aae1fdb408e357d4bfe3e63dff69171a_dyxcCoUgETU.vtt",
+   "page": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/resources/lecture-25/",
+   "file": "ocw/6-002-circuits-and-electronics-spring-2007__lecture-25.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-002-circuits-and-electronics-spring-2007/resources/lecture-1/",
+   "course": "6-002-circuits-and-electronics-spring-2007",
+   "url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/516dc2f563e55ec3a35f9a3642853573_AfQxyVuLeCs.vtt",
+   "page": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/resources/lecture-1/",
+   "file": "ocw/6-002-circuits-and-electronics-spring-2007__lecture-1.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-002-circuits-and-electronics-spring-2007/resources/lecture-2/",
+   "course": "6-002-circuits-and-electronics-spring-2007",
+   "url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/9a6283bea83a55bbb315c2f9df30c88a_2vHGYdepKLw.vtt",
+   "page": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/resources/lecture-2/",
+   "file": "ocw/6-002-circuits-and-electronics-spring-2007__lecture-2.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-002-circuits-and-electronics-spring-2007/resources/lecture-3/",
+   "course": "6-002-circuits-and-electronics-spring-2007",
+   "url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/b8623b6bf138526c984990ae11e58e24_RsJ1eg7XNVs.vtt",
+   "page": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/resources/lecture-3/",
+   "file": "ocw/6-002-circuits-and-electronics-spring-2007__lecture-3.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-002-circuits-and-electronics-spring-2007/resources/lecture-4/",
+   "course": "6-002-circuits-and-electronics-spring-2007",
+   "url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/0cd7700e899151ab93b2aa797ca4d28e_4TCnYYpZxEc.vtt",
+   "page": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/resources/lecture-4/",
+   "file": "ocw/6-002-circuits-and-electronics-spring-2007__lecture-4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-002-circuits-and-electronics-spring-2007/resources/lecture-5/",
+   "course": "6-002-circuits-and-electronics-spring-2007",
+   "url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/e7fecb8001745694bbeaeff402b8634c_v6vqWasIHaw.vtt",
+   "page": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/resources/lecture-5/",
+   "file": "ocw/6-002-circuits-and-electronics-spring-2007__lecture-5.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-1-probability-models-and-axioms/",
+   "course": "6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010",
+   "url": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/acc5eb69c9965c95a173fba91252bcc7_j9WZyLZCBzs.vtt",
+   "page": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-1-probability-models-and-axioms/",
+   "file": "ocw/6-041-probabilistic-systems-analysis-and-applied-p__lecture-1-probability-models-and-axioms.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-2-conditioning-and-bayes-rule/",
+   "course": "6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010",
+   "url": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/ab44f6d08f595638873423334e065959_TluTv5V0RmE.vtt",
+   "page": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-2-conditioning-and-bayes-rule/",
+   "file": "ocw/6-041-probabilistic-systems-analysis-and-applied-p__lecture-2-conditioning-and-bayes-rule.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-3-independence/",
+   "course": "6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010",
+   "url": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/d7e5056c99e8588ab50c18d75fe3d7ae_19Ql_Q3l0GA.vtt",
+   "page": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-3-independence/",
+   "file": "ocw/6-041-probabilistic-systems-analysis-and-applied-p__lecture-3-independence.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-4-counting/",
+   "course": "6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010",
+   "url": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/f68c2b207bcb5e2a843aaf5cff23d63d_6oV3pKLgW2I.vtt",
+   "page": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-4-counting/",
+   "file": "ocw/6-041-probabilistic-systems-analysis-and-applied-p__lecture-4-counting.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-5-discrete-variables-probability-expectations/",
+   "course": "6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010",
+   "url": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/cb833f8e2c295d1e9af8813227f5ef1b_3MOahpLxj6A.vtt",
+   "page": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-5-discrete-variables-probability-expectations/",
+   "file": "ocw/6-041-probabilistic-systems-analysis-and-applied-p__lecture-5-discrete-variables-probability.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-6-discrete-random-variable-examples-joint-pmfs/",
+   "course": "6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010",
+   "url": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/d258d3a6a6f35fdb844285a96dea861d_-qCEoqpwjf4.vtt",
+   "page": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/resources/lecture-6-discrete-random-variable-examples-joint-pmfs/",
+   "file": "ocw/6-041-probabilistic-systems-analysis-and-applied-p__lecture-6-discrete-random-variable-examp.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/3-020-thermodynamics-of-materials-spring-2021/resources/mit3_020s21_lecture_01_1080p_v3_mp4/",
+   "course": "3-020-thermodynamics-of-materials-spring-2021",
+   "url": "https://ocw.mit.edu/courses/3-020-thermodynamics-of-materials-spring-2021/mit3_020s21_lecture_01_1080p_v3_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/3-020-thermodynamics-of-materials-spring-2021/resources/mit3_020s21_lecture_01_1080p_v3_mp4/",
+   "file": "ocw/3-020-thermodynamics-of-materials-spring-2021__mit3_020s21_lecture_01_1080p_v3_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/3-020-thermodynamics-of-materials-spring-2021/resources/mit3_020s21_lecture_04_1080p_v3_mp4/",
+   "course": "3-020-thermodynamics-of-materials-spring-2021",
+   "url": "https://ocw.mit.edu/courses/3-020-thermodynamics-of-materials-spring-2021/mit3_020s21_lecture_04_1080p_v3_captions.vtt",
+   "page": "https://ocw.mit.edu/courses/3-020-thermodynamics-of-materials-spring-2021/resources/mit3_020s21_lecture_04_1080p_v3_mp4/",
+   "file": "ocw/3-020-thermodynamics-of-materials-spring-2021__mit3_020s21_lecture_04_1080p_v3_mp4.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/resources/session-5-eigenvalues-and-eigenvectors/",
+   "course": "10-34-numerical-methods-applied-to-chemical-engineering-fall-2015",
+   "url": "https://ocw.mit.edu/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/6838e23b62eb52f39a409301e4fd5a34_txKXRtlrFfI.vtt",
+   "page": "https://ocw.mit.edu/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/resources/session-5-eigenvalues-and-eigenvectors/",
+   "file": "ocw/10-34-numerical-methods-applied-to-chemical-engine__session-5-eigenvalues-and-eigenvectors.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/resources/session-6-singular-value-decomposition-iterative-solutions-of-linear-equations/",
+   "course": "10-34-numerical-methods-applied-to-chemical-engineering-fall-2015",
+   "url": "https://ocw.mit.edu/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/cef64ff8ca615dca907444ae9b296f52_w9GJyvkHbNM.vtt",
+   "page": "https://ocw.mit.edu/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/resources/session-6-singular-value-decomposition-iterative-solutions-of-linear-equations/",
+   "file": "ocw/10-34-numerical-methods-applied-to-chemical-engine__session-6-singular-value-decomposition-i.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/resources/session-7-solutions-of-nonlinear-equations-newton-raphson-method/",
+   "course": "10-34-numerical-methods-applied-to-chemical-engineering-fall-2015",
+   "url": "https://ocw.mit.edu/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/45749473a02f5f97a2849f4c70c10087_Vu_oF9tcjaA.vtt",
+   "page": "https://ocw.mit.edu/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/resources/session-7-solutions-of-nonlinear-equations-newton-raphson-method/",
+   "file": "ocw/10-34-numerical-methods-applied-to-chemical-engine__session-7-solutions-of-nonlinear-equatio.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/resources/session-8-quasi-newton-raphson-methods/",
+   "course": "10-34-numerical-methods-applied-to-chemical-engineering-fall-2015",
+   "url": "https://ocw.mit.edu/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/8f7b98d8a2dc5720b34b9b62fc20dcf5_8kPUI5HoVxg.vtt",
+   "page": "https://ocw.mit.edu/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/resources/session-8-quasi-newton-raphson-methods/",
+   "file": "ocw/10-34-numerical-methods-applied-to-chemical-engine__session-8-quasi-newton-raphson-methods.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/resources/session-9-homotopy-and-bifurcation/",
+   "course": "10-34-numerical-methods-applied-to-chemical-engineering-fall-2015",
+   "url": "https://ocw.mit.edu/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/8f5c185a4ab35905b3467cab379e281d_muFAQx5dUdU.vtt",
+   "page": "https://ocw.mit.edu/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/resources/session-9-homotopy-and-bifurcation/",
+   "file": "ocw/10-34-numerical-methods-applied-to-chemical-engine__session-9-homotopy-and-bifurcation.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/resources/session-11-unconstrained-optimization-newton-raphson-and-trust-region-methods/",
+   "course": "10-34-numerical-methods-applied-to-chemical-engineering-fall-2015",
+   "url": "https://ocw.mit.edu/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/10a7b74a546a533fa2bce834298d2a63_SejxqXAlSec.vtt",
+   "page": "https://ocw.mit.edu/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/resources/session-11-unconstrained-optimization-newton-raphson-and-trust-region-methods/",
+   "file": "ocw/10-34-numerical-methods-applied-to-chemical-engine__session-11-unconstrained-optimization-ne.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/resources/lecture-1-administrivia-introduction-analysis-of-algorithms-insertion-sort-mergesort/",
+   "course": "6-046j-introduction-to-algorithms-sma-5503-fall-2005",
+   "url": "https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/43e5201d4aaa53d1aa9936df63b7e23c_JPyuH4qXLZ0.vtt",
+   "page": "https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/resources/lecture-1-administrivia-introduction-analysis-of-algorithms-insertion-sort-mergesort/",
+   "file": "ocw/6-046j-introduction-to-algorithms-sma-5503-fall-20__lecture-1-administrivia-introduction-ana.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/resources/lecture-2-asymptotic-notation-recurrences-substitution-master-method/",
+   "course": "6-046j-introduction-to-algorithms-sma-5503-fall-2005",
+   "url": "https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/29d773f24e1b5d39b35969da999fe96d_whjt_N9uYFI.vtt",
+   "page": "https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/resources/lecture-2-asymptotic-notation-recurrences-substitution-master-method/",
+   "file": "ocw/6-046j-introduction-to-algorithms-sma-5503-fall-20__lecture-2-asymptotic-notation-recurrence.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/resources/lecture-3-divide-and-conquer-strassen-fibonacci-polynomial-multiplication/",
+   "course": "6-046j-introduction-to-algorithms-sma-5503-fall-2005",
+   "url": "https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/bee3e89946ae5bffa3182a983ec6cc0a_-EQTVuAhSFY.vtt",
+   "page": "https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/resources/lecture-3-divide-and-conquer-strassen-fibonacci-polynomial-multiplication/",
+   "file": "ocw/6-046j-introduction-to-algorithms-sma-5503-fall-20__lecture-3-divide-and-conquer-strassen-fi.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/resources/lecture-4-quicksort-randomized-algorithms/",
+   "course": "6-046j-introduction-to-algorithms-sma-5503-fall-2005",
+   "url": "https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/ae595d22ac305c81b15ef9f4a8fe50ef_vK_q-C-kXhs.vtt",
+   "page": "https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/resources/lecture-4-quicksort-randomized-algorithms/",
+   "file": "ocw/6-046j-introduction-to-algorithms-sma-5503-fall-20__lecture-4-quicksort-randomized-algorithm.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/resources/lecture-5-linear-time-sorting-lower-bounds-counting-sort-radix-sort/",
+   "course": "6-046j-introduction-to-algorithms-sma-5503-fall-2005",
+   "url": "https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/542d86292d85530faf66abe3cb703f15_0VqawRl3Xzs.vtt",
+   "page": "https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/resources/lecture-5-linear-time-sorting-lower-bounds-counting-sort-radix-sort/",
+   "file": "ocw/6-046j-introduction-to-algorithms-sma-5503-fall-20__lecture-5-linear-time-sorting-lower-boun.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/resources/lecture-6-order-statistics-median/",
+   "course": "6-046j-introduction-to-algorithms-sma-5503-fall-2005",
+   "url": "https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/f2c5cc981e7a5c86920e25299148a1f3_mR_RUjsJnV8.vtt",
+   "page": "https://ocw.mit.edu/courses/6-046j-introduction-to-algorithms-sma-5503-fall-2005/resources/lecture-6-order-statistics-median/",
+   "file": "ocw/6-046j-introduction-to-algorithms-sma-5503-fall-20__lecture-6-order-statistics-median.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-s12-blockchain-and-money-fall-2018/resources/session-1-introduction/",
+   "course": "15-s12-blockchain-and-money-fall-2018",
+   "url": "https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/20bc3a67ada855098f6514ce837a6b0f_EH6vE97qIP4.vtt",
+   "page": "https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/resources/session-1-introduction/",
+   "file": "ocw/15-s12-blockchain-and-money-fall-2018__session-1-introduction.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-s12-blockchain-and-money-fall-2018/resources/session-2-money-ledgers-and-bitcoin/",
+   "course": "15-s12-blockchain-and-money-fall-2018",
+   "url": "https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/15e74d93b99f5d7db9e7bf3faecacdec_5auv_xrvoJk.vtt",
+   "page": "https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/resources/session-2-money-ledgers-and-bitcoin/",
+   "file": "ocw/15-s12-blockchain-and-money-fall-2018__session-2-money-ledgers-and-bitcoin.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-s12-blockchain-and-money-fall-2018/resources/session-3-blockchain-basics-cryptography/",
+   "course": "15-s12-blockchain-and-money-fall-2018",
+   "url": "https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/85efa6a54a105e7a86ac67bf2aab224b_0UvVOMZqpEA.vtt",
+   "page": "https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/resources/session-3-blockchain-basics-cryptography/",
+   "file": "ocw/15-s12-blockchain-and-money-fall-2018__session-3-blockchain-basics-cryptography.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-s12-blockchain-and-money-fall-2018/resources/session-4-blockchain-basics-and-consensus/",
+   "course": "15-s12-blockchain-and-money-fall-2018",
+   "url": "https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/f9fd533a9fde584299eda01f89e6c6a1_w7HDA8gUbpQ.vtt",
+   "page": "https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/resources/session-4-blockchain-basics-and-consensus/",
+   "file": "ocw/15-s12-blockchain-and-money-fall-2018__session-4-blockchain-basics-and-consensu.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-s12-blockchain-and-money-fall-2018/resources/session-5-blockchain-basics-transactions/",
+   "course": "15-s12-blockchain-and-money-fall-2018",
+   "url": "https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/27bc2fb2946155be99ba1d0bfeab94eb_zGDTt9Q3vyM.vtt",
+   "page": "https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/resources/session-5-blockchain-basics-transactions/",
+   "file": "ocw/15-s12-blockchain-and-money-fall-2018__session-5-blockchain-basics-transactions.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/15-s12-blockchain-and-money-fall-2018/resources/session-6-smart-contracts-and-dapps/",
+   "course": "15-s12-blockchain-and-money-fall-2018",
+   "url": "https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/e4afd92324145523ac182cd637eb962a_JPkgJwJHYSc.vtt",
+   "page": "https://ocw.mit.edu/courses/15-s12-blockchain-and-money-fall-2018/resources/session-6-smart-contracts-and-dapps/",
+   "file": "ocw/15-s12-blockchain-and-money-fall-2018__session-6-smart-contracts-and-dapps.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/resources/lec1-signatures-hashing-hash-chains-e-cash-and-motivation/",
+   "course": "mas-s62-cryptocurrency-engineering-and-design-spring-2018",
+   "url": "https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/c0d11f99465f5bc48d7d736c930940f1_IJquEYhiq_U.vtt",
+   "page": "https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/resources/lec1-signatures-hashing-hash-chains-e-cash-and-motivation/",
+   "file": "ocw/mas-s62-cryptocurrency-engineering-and-design-spri__lec1-signatures-hashing-hash-chains-e-ca.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/resources/lec2-proof-of-work-and-mining/",
+   "course": "mas-s62-cryptocurrency-engineering-and-design-spring-2018",
+   "url": "https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/107c08758c61537cbbc77d75d50a875a_zYzEmBlJ77s.vtt",
+   "page": "https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/resources/lec2-proof-of-work-and-mining/",
+   "file": "ocw/mas-s62-cryptocurrency-engineering-and-design-spri__lec2-proof-of-work-and-mining.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/resources/lec3-signatures/",
+   "course": "mas-s62-cryptocurrency-engineering-and-design-spring-2018",
+   "url": "https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/bd3f2307de8957bcb7ff6e53bea08f62_0Q5IimX-AAc.vtt",
+   "page": "https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/resources/lec3-signatures/",
+   "file": "ocw/mas-s62-cryptocurrency-engineering-and-design-spri__lec3-signatures.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/resources/lec4-transactions-and-the-utxo-model/",
+   "course": "mas-s62-cryptocurrency-engineering-and-design-spring-2018",
+   "url": "https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/fd5ec2b1ec3d58e5b9b908901a86531a_VT2o4KCEbes.vtt",
+   "page": "https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/resources/lec4-transactions-and-the-utxo-model/",
+   "file": "ocw/mas-s62-cryptocurrency-engineering-and-design-spri__lec4-transactions-and-the-utxo-model.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/resources/lec5-synchronization-process-pruning/",
+   "course": "mas-s62-cryptocurrency-engineering-and-design-spring-2018",
+   "url": "https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/7925123f328b57c29fcdda780bdc63e0_1Qws70XGSq4.vtt",
+   "page": "https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/resources/lec5-synchronization-process-pruning/",
+   "file": "ocw/mas-s62-cryptocurrency-engineering-and-design-spri__lec5-synchronization-process-pruning.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/resources/lec6-spv-and-wallet-types/",
+   "course": "mas-s62-cryptocurrency-engineering-and-design-spring-2018",
+   "url": "https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/023537786d0653d091f4afb4ccfc91dd_mhQebe1Y4d0.vtt",
+   "page": "https://ocw.mit.edu/courses/mas-s62-cryptocurrency-engineering-and-design-spring-2018/resources/lec6-spv-and-wallet-types/",
+   "file": "ocw/mas-s62-cryptocurrency-engineering-and-design-spri__lec6-spv-and-wallet-types.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-1-algorithmic-thinking-peak-finding/",
+   "course": "6-006-introduction-to-algorithms-fall-2011",
+   "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/f219ea40335d59aca990a5e0d99cdc6d_HtSuA80QTyo.vtt",
+   "page": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-1-algorithmic-thinking-peak-finding/",
+   "file": "ocw/6-006-introduction-to-algorithms-fall-2011__lecture-1-algorithmic-thinking-peak-find.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-2-models-of-computation-document-distance/",
+   "course": "6-006-introduction-to-algorithms-fall-2011",
+   "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/8c0381777059554e9a9d2ff3f7aa7708_Zc54gFhdpLA.vtt",
+   "page": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-2-models-of-computation-document-distance/",
+   "file": "ocw/6-006-introduction-to-algorithms-fall-2011__lecture-2-models-of-computation-document.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-3-insertion-sort-merge-sort/",
+   "course": "6-006-introduction-to-algorithms-fall-2011",
+   "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/2c7458c5a44a5b7a90d54bf3143c0630_Kg4bqzAqRBM.vtt",
+   "page": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-3-insertion-sort-merge-sort/",
+   "file": "ocw/6-006-introduction-to-algorithms-fall-2011__lecture-3-insertion-sort-merge-sort.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-4-heaps-and-heap-sort/",
+   "course": "6-006-introduction-to-algorithms-fall-2011",
+   "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/4f81dd26f998521081cc5276aeddfc4d_B7hVxCmfPtM.vtt",
+   "page": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-4-heaps-and-heap-sort/",
+   "file": "ocw/6-006-introduction-to-algorithms-fall-2011__lecture-4-heaps-and-heap-sort.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-5-binary-search-trees-bst-sort/",
+   "course": "6-006-introduction-to-algorithms-fall-2011",
+   "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/ddc95d983ff2538c8a3f2b176023cf89_9Jry5-82I68.vtt",
+   "page": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-5-binary-search-trees-bst-sort/",
+   "file": "ocw/6-006-introduction-to-algorithms-fall-2011__lecture-5-binary-search-trees-bst-sort.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-6-avl-trees-avl-sort/",
+   "course": "6-006-introduction-to-algorithms-fall-2011",
+   "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/a16dd75fd6d853fd87f3e0fdf1573339_FNeL18KsWPc.vtt",
+   "page": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-6-avl-trees-avl-sort/",
+   "file": "ocw/6-006-introduction-to-algorithms-fall-2011__lecture-6-avl-trees-avl-sort.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-591j-systems-biology-fall-2014/resources/introduction-to-the-class-and-overview-of-topics/",
+   "course": "8-591j-systems-biology-fall-2014",
+   "url": "https://ocw.mit.edu/courses/8-591j-systems-biology-fall-2014/ea49df53ae6857419c5ebb5dcff31f60_gc3O2sKIsX4.vtt",
+   "page": "https://ocw.mit.edu/courses/8-591j-systems-biology-fall-2014/resources/introduction-to-the-class-and-overview-of-topics/",
+   "file": "ocw/8-591j-systems-biology-fall-2014__introduction-to-the-class-and-overview-o.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-591j-systems-biology-fall-2014/resources/input-function-michaelis-menten-kinetics-and-cooperativity/",
+   "course": "8-591j-systems-biology-fall-2014",
+   "url": "https://ocw.mit.edu/courses/8-591j-systems-biology-fall-2014/a146c9c6f4f45342bd08c059e7eb7a8e_lLY1u2aghIQ.vtt",
+   "page": "https://ocw.mit.edu/courses/8-591j-systems-biology-fall-2014/resources/input-function-michaelis-menten-kinetics-and-cooperativity/",
+   "file": "ocw/8-591j-systems-biology-fall-2014__input-function-michaelis-menten-kinetics.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-591j-systems-biology-fall-2014/resources/autoregulation-feedback-and-bistability/",
+   "course": "8-591j-systems-biology-fall-2014",
+   "url": "https://ocw.mit.edu/courses/8-591j-systems-biology-fall-2014/a9657f3a7c1d52e8b8ee56acf57da902_sJ7p2AuOYlA.vtt",
+   "page": "https://ocw.mit.edu/courses/8-591j-systems-biology-fall-2014/resources/autoregulation-feedback-and-bistability/",
+   "file": "ocw/8-591j-systems-biology-fall-2014__autoregulation-feedback-and-bistability.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-591j-systems-biology-fall-2014/resources/synthetic-biology-and-stability-analysis-in-the-toggle-switch/",
+   "course": "8-591j-systems-biology-fall-2014",
+   "url": "https://ocw.mit.edu/courses/8-591j-systems-biology-fall-2014/c098c805221c52ce978bc76aa71c235a_hfq1T9windg.vtt",
+   "page": "https://ocw.mit.edu/courses/8-591j-systems-biology-fall-2014/resources/synthetic-biology-and-stability-analysis-in-the-toggle-switch/",
+   "file": "ocw/8-591j-systems-biology-fall-2014__synthetic-biology-and-stability-analysis.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-591j-systems-biology-fall-2014/resources/oscillatory-genetic-networks/",
+   "course": "8-591j-systems-biology-fall-2014",
+   "url": "https://ocw.mit.edu/courses/8-591j-systems-biology-fall-2014/50e8efc4d68159ea9f3c26263f2c8e59_xNNxlsY-F-s.vtt",
+   "page": "https://ocw.mit.edu/courses/8-591j-systems-biology-fall-2014/resources/oscillatory-genetic-networks/",
+   "file": "ocw/8-591j-systems-biology-fall-2014__oscillatory-genetic-networks.vtt"
+  },
+  {
+   "source": "ocw",
+   "id": "/courses/8-591j-systems-biology-fall-2014/resources/graph-properties-of-transcription-networks/",
+   "course": "8-591j-systems-biology-fall-2014",
+   "url": "https://ocw.mit.edu/courses/8-591j-systems-biology-fall-2014/57272dde6e665a1c807ac6dfe6560efa_NnDqJhtUqjw.vtt",
+   "page": "https://ocw.mit.edu/courses/8-591j-systems-biology-fall-2014/resources/graph-properties-of-transcription-networks/",
+   "file": "ocw/8-591j-systems-biology-fall-2014__graph-properties-of-transcription-networ.vtt"
+  }
+ ]
+}

@@ -63,6 +63,10 @@ for (const cue of result.cues) for (const issue of cue.issues) console.log(cue.n
 
 `check()` accepts a standard id or your own standard object with the same fields as `STANDARDS` in `index.js`.
 
+## Study
+
+[`study/`](study) holds the code and data behind the [caption reading speed study](https://www.markstudios.com/research/caption-reading-speed-study): 339,521 captions in 387 NASA videos and MIT OpenCourseWare lectures, measured with this library.
+
 ## Version history
 
 See [CHANGELOG.md](CHANGELOG.md) and [releases](https://github.com/markksantos/caption-checker/releases).
