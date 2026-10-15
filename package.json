@@ -1,6 +1,6 @@
 {
   "name": "caption-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check SRT and WebVTT captions against Netflix, BBC and DCMP Captioning Key limits: reading speed, line length, lines, duration, gaps and overlaps.",
   "main": "index.js",
   "bin": { "caption-check": "bin/caption-check.js" },

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 (2026-10-15)
+
+- Fixed: `--json` output for long caption files was cut off at 64 KB when piped to another program, because the CLI exited before stdout drained. It now sets the exit code and lets Node exit on its own.
+
 ## 1.0.0 (2026-10-15)
 
 First release.

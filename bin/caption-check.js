@@ -64,4 +64,5 @@ for (const file of files) {
   console.log(`  average ${res.stats.averageCps.toFixed(1)} cps · fastest ${res.stats.maxCps.toFixed(1)} cps · longest line ${res.stats.longestLine} characters`);
 }
 if (opts.json) console.log(JSON.stringify(files.length === 1 ? out[0] : out, null, 2));
-process.exit(failed ? 1 : 0);
+// exitCode, not process.exit(): exit() can cut off piped stdout (JSON for long files) before it drains
+process.exitCode = failed ? 1 : 0;

@@ -60,3 +60,17 @@ test('blocks without timing are skipped, not counted', () => {
   assert.strictEqual(p.cues.length, 1);
   assert.strictEqual(p.skipped.length, 1);
 });
+
+test('cli prints complete JSON for large files when piped', () => {
+  const { spawnSync } = require('child_process');
+  const os = require('os');
+  const tc = (s) => new Date(s * 1000).toISOString().slice(11, 23).replace('.', ',');
+  let srt = '';
+  for (let i = 0; i < 1500; i++) srt += `${i + 1}\n${tc(i * 2)} --> ${tc(i * 2 + 1.5)}\nCaption number ${i + 1} reads at a steady pace.\n\n`;
+  const file = path.join(os.tmpdir(), `caption-checker-large-${process.pid}.srt`);
+  fs.writeFileSync(file, srt);
+  const run = spawnSync(process.execPath, [path.join(__dirname, '..', 'bin', 'caption-check.js'), file, '--json'], { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
+  fs.unlinkSync(file);
+  const out = JSON.parse(run.stdout);
+  assert.strictEqual(out.cues.length, 1500);
+});
