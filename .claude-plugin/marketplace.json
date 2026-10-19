@@ -1,0 +1,20 @@
+{
+  "name": "caption-checker",
+  "owner": {
+    "name": "Mark Studios",
+    "url": "https://www.markstudios.com"
+  },
+  "metadata": {
+    "description": "Caption Checker: check SRT and WebVTT captions against Netflix, BBC and DCMP Captioning Key limits."
+  },
+  "plugins": [
+    {
+      "name": "caption-checker",
+      "source": "./",
+      "description": "MCP server with two tools: check_captions (reading speed, line length, lines, time on screen, gaps and overlaps against Netflix, BBC or DCMP) and list_standards (each limit and its source). Works offline, no key.",
+      "category": "productivity",
+      "homepage": "https://www.markstudios.com/tools/caption-checker",
+      "tags": ["mcp", "captions", "subtitles", "srt", "webvtt", "accessibility"]
+    }
+  ]
+}

@@ -14,12 +14,17 @@ Options:
       --vertical        9:16 video (the BBC allows three lines)
       --json            print JSON instead of text
       --advice          also print advice-only notes in text output
+      --mcp             run as an MCP server on stdio (Claude, Cursor, VS Code, ...)
   -h, --help
 
 Exit code: 0 when every caption meets the standard's limits, 1 when any caption breaks one, 2 on a usage error.
 Online version: https://www.markstudios.com/tools/caption-checker`;
 
 const args = process.argv.slice(2);
+if (args.includes('--mcp')) {
+  require('../mcp.js').serve();
+  return;
+}
 const opts = { standard: 'netflix', fps: 24, vertical: false, json: false, advice: false };
 const files = [];
 for (let i = 0; i < args.length; i++) {

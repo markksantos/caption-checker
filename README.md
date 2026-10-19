@@ -48,6 +48,7 @@ caption-check <file.srt|file.vtt> [more files] [options]
       --vertical        9:16 video (the BBC allows three lines)
       --json            JSON output
       --advice          also print advice-only notes
+      --mcp             run as an MCP server on stdio
 ```
 
 It exits with 1 when any caption breaks a limit, so it works as a CI check before captions ship.
@@ -62,6 +63,27 @@ for (const cue of result.cues) for (const issue of cue.issues) console.log(cue.n
 ```
 
 `check()` accepts a standard id or your own standard object with the same fields as `STANDARDS` in `index.js`.
+
+## MCP server and Claude Code plugin
+
+The same checks run as an MCP server, so Claude, Cursor, VS Code and other MCP clients can check a caption file mid-task. Two tools: `check_captions` (a file path or pasted SRT/VTT text, a standard, fps, vertical) and `list_standards` (each limit and the page it comes from). It runs locally: no key, no network.
+
+```
+# Claude Code plugin (MCP server + a caption QA skill)
+/plugin marketplace add markksantos/caption-checker
+/plugin install caption-checker@caption-checker
+
+# or the server on its own
+claude mcp add caption-checker -- npx -y github:markksantos/caption-checker --mcp
+```
+
+Other clients:
+
+```json
+{ "mcpServers": { "caption-checker": { "command": "npx", "args": ["-y", "github:markksantos/caption-checker", "--mcp"] } } }
+```
+
+The skill in [`skills/caption-checker/SKILL.md`](skills/caption-checker/SKILL.md) tells an agent which standard to pick, how to report results and how to fix a caption without changing its words.
 
 ## Study
 

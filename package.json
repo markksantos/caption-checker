@@ -1,16 +1,53 @@
 {
   "name": "caption-checker",
-  "version": "1.0.1",
-  "description": "Check SRT and WebVTT captions against Netflix, BBC and DCMP Captioning Key limits: reading speed, line length, lines, duration, gaps and overlaps.",
+  "version": "1.1.0",
+  "mcpName": "io.github.markksantos/caption-checker",
+  "description": "Check SRT and WebVTT captions against Netflix, BBC and DCMP Captioning Key limits: reading speed, line length, lines, duration, gaps and overlaps. Zero-dependency CLI, library and MCP server.",
   "main": "index.js",
-  "bin": { "caption-check": "bin/caption-check.js" },
-  "files": ["index.js", "bin/", "examples/"],
-  "scripts": { "test": "node --test test/check.test.js" },
-  "engines": { "node": ">=18" },
-  "keywords": ["captions", "subtitles", "srt", "webvtt", "vtt", "accessibility", "a11y", "netflix", "bbc", "dcmp", "reading-speed", "cps", "linter", "cli"],
+  "bin": {
+    "caption-check": "bin/caption-check.js"
+  },
+  "files": [
+    "index.js",
+    "mcp.js",
+    "bin/",
+    "examples/"
+  ],
+  "scripts": {
+    "test": "node --test test/check.test.js test/mcp.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "captions",
+    "subtitles",
+    "srt",
+    "webvtt",
+    "vtt",
+    "accessibility",
+    "a11y",
+    "netflix",
+    "bbc",
+    "dcmp",
+    "reading-speed",
+    "cps",
+    "linter",
+    "cli",
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "claude",
+    "subtitle-checker"
+  ],
   "homepage": "https://www.markstudios.com/tools/caption-checker",
-  "repository": { "type": "git", "url": "git+https://github.com/markksantos/caption-checker.git" },
-  "bugs": { "url": "https://github.com/markksantos/caption-checker/issues" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markksantos/caption-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markksantos/caption-checker/issues"
+  },
   "author": "Mark Studios (https://www.markstudios.com)",
   "license": "MIT"
 }
