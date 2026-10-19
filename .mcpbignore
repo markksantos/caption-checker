@@ -1,0 +1,9 @@
+.git/
+.github/
+docs/
+test/
+study/
+server.json
+*.mcpb
+.claude-plugin/
+skills/

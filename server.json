@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.markksantos/caption-checker",
+  "title": "Caption Checker",
+  "description": "Check SRT and WebVTT captions against Netflix, BBC and DCMP Captioning Key limits.",
+  "version": "1.1.0",
+  "websiteUrl": "https://www.markstudios.com/tools/caption-checker",
+  "repository": {
+    "url": "https://github.com/markksantos/caption-checker",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/markksantos/caption-checker/releases/download/v1.1.0/caption-checker-1.1.0.mcpb",
+      "fileSha256": "c75c12db180a308980ec5218878295e21c3955e605480f7ccb86d94c98ad0b0b",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
