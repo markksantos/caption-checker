@@ -1,0 +1,699 @@
+{
+ "source_revid": 1381638413,
+ "fetched": "2026-10-25",
+ "channels": [
+  {
+   "rank": 1,
+   "name": "MrBeast",
+   "url": "https://www.youtube.com/user/MrBeast6000",
+   "subs_m": "523",
+   "language": "English"
+  },
+  {
+   "rank": 2,
+   "name": "T-Series",
+   "url": "https://www.youtube.com/user/tseries",
+   "subs_m": "316",
+   "language": "Hindi"
+  },
+  {
+   "rank": 3,
+   "name": "Cocomelon - Nursery Rhymes",
+   "url": "https://www.youtube.com/channel/UCbCmjCuTUZos6Inko4u57UQ",
+   "subs_m": "203",
+   "language": "English"
+  },
+  {
+   "rank": 4,
+   "name": "SET India",
+   "url": "https://www.youtube.com/channel/UCpEhnqL0y41EpW2TvWAHD7Q",
+   "subs_m": "190",
+   "language": "Hindi"
+  },
+  {
+   "rank": 5,
+   "name": "Vlad and Niki",
+   "url": "https://www.youtube.com/channel/UCvlE5gTbOvjiolFlEm-c_Ow",
+   "subs_m": "151",
+   "language": "English"
+  },
+  {
+   "rank": 6,
+   "name": "Stokes Twins",
+   "url": "https://www.youtube.com/@stokestwins",
+   "subs_m": "149",
+   "language": "English"
+  },
+  {
+   "rank": 7,
+   "name": "Kids Diana Show",
+   "url": "https://www.youtube.com/channel/UCk8GzjMOrta8yxDcKfylJYw",
+   "subs_m": "138",
+   "language": "English"
+  },
+  {
+   "rank": 8,
+   "name": "김프로KIMPRO",
+   "url": "https://www.youtube.com/@kimpro828",
+   "subs_m": "135",
+   "language": "Korean"
+  },
+  {
+   "rank": 9,
+   "name": "Like Nastya",
+   "url": "https://www.youtube.com/channel/UCJplp5SjeGSdVdwsfb9Q7lQ",
+   "subs_m": "133",
+   "language": "English"
+  },
+  {
+   "rank": 10,
+   "name": "Alejo Igoa",
+   "url": "https://www.youtube.com/user/AlejoIgoa",
+   "subs_m": "124",
+   "language": "Spanish"
+  },
+  {
+   "rank": 11,
+   "name": "Zee Music Company",
+   "url": "https://www.youtube.com/channel/UCFFbwnve3yF62-tVXkTyHqg",
+   "subs_m": "123",
+   "language": "Hindi"
+  },
+  {
+   "rank": 12,
+   "name": "WWE",
+   "url": "https://www.youtube.com/user/WWEFanNation",
+   "subs_m": "114",
+   "language": "English"
+  },
+  {
+   "rank": 13,
+   "name": "Goldmines",
+   "url": "https://www.youtube.com/channel/UCyoXW-Dse7fURq30EWl_CUA",
+   "subs_m": "110",
+   "language": "Hindi"
+  },
+  {
+   "rank": 14,
+   "name": "PewDiePie",
+   "url": "https://www.youtube.com/PewDiePie",
+   "subs_m": "109",
+   "language": "English"
+  },
+  {
+   "rank": 15,
+   "name": "Sony SAB",
+   "url": "https://www.youtube.com/channel/UC6-F5tO8uklgE9Zy8IvbdFw",
+   "subs_m": "106",
+   "language": "Hindi"
+  },
+  {
+   "rank": 16,
+   "name": "Alan's Universe",
+   "url": "https://www.youtube.com/@AlanChikinChow",
+   "subs_m": "103",
+   "language": "English"
+  },
+  {
+   "rank": 17,
+   "name": "Blackpink",
+   "url": "https://www.youtube.com/channel/UCOmHUn--16B90oW2L6FRR3A",
+   "subs_m": "101",
+   "language": "Korean"
+  },
+  {
+   "rank": 18,
+   "name": "Zee TV",
+   "url": "https://www.youtube.com/channel/UCppHT7SZKKvar4Oc9J4oljQ",
+   "subs_m": "99.3",
+   "language": "Hindi"
+  },
+  {
+   "rank": 19,
+   "name": "ChuChu TV Nursery Rhymes & Kids Songs",
+   "url": "https://www.youtube.com/channel/UCBnZ16ahKA2DZ_T5W0FPUXg",
+   "subs_m": "98.2",
+   "language": "Hindi"
+  },
+  {
+   "rank": 20,
+   "name": "Topper Guild",
+   "url": "https://www.youtube.com/@topperguild",
+   "subs_m": "95.6",
+   "language": "English"
+  },
+  {
+   "rank": 21,
+   "name": "A4",
+   "url": "https://www.youtube.com/channel/UC2tsySbe9TNrI-xh2lximHA",
+   "subs_m": "92.9",
+   "language": "Russian"
+  },
+  {
+   "rank": 22,
+   "name": "KL BRO Biju Rithvik",
+   "url": "https://www.youtube.com/@KLBROBijuRithvik1",
+   "subs_m": "90.1",
+   "language": "Malayalam"
+  },
+  {
+   "rank": 23,
+   "name": "BANGTANTV",
+   "url": "https://www.youtube.com/channel/UCLkAepWjdylmXSltofFvsYQ",
+   "subs_m": "86.3",
+   "language": "Korean"
+  },
+  {
+   "rank": 24,
+   "name": "Baby Shark - Pinkfong Kids’ Songs & Stories",
+   "url": "https://www.youtube.com/channel/UCcdwLMPsaU2ezNSJU1nFoBQ",
+   "subs_m": "85.3",
+   "language": "English"
+  },
+  {
+   "rank": 25,
+   "name": "ZAMZAM BROTHERS OFFICIAL",
+   "url": "https://www.youtube.com/channel/UCrnQFuUabBHaw-BRhPo8xEA",
+   "subs_m": "84.9",
+   "language": "Urdu"
+  },
+  {
+   "rank": 26,
+   "name": "Mark Rober",
+   "url": "https://www.youtube.com/channel/UCY1kMZp36IQSyNx_9h4mpCg",
+   "subs_m": "84.4",
+   "language": "English"
+  },
+  {
+   "rank": 27,
+   "name": "UR · Cristiano",
+   "url": "https://www.youtube.com/@cristiano",
+   "subs_m": "83.5",
+   "language": "Portuguese, English"
+  },
+  {
+   "rank": 28,
+   "name": "T-Series Bhakti Sagar",
+   "url": "https://www.youtube.com/channel/UCaayLD9i5x4MmIoVZxXSv_g",
+   "subs_m": "83.4",
+   "language": "Hindi"
+  },
+  {
+   "rank": 29,
+   "name": "Toys and Colors",
+   "url": "https://www.youtube.com/@toysandcolors",
+   "subs_m": "83.1",
+   "language": "English"
+  },
+  {
+   "rank": 30,
+   "name": "Hybe Labels",
+   "url": "https://www.youtube.com/channel/UC3IZKseVpdzPSBaWxBxundA",
+   "subs_m": "83.1",
+   "language": "Korean"
+  },
+  {
+   "rank": 31,
+   "name": "Colors TV",
+   "url": "https://www.youtube.com/channel/UC55IWqFLDH1Xp7iu1_xknRA",
+   "subs_m": "82.6",
+   "language": "Hindi"
+  },
+  {
+   "rank": 32,
+   "name": "Tips Official",
+   "url": "https://www.youtube.com/channel/UCJrDMFOdv1I2k8n9oK_V21w",
+   "subs_m": "82.6",
+   "language": "Hindi"
+  },
+  {
+   "rank": 33,
+   "name": "Zhong",
+   "url": "https://www.youtube.com/@zhong",
+   "subs_m": "80.8",
+   "language": "English"
+  },
+  {
+   "rank": 34,
+   "name": "5-Minute Crafts",
+   "url": "https://www.youtube.com/channel/UC295-Dw_tDNtZXFeAPAW6Aw",
+   "subs_m": "80.5",
+   "language": "English"
+  },
+  {
+   "rank": 35,
+   "name": "Fede Vigevani",
+   "url": "https://www.youtube.com/channel/UCoQm-PeHC-cbJclKJYJ8LzA",
+   "subs_m": "80.1",
+   "language": "Spanish"
+  },
+  {
+   "rank": 36,
+   "name": "Justin Bieber",
+   "url": "https://www.youtube.com/channel/UCIwFjwMjI0y7PDBVEO9-bkQ",
+   "subs_m": "79.5",
+   "language": "English"
+  },
+  {
+   "rank": 37,
+   "name": "Bispo Bruno Leonardo",
+   "url": "https://www.youtube.com/@bispobrunoleonardo",
+   "subs_m": "77.1",
+   "language": "Portuguese"
+  },
+  {
+   "rank": 38,
+   "name": "Anaya Kandhal",
+   "url": "https://www.youtube.com/@anayakandhal",
+   "subs_m": "76.1",
+   "language": "Hindi"
+  },
+  {
+   "rank": 39,
+   "name": "ISSEI / いっせい",
+   "url": "https://www.youtube.com/channel/UC6QZ_ss3i_8qLV_RczPZBkw",
+   "subs_m": "75.7",
+   "language": "Japanese"
+  },
+  {
+   "rank": 40,
+   "name": "Aaj Tak",
+   "url": "https://www.youtube.com/channel/UCt4t-jeY85JegMlZ-E5UWtA",
+   "subs_m": "75.7",
+   "language": "Hindi"
+  },
+  {
+   "rank": 41,
+   "name": "Shemaroo Filmi Gaane",
+   "url": "https://www.youtube.com/channel/UCP6uH_XlsxrXwZQ4DlqbqPg",
+   "subs_m": "75.1",
+   "language": "Hindi"
+  },
+  {
+   "rank": 42,
+   "name": "HAR PAL GEO",
+   "url": "https://www.youtube.com/channel/UCe9JSDmyqNgA_l2BzGHq1Ug",
+   "subs_m": "74.4",
+   "language": "Urdu"
+  },
+  {
+   "rank": 43,
+   "name": "Sony Music India",
+   "url": "https://www.youtube.com/channel/UC56gTxNs4f9xZ7Pa2i5xNzg",
+   "subs_m": "73.4",
+   "language": "Hindi"
+  },
+  {
+   "rank": 44,
+   "name": "YRF",
+   "url": "https://www.youtube.com/channel/UCbTLwN10NoCU4WDzLf1JMOA",
+   "subs_m": "73.0",
+   "language": "Hindi"
+  },
+  {
+   "rank": 45,
+   "name": "Infobells - Hindi",
+   "url": "https://www.youtube.com/channel/UC1ciY6kR3yj3kaKZ6R7ewAg",
+   "subs_m": "72.8",
+   "language": "Hindi"
+  },
+  {
+   "rank": 46,
+   "name": "El Reino Infantil",
+   "url": "https://www.youtube.com/channel/UCK1i2UviaXLUNrZlAFpw_jA",
+   "subs_m": "71.6",
+   "language": "Spanish"
+  },
+  {
+   "rank": 47,
+   "name": "YOLO AVENTURAS",
+   "url": "https://www.youtube.com/@YOLOAVENTURAS",
+   "subs_m": "71.1",
+   "language": "Spanish"
+  },
+  {
+   "rank": 48,
+   "name": "Wave Music (Indian record label)|Wave Music",
+   "url": "https://www.youtube.com/channel/UC22nIfOTM7KLIQuFGMKzQbg",
+   "subs_m": "71.0",
+   "language": "Bhojpuri"
+  },
+  {
+   "rank": 49,
+   "name": "ARY Digital HD",
+   "url": "https://www.youtube.com/channel/UC4JCksJF76g_MdzPVBJoC3Q",
+   "subs_m": "68.7",
+   "language": "Urdu"
+  },
+  {
+   "rank": 50,
+   "name": "Canal KondZilla",
+   "url": "https://www.youtube.com/channel/UCffDXn7ycAzwL2LDlbyWOTw",
+   "subs_m": "68.2",
+   "language": "Portuguese"
+  },
+  {
+   "rank": 51,
+   "name": "Celine Dept",
+   "url": "https://www.youtube.com/@celinedept",
+   "subs_m": "67.8",
+   "language": "English"
+  },
+  {
+   "rank": 52,
+   "name": "Eminem Music",
+   "url": "https://www.youtube.com/channel/UCfM3zsQsOnfWNUppiycmBuw",
+   "subs_m": "67.4",
+   "language": "English"
+  },
+  {
+   "rank": 53,
+   "name": "Movieclips",
+   "url": "https://www.youtube.com/channel/UC3gNmTGu-TTbFPpfSs5kNkg",
+   "subs_m": "66.8",
+   "language": "English"
+  },
+  {
+   "rank": 54,
+   "name": "Dangal TV Channel",
+   "url": "https://www.youtube.com/@dangaltvchannel",
+   "subs_m": "66.5",
+   "language": "Hindi"
+  },
+  {
+   "rank": 55,
+   "name": "Saregama Music",
+   "url": "https://www.youtube.com/@saregamamusic",
+   "subs_m": "65.3",
+   "language": "Hindi"
+  },
+  {
+   "rank": 56,
+   "name": "Taylor Swift",
+   "url": "https://www.youtube.com/taylorswift",
+   "subs_m": "63.5",
+   "language": "English"
+  },
+  {
+   "rank": 57,
+   "name": "Dude Perfect",
+   "url": "https://www.youtube.com/user/corycotton",
+   "subs_m": "62.8",
+   "language": "English"
+  },
+  {
+   "rank": 58,
+   "name": "MrBeast 2",
+   "url": "https://www.youtube.com/@mrbeast2",
+   "subs_m": "62.7",
+   "language": "English"
+  },
+  {
+   "rank": 59,
+   "name": "LooLoo Kids - Nursery Rhymes and Children's Songs",
+   "url": "https://www.youtube.com/@loolookids",
+   "subs_m": "62.7",
+   "language": "English"
+  },
+  {
+   "rank": 60,
+   "name": "PANDA BOI",
+   "url": "https://www.youtube.com/@pandaboi",
+   "subs_m": "62.3",
+   "language": "English"
+  },
+  {
+   "rank": 61,
+   "name": "Shemaroo",
+   "url": "https://www.youtube.com/@shemaroo",
+   "subs_m": "62.3",
+   "language": "Hindi"
+  },
+  {
+   "rank": 62,
+   "name": "IShowSpeed",
+   "url": "http://www.youtube.com/@IShowSpeed",
+   "subs_m": "62.0",
+   "language": "English"
+  },
+  {
+   "rank": 63,
+   "name": "आचार्य प्रशान्त - Acharya Prashant",
+   "url": "https://www.youtube.com/@shriprashant",
+   "subs_m": "61.0",
+   "language": "Hindi"
+  },
+  {
+   "rank": 64,
+   "name": "MrBeast Gaming",
+   "url": "https://www.youtube.com/@mrbeastgaming",
+   "subs_m": "60.9",
+   "language": "English"
+  },
+  {
+   "rank": 65,
+   "name": "Маша и Медведь{{efn|name=Masha|Masha and the Bear}}",
+   "url": "https://www.youtube.com/@mashabearrussian",
+   "subs_m": "60.7",
+   "language": "Russian"
+  },
+  {
+   "rank": 66,
+   "name": "Alfredo Larin",
+   "url": "https://www.youtube.com/@alfredolarin",
+   "subs_m": "60.5",
+   "language": "Spanish"
+  },
+  {
+   "rank": 67,
+   "name": "SonyMusicIndiaVEVO",
+   "url": "https://www.youtube.com/@sonymusicindiavevo",
+   "subs_m": "60.2",
+   "language": "Hindi"
+  },
+  {
+   "rank": 68,
+   "name": "Ed Sheeran",
+   "url": "https://www.youtube.com/edsheeran",
+   "subs_m": "59.3",
+   "language": "English"
+  },
+  {
+   "rank": 69,
+   "name": "ToRung",
+   "url": "https://www.youtube.com/@torung",
+   "subs_m": "59.1",
+   "language": "Vietnamese"
+  },
+  {
+   "rank": 70,
+   "name": "Marshmello",
+   "url": "https://www.youtube.com/@marshmello",
+   "subs_m": "58.7",
+   "language": "English"
+  },
+  {
+   "rank": 71,
+   "name": "Mikecrack",
+   "url": "https://www.youtube.com/@mikecrack",
+   "subs_m": "58.7",
+   "language": "Spanish"
+  },
+  {
+   "rank": 72,
+   "name": "Billie Eilish",
+   "url": "https://www.youtube.com/billieeilish",
+   "subs_m": "58.7",
+   "language": "English"
+  },
+  {
+   "rank": 73,
+   "name": "JioHotstar Kids",
+   "url": "https://www.youtube.com/@jio_hotstar_kids",
+   "subs_m": "58.5",
+   "language": "Hindi"
+  },
+  {
+   "rank": 74,
+   "name": "Ariana Grande",
+   "url": "https://www.youtube.com/arianagrande",
+   "subs_m": "58.3",
+   "language": "English"
+  },
+  {
+   "rank": 75,
+   "name": "Billion Surprise Toys",
+   "url": "https://www.youtube.com/@billionsurprisetoys",
+   "subs_m": "57.7",
+   "language": "English"
+  },
+  {
+   "rank": 76,
+   "name": "Get Movies",
+   "url": "https://www.youtube.com/@getmovies",
+   "subs_m": "57.2",
+   "language": "Russian"
+  },
+  {
+   "rank": 77,
+   "name": "JuegaGerman",
+   "url": "https://www.youtube.com/@juegagerman",
+   "subs_m": "56.9",
+   "language": "Spanish"
+  },
+  {
+   "rank": 78,
+   "name": "shfa",
+   "url": "https://www.youtube.com/@shfa-1",
+   "subs_m": "56.8",
+   "language": "Arabic"
+  },
+  {
+   "rank": 79,
+   "name": "StarPlus",
+   "url": "https://www.youtube.com/starplus",
+   "subs_m": "56.8",
+   "language": "Hindi"
+  },
+  {
+   "rank": 80,
+   "name": "Juan de Dios Pantoja",
+   "url": "https://www.youtube.com/@juandediospantojaa",
+   "subs_m": "56.6",
+   "language": "Spanish"
+  },
+  {
+   "rank": 81,
+   "name": "Masha and the Bear",
+   "url": "https://www.youtube.com/@mashabearen",
+   "subs_m": "55.6",
+   "language": "English"
+  },
+  {
+   "rank": 82,
+   "name": "HUM TV",
+   "url": "https://www.youtube.com/@humtv",
+   "subs_m": "55.5",
+   "language": "Urdu"
+  },
+  {
+   "rank": 83,
+   "name": "ABS-CBN Entertainment",
+   "url": "https://www.youtube.com/@abscbnentertainment",
+   "subs_m": "55.3",
+   "language": "Filipino"
+  },
+  {
+   "rank": 84,
+   "name": "Jess No Limit",
+   "url": "https://www.youtube.com/@jessnolimit",
+   "subs_m": "54.6",
+   "language": "Indonesian"
+  },
+  {
+   "rank": 85,
+   "name": "shfa2 - شفا",
+   "url": "https://www.youtube.com/@shfa2",
+   "subs_m": "54.4",
+   "language": "Arabic"
+  },
+  {
+   "rank": 86,
+   "name": "Sierra & Rhia FAM",
+   "url": "https://www.youtube.com/@SierraRhiaFAM",
+   "subs_m": "54.4",
+   "language": "English"
+  },
+  {
+   "rank": 87,
+   "name": "Shakira",
+   "url": "https://www.youtube.com/@Shakira",
+   "subs_m": "54.4",
+   "language": "Spanish"
+  },
+  {
+   "rank": 88,
+   "name": "T-Series Bollywood Classics",
+   "url": "https://www.youtube.com/@tseriesoldisgold",
+   "subs_m": "54.1",
+   "language": "Hindi"
+  },
+  {
+   "rank": 89,
+   "name": "Ishtar Music",
+   "url": "https://www.youtube.com/@ishtarmusic",
+   "subs_m": "54.1",
+   "language": "Hindi"
+  },
+  {
+   "rank": 90,
+   "name": "LUCCAS NETO",
+   "url": "https://www.youtube.com/@luccasneto",
+   "subs_m": "53.6",
+   "language": "Portuguese"
+  },
+  {
+   "rank": 91,
+   "name": "MR. INDIAN HACKER",
+   "url": "https://www.youtube.com/@MRINDIANHACKER",
+   "subs_m": "53.6",
+   "language": "Hindi"
+  },
+  {
+   "rank": 92,
+   "name": "Techno Gamerz",
+   "url": "https://www.youtube.com/@TechnoGamerzOfficial",
+   "subs_m": "53.4",
+   "language": "Hindi"
+  },
+  {
+   "rank": 93,
+   "name": "Bad Bunny",
+   "url": "https://www.youtube.com/@badbunnypr",
+   "subs_m": "53.3",
+   "language": "Spanish"
+  },
+  {
+   "rank": 94,
+   "name": "Real fools shorts official",
+   "url": "https://www.youtube.com/@realfoolsshorts63",
+   "subs_m": "52.9",
+   "language": "Hindi"
+  },
+  {
+   "rank": 95,
+   "name": "Natan por Aí",
+   "url": "https://www.youtube.com/channel/UCjaxmdb_gTWbz9XF5rzvgGg",
+   "subs_m": "52.7",
+   "language": "Portuguese"
+  },
+  {
+   "rank": 96,
+   "name": "BEN EAGLE",
+   "url": "https://www.youtube.com/channel/UCbGPgvNunvclTypPtL3sa0w",
+   "subs_m": "52.7",
+   "language": "Vietnamese"
+  },
+  {
+   "rank": 97,
+   "name": "BETER BÖCÜK",
+   "url": "https://www.youtube.com/@beterbocuk",
+   "subs_m": "52.1",
+   "language": "Turkish"
+  },
+  {
+   "rank": 98,
+   "name": "BeatboxJCOP",
+   "url": "https://www.youtube.com/@BeatboxJCOP",
+   "subs_m": "52.1",
+   "language": "Korean"
+  },
+  {
+   "rank": 99,
+   "name": "Ben Azelart",
+   "url": "https://www.youtube.com/@BenAzelart",
+   "subs_m": "51.6",
+   "language": "English"
+  }
+ ]
+}
