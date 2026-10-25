@@ -15,7 +15,7 @@ The code and per-video results behind [markstudios.com/research/youtube-auto-cap
 | `examples.py` | Checks every example quoted on the study page against the raw tracks and counts the repeated ones ("Stamford", "Khanmigo"). |
 | `coverage.py` | Caption coverage of the most-subscribed channels: the channels in Wikipedia's list (`coverage-channels.json`, revision id recorded), latest 5 regular uploads each, which caption tracks the channel uploaded and whether YouTube made automatic ones. |
 | `coverage_analyze.py` | Channel-level summary: own captions on all, some or none of the 5 latest videos. |
-| `coverage.jsonl` | One row per checked video (485): uploaded track languages and automatic tracks. |
+| `coverage.jsonl` | One row per checked video (487; the page counts the 485 from the 97 channels with at least three readable regular uploads): uploaded track languages and automatic tracks. |
 | `results.csv` | One row per video (299). Videos whose human track is mostly in capital letters (5) have no names comparison. |
 
 Run it again:
