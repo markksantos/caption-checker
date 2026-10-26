@@ -63,6 +63,14 @@
   "2026-10-26"
  ],
  "channels_all_shorts": 8,
+ "upload_rate": {
+  "channels": 98,
+  "median_per_week": 7.0,
+  "p25": 2.0,
+  "p75": 30.9,
+  "daily_or_more": 49,
+  "under_weekly": 14
+ },
  "by_category": {
   "Entertainment": {
    "channels": 42,
@@ -142,7 +150,8 @@
    },
    "rss_oldest": "2026-07-31",
    "rss_newest": "2026-10-23",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 1.17
   },
   {
    "rank": 2,
@@ -160,7 +169,8 @@
    },
    "rss_oldest": "2026-10-23",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 32.81
   },
   {
    "rank": 3,
@@ -178,7 +188,8 @@
    },
    "rss_oldest": "2026-10-11",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 6.98
   },
   {
    "rank": 4,
@@ -197,7 +208,8 @@
    },
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 392.2
   },
   {
    "rank": 5,
@@ -215,7 +227,8 @@
    },
    "rss_oldest": "2026-09-12",
    "rss_newest": "2026-10-23",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 2.39
   },
   {
    "rank": 6,
@@ -233,7 +246,8 @@
    },
    "rss_oldest": "2026-08-31",
    "rss_newest": "2026-10-24",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 1.8
   },
   {
    "rank": 7,
@@ -251,7 +265,8 @@
    },
    "rss_oldest": "2026-10-05",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 4.77
   },
   {
    "rank": 8,
@@ -269,7 +284,8 @@
    },
    "rss_oldest": "2026-10-20",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 16.05
   },
   {
    "rank": 9,
@@ -287,7 +303,8 @@
    },
    "rss_oldest": "2026-09-16",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 2.5
   },
   {
    "rank": 10,
@@ -305,7 +322,8 @@
    },
    "rss_oldest": "2026-08-31",
    "rss_newest": "2026-10-18",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 2.05
   },
   {
    "rank": 11,
@@ -323,7 +341,8 @@
    },
    "rss_oldest": "2026-10-24",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 47.04
   },
   {
    "rank": 12,
@@ -342,7 +361,8 @@
    },
    "rss_oldest": "2026-10-25",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 113.62
   },
   {
    "rank": 13,
@@ -360,7 +380,8 @@
    },
    "rss_oldest": "2026-10-25",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 78.4
   },
   {
    "rank": 14,
@@ -377,7 +398,8 @@
    },
    "rss_oldest": "2026-01-16",
    "rss_newest": "2026-10-23",
-   "has_shorts_tab": false
+   "has_shorts_tab": false,
+   "uploads_per_week": 0.35
   },
   {
    "rank": 15,
@@ -395,7 +417,8 @@
    },
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 676.78
   },
   {
    "rank": 16,
@@ -413,7 +436,8 @@
    },
    "rss_oldest": "2026-09-25",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 3.27
   },
   {
    "rank": 17,
@@ -431,7 +455,8 @@
    },
    "rss_oldest": "2026-02-28",
    "rss_newest": "2026-08-17",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 0.58
   },
   {
    "rank": 18,
@@ -449,7 +474,8 @@
    },
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 1019.78
   },
   {
    "rank": 19,
@@ -467,7 +493,8 @@
    },
    "rss_oldest": "2026-09-13",
    "rss_newest": "2026-10-24",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 2.41
   },
   {
    "rank": 20,
@@ -485,7 +512,8 @@
    },
    "rss_oldest": "2026-10-12",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 7.0
   },
   {
    "rank": 21,
@@ -503,7 +531,8 @@
    },
    "rss_oldest": "2025-09-15",
    "rss_newest": "2026-08-08",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 0.3
   },
   {
    "rank": 22,
@@ -521,7 +550,8 @@
    },
    "rss_oldest": "2026-10-19",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 13.93
   },
   {
    "rank": 23,
@@ -539,7 +569,8 @@
    },
    "rss_oldest": "2026-09-30",
    "rss_newest": "2026-10-15",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 6.57
   },
   {
    "rank": 24,
@@ -558,7 +589,8 @@
    },
    "rss_oldest": "2026-10-14",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 8.25
   },
   {
    "rank": 25,
@@ -575,7 +607,8 @@
    },
    "rss_oldest": "2026-10-24",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 43.12
   },
   {
    "rank": 26,
@@ -593,7 +626,8 @@
    },
    "rss_oldest": "2026-06-20",
    "rss_newest": "2026-10-24",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 0.78
   },
   {
    "rank": 27,
@@ -613,7 +647,8 @@
    },
    "rss_oldest": "2026-06-10",
    "rss_newest": "2026-10-24",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 0.72
   },
   {
    "rank": 28,
@@ -631,7 +666,8 @@
    },
    "rss_oldest": "2026-10-23",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 35.1
   },
   {
    "rank": 29,
@@ -649,7 +685,8 @@
    },
    "rss_oldest": "2026-10-12",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 7.0
   },
   {
    "rank": 30,
@@ -668,7 +705,8 @@
    },
    "rss_oldest": "2026-10-19",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 14.25
   },
   {
    "rank": 31,
@@ -687,7 +725,8 @@
    },
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 1290.73
   },
   {
    "rank": 32,
@@ -705,7 +744,8 @@
    },
    "rss_oldest": "2026-10-23",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 30.68
   },
   {
    "rank": 33,
@@ -723,7 +763,8 @@
    },
    "rss_oldest": "2026-10-16",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 9.6
   },
   {
    "rank": 34,
@@ -741,7 +782,8 @@
    },
    "rss_oldest": "2026-10-16",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 9.93
   },
   {
    "rank": 35,
@@ -759,7 +801,8 @@
    },
    "rss_oldest": "2026-09-21",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 2.81
   },
   {
    "rank": 36,
@@ -776,7 +819,8 @@
    },
    "rss_oldest": "2026-07-03",
    "rss_newest": "2026-07-03",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 195.85
   },
   {
    "rank": 37,
@@ -794,7 +838,8 @@
    },
    "rss_oldest": "2026-10-23",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 36.2
   },
   {
    "rank": 38,
@@ -812,7 +857,8 @@
    },
    "rss_oldest": "2026-10-21",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 19.37
   },
   {
    "rank": 39,
@@ -829,7 +875,8 @@
    },
    "rss_oldest": "2026-09-04",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 1.92
   },
   {
    "rank": 40,
@@ -849,7 +896,8 @@
    },
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": null
   },
   {
    "rank": 41,
@@ -867,7 +915,8 @@
    },
    "rss_oldest": "2026-10-18",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 12.89
   },
   {
    "rank": 42,
@@ -885,7 +934,8 @@
    },
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 1133.19
   },
   {
    "rank": 43,
@@ -903,7 +953,8 @@
    },
    "rss_oldest": "2026-10-21",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 20.45
   },
   {
    "rank": 44,
@@ -921,7 +972,8 @@
    },
    "rss_oldest": "2026-10-17",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 10.77
   },
   {
    "rank": 45,
@@ -939,7 +991,8 @@
    },
    "rss_oldest": "2026-09-26",
    "rss_newest": "2026-10-23",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 3.63
   },
   {
    "rank": 46,
@@ -957,7 +1010,8 @@
    },
    "rss_oldest": "2026-10-08",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 5.76
   },
   {
    "rank": 47,
@@ -976,7 +1030,8 @@
    },
    "rss_oldest": "2026-10-15",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 9.7
   },
   {
    "rank": 48,
@@ -993,7 +1048,8 @@
    },
    "rss_oldest": "2026-10-17",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 11.53
   },
   {
    "rank": 49,
@@ -1011,7 +1067,8 @@
    },
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 1567.13
   },
   {
    "rank": 50,
@@ -1028,7 +1085,8 @@
    },
    "rss_oldest": "2026-10-19",
    "rss_newest": "2026-10-22",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 32.44
   },
   {
    "rank": 51,
@@ -1045,7 +1103,8 @@
    },
    "rss_oldest": "2026-10-18",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 13.98
   },
   {
    "rank": 52,
@@ -1063,7 +1122,8 @@
    },
    "rss_oldest": "2024-11-18",
    "rss_newest": "2025-12-01",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 0.26
   },
   {
    "rank": 53,
@@ -1080,7 +1140,8 @@
    },
    "rss_oldest": "2026-10-24",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 84.0
   },
   {
    "rank": 54,
@@ -1098,7 +1159,8 @@
    },
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 336.07
   },
   {
    "rank": 55,
@@ -1115,7 +1177,8 @@
    },
    "rss_oldest": "2026-10-23",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 30.77
   },
   {
    "rank": 56,
@@ -1134,7 +1197,8 @@
    },
    "rss_oldest": "2026-02-23",
    "rss_newest": "2026-10-05",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 0.44
   },
   {
    "rank": 57,
@@ -1152,7 +1216,8 @@
    },
    "rss_oldest": "2026-10-10",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 6.52
   },
   {
    "rank": 58,
@@ -1170,7 +1235,8 @@
    },
    "rss_oldest": "2026-08-04",
    "rss_newest": "2026-10-21",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 1.26
   },
   {
    "rank": 59,
@@ -1188,7 +1254,8 @@
    },
    "rss_oldest": "2026-09-14",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 2.34
   },
   {
    "rank": 60,
@@ -1205,7 +1272,8 @@
    },
    "rss_oldest": "2026-08-18",
    "rss_newest": "2026-10-20",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 1.56
   },
   {
    "rank": 61,
@@ -1222,7 +1290,8 @@
    },
    "rss_oldest": "2026-10-19",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 14.08
   },
   {
    "rank": 62,
@@ -1240,7 +1309,8 @@
    },
    "rss_oldest": "2026-09-27",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 3.53
   },
   {
    "rank": 63,
@@ -1257,7 +1327,8 @@
    },
    "rss_oldest": "2026-10-25",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 80.94
   },
   {
    "rank": 64,
@@ -1275,7 +1346,8 @@
    },
    "rss_oldest": "2026-05-09",
    "rss_newest": "2026-10-23",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 0.59
   },
   {
    "rank": 65,
@@ -1294,7 +1366,8 @@
    },
    "rss_oldest": "2026-10-14",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 8.17
   },
   {
    "rank": 66,
@@ -1312,7 +1385,8 @@
    },
    "rss_oldest": "2026-10-09",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 6.1
   },
   {
    "rank": 67,
@@ -1330,7 +1404,8 @@
    },
    "rss_oldest": "2026-03-27",
    "rss_newest": "2026-10-12",
-   "has_shorts_tab": false
+   "has_shorts_tab": false,
+   "uploads_per_week": 0.49
   },
   {
    "rank": 68,
@@ -1348,7 +1423,8 @@
    },
    "rss_oldest": "2026-04-29",
    "rss_newest": "2026-09-07",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 0.75
   },
   {
    "rank": 69,
@@ -1365,7 +1441,8 @@
    },
    "rss_oldest": "2026-02-11",
    "rss_newest": "2026-02-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 7.0
   },
   {
    "rank": 70,
@@ -1383,7 +1460,8 @@
    },
    "rss_oldest": "2026-08-17",
    "rss_newest": "2026-09-23",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 2.67
   },
   {
    "rank": 71,
@@ -1401,7 +1479,8 @@
    },
    "rss_oldest": "2026-03-15",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 0.44
   },
   {
    "rank": 72,
@@ -1419,7 +1498,8 @@
    },
    "rss_oldest": "2026-06-24",
    "rss_newest": "2026-08-19",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 1.75
   },
   {
    "rank": 73,
@@ -1438,7 +1518,8 @@
    },
    "rss_oldest": "2026-10-25",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 90.46
   },
   {
    "rank": 74,
@@ -1456,7 +1537,8 @@
    },
    "rss_oldest": "2026-08-04",
    "rss_newest": "2026-09-20",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 2.07
   },
   {
    "rank": 75,
@@ -1475,7 +1557,8 @@
    },
    "rss_oldest": "2026-10-20",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 15.92
   },
   {
    "rank": 76,
@@ -1494,7 +1577,8 @@
    },
    "rss_oldest": "2026-10-12",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 7.54
   },
   {
    "rank": 77,
@@ -1512,7 +1596,8 @@
    },
    "rss_oldest": "2026-09-12",
    "rss_newest": "2026-10-24",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 2.34
   },
   {
    "rank": 78,
@@ -1530,7 +1615,8 @@
    },
    "rss_oldest": "2026-09-07",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 2.04
   },
   {
    "rank": 79,
@@ -1548,7 +1634,8 @@
    },
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 1178.78
   },
   {
    "rank": 80,
@@ -1565,7 +1652,8 @@
    },
    "rss_oldest": "2026-05-30",
    "rss_newest": "2026-10-24",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 0.67
   },
   {
    "rank": 81,
@@ -1584,7 +1672,8 @@
    },
    "rss_oldest": "2026-10-14",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 8.91
   },
   {
    "rank": 82,
@@ -1602,7 +1691,8 @@
    },
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 520.93
   },
   {
    "rank": 83,
@@ -1621,7 +1711,8 @@
    },
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 5188.24
   },
   {
    "rank": 84,
@@ -1639,7 +1730,8 @@
    },
    "rss_oldest": "2026-10-01",
    "rss_newest": "2026-10-22",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 4.69
   },
   {
    "rank": 85,
@@ -1656,7 +1748,8 @@
    },
    "rss_oldest": "2026-09-17",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 2.51
   },
   {
    "rank": 86,
@@ -1674,7 +1767,8 @@
    },
    "rss_oldest": "2026-10-21",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 19.96
   },
   {
    "rank": 87,
@@ -1693,7 +1787,8 @@
    },
    "rss_oldest": "2026-07-21",
    "rss_newest": "2026-10-14",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 1.15
   },
   {
    "rank": 88,
@@ -1710,7 +1805,8 @@
    },
    "rss_oldest": "2026-10-23",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 30.95
   },
   {
    "rank": 89,
@@ -1729,7 +1825,8 @@
    },
    "rss_oldest": "2026-10-23",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 30.91
   },
   {
    "rank": 90,
@@ -1749,7 +1846,8 @@
    },
    "rss_oldest": "2026-09-21",
    "rss_newest": "2026-10-22",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 3.15
   },
   {
    "rank": 91,
@@ -1767,7 +1865,8 @@
    },
    "rss_oldest": "2026-10-20",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 16.36
   },
   {
    "rank": 92,
@@ -1784,7 +1883,8 @@
    },
    "rss_oldest": "2026-07-28",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 1.1
   },
   {
    "rank": 93,
@@ -1802,7 +1902,8 @@
    },
    "rss_oldest": "2025-01-05",
    "rss_newest": "2025-09-29",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 0.37
   },
   {
    "rank": 94,
@@ -1820,7 +1921,8 @@
    },
    "rss_oldest": "2026-09-01",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 1.78
   },
   {
    "rank": 95,
@@ -1839,7 +1941,8 @@
    },
    "rss_oldest": "2026-10-11",
    "rss_newest": "2026-10-25",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 6.89
   },
   {
    "rank": 96,
@@ -1856,7 +1959,8 @@
    },
    "rss_oldest": "2026-10-25",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 73.52
   },
   {
    "rank": 97,
@@ -1874,7 +1978,8 @@
    },
    "rss_oldest": "2026-10-12",
    "rss_newest": "2026-10-26",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 7.0
   },
   {
    "rank": 98,
@@ -1891,7 +1996,8 @@
    },
    "rss_oldest": "2026-09-25",
    "rss_newest": "2026-10-21",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 3.74
   },
   {
    "rank": 99,
@@ -1909,7 +2015,8 @@
    },
    "rss_oldest": "2025-09-27",
    "rss_newest": "2026-10-20",
-   "has_shorts_tab": true
+   "has_shorts_tab": true,
+   "uploads_per_week": 0.25
   }
  ]
 }
