@@ -1,0 +1,1915 @@
+{
+ "channels_listed": 99,
+ "channels_read": 99,
+ "channels_counted": 97,
+ "min_videos": 10,
+ "videos": 2859,
+ "median_min": 12.27,
+ "mean_min": 20.55,
+ "p25_min": 3.57,
+ "p75_min": 26.72,
+ "median_of_channel_medians": 12.36,
+ "buckets": [
+  {
+   "lo": 0,
+   "hi": 2,
+   "n": 251
+  },
+  {
+   "lo": 2,
+   "hi": 5,
+   "n": 758
+  },
+  {
+   "lo": 5,
+   "hi": 10,
+   "n": 307
+  },
+  {
+   "lo": 10,
+   "hi": 20,
+   "n": 467
+  },
+  {
+   "lo": 20,
+   "hi": 40,
+   "n": 726
+  },
+  {
+   "lo": 40,
+   "hi": 60,
+   "n": 158
+  },
+  {
+   "lo": 60,
+   "hi": 1000000000,
+   "n": 192
+  }
+ ],
+ "rss_mix": {
+  "short": 646,
+  "video": 721,
+  "unknown": 53,
+  "stream": 64
+ },
+ "rss_uploads": 1484,
+ "channels_mostly_shorts": 40,
+ "channels_no_shorts_in_feed": 16,
+ "rss_classified": 1428,
+ "rss_under_3_min": 750,
+ "rss_dates": [
+  "2024-11-18",
+  "2026-10-20",
+  "2026-10-26"
+ ],
+ "channels_all_shorts": 8,
+ "by_category": {
+  "Entertainment": {
+   "channels": 42,
+   "median_of_medians": 20.19,
+   "videos": 1234
+  },
+  "Music": {
+   "channels": 25,
+   "median_of_medians": 3.45,
+   "videos": 747
+  },
+  "Gaming": {
+   "channels": 7,
+   "median_of_medians": 26.19,
+   "videos": 209
+  },
+  "Education": {
+   "channels": 5,
+   "median_of_medians": 39.94,
+   "videos": 150
+  },
+  "People": {
+   "channels": 5,
+   "median_of_medians": 26.46,
+   "videos": 149
+  },
+  "Film": {
+   "channels": 4,
+   "median_of_medians": 24.5,
+   "videos": 120
+  },
+  "Comedy": {
+   "channels": 3,
+   "median_of_medians": 5.72,
+   "videos": 74
+  },
+  "Sports": {
+   "channels": 2,
+   "median_of_medians": 12.5,
+   "videos": 60
+  },
+  "Lifestyle Vlogs": {
+   "channels": 1,
+   "median_of_medians": 18.81,
+   "videos": 30
+  },
+  "How-to": {
+   "channels": 1,
+   "median_of_medians": 70.16,
+   "videos": 30
+  },
+  "Nonprofit": {
+   "channels": 1,
+   "median_of_medians": 11.85,
+   "videos": 30
+  },
+  "News": {
+   "channels": 1,
+   "median_of_medians": 3.78,
+   "videos": 26
+  }
+ },
+ "channels": [
+  {
+   "rank": 1,
+   "name": "MrBeast",
+   "category": "Entertainment",
+   "language": "English",
+   "subs_m": "523",
+   "videos_with_duration": 30,
+   "median_min": 30.14,
+   "mean_min": 30.42,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 9,
+    "video": 6
+   },
+   "rss_oldest": "2026-07-31",
+   "rss_newest": "2026-10-23",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 2,
+   "name": "T-Series",
+   "category": "Music",
+   "language": "Hindi",
+   "subs_m": "316",
+   "videos_with_duration": 30,
+   "median_min": 3.23,
+   "mean_min": 4.75,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 4,
+    "video": 11
+   },
+   "rss_oldest": "2026-10-23",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 3,
+   "name": "Cocomelon - Nursery Rhymes",
+   "category": "Education",
+   "language": "English",
+   "subs_m": "203",
+   "videos_with_duration": 30,
+   "median_min": 5.59,
+   "mean_min": 4.78,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 9,
+    "video": 6
+   },
+   "rss_oldest": "2026-10-11",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 4,
+   "name": "SET India",
+   "category": "Entertainment",
+   "language": "Hindi",
+   "subs_m": "190",
+   "videos_with_duration": 30,
+   "median_min": 44.62,
+   "mean_min": 43.56,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "unknown": 11,
+    "video": 2,
+    "short": 2
+   },
+   "rss_oldest": "2026-10-26",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 5,
+   "name": "Vlad and Niki",
+   "category": "Entertainment",
+   "language": "English",
+   "subs_m": "151",
+   "videos_with_duration": 30,
+   "median_min": 21.15,
+   "mean_min": 31.43,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 12,
+    "short": 3
+   },
+   "rss_oldest": "2026-09-12",
+   "rss_newest": "2026-10-23",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 6,
+   "name": "Stokes Twins",
+   "category": "People",
+   "language": "English",
+   "subs_m": "149",
+   "videos_with_duration": 30,
+   "median_min": 27.97,
+   "mean_min": 35.74,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 3,
+    "short": 12
+   },
+   "rss_oldest": "2026-08-31",
+   "rss_newest": "2026-10-24",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 7,
+   "name": "Kids Diana Show",
+   "category": "Entertainment",
+   "language": "English",
+   "subs_m": "138",
+   "videos_with_duration": 30,
+   "median_min": 26.2,
+   "mean_min": 31.55,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 6,
+    "video": 9
+   },
+   "rss_oldest": "2026-10-05",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 8,
+   "name": "김프로KIMPRO",
+   "category": "People",
+   "language": "Korean",
+   "subs_m": "135",
+   "videos_with_duration": 29,
+   "median_min": 4.33,
+   "mean_min": 6.45,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 13,
+    "video": 2
+   },
+   "rss_oldest": "2026-10-20",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 9,
+   "name": "Like Nastya",
+   "category": "Entertainment",
+   "language": "English",
+   "subs_m": "133",
+   "videos_with_duration": 30,
+   "median_min": 33.17,
+   "mean_min": 31.63,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 6,
+    "video": 9
+   },
+   "rss_oldest": "2026-09-16",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 10,
+   "name": "Alejo Igoa",
+   "category": "Entertainment",
+   "language": "Spanish",
+   "subs_m": "124",
+   "videos_with_duration": 30,
+   "median_min": 17.1,
+   "mean_min": 17.43,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 8,
+    "short": 7
+   },
+   "rss_oldest": "2026-08-31",
+   "rss_newest": "2026-10-18",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 11,
+   "name": "Zee Music Company",
+   "category": "Music",
+   "language": "Hindi",
+   "subs_m": "123",
+   "videos_with_duration": 30,
+   "median_min": 2.8,
+   "mean_min": 3.76,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 14,
+    "video": 1
+   },
+   "rss_oldest": "2026-10-24",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 12,
+   "name": "WWE",
+   "category": "Sports",
+   "language": "English",
+   "subs_m": "114",
+   "videos_with_duration": 30,
+   "median_min": 3.34,
+   "mean_min": 6.86,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 7,
+    "video": 7,
+    "stream": 1
+   },
+   "rss_oldest": "2026-10-25",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 13,
+   "name": "Goldmines",
+   "category": "Film",
+   "language": "Hindi",
+   "subs_m": "110",
+   "videos_with_duration": 30,
+   "median_min": 13.4,
+   "mean_min": 39.88,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 13,
+    "short": 2
+   },
+   "rss_oldest": "2026-10-25",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 14,
+   "name": "PewDiePie",
+   "category": "Entertainment/Lifestyle Vlogs",
+   "language": "English",
+   "subs_m": "109",
+   "videos_with_duration": 30,
+   "median_min": 26.4,
+   "mean_min": 26.63,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 15
+   },
+   "rss_oldest": "2026-01-16",
+   "rss_newest": "2026-10-23",
+   "has_shorts_tab": false
+  },
+  {
+   "rank": 15,
+   "name": "Sony SAB",
+   "category": "Entertainment",
+   "language": "Hindi",
+   "subs_m": "106",
+   "videos_with_duration": 30,
+   "median_min": 1.5,
+   "mean_min": 3.51,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 1,
+    "unknown": 14
+   },
+   "rss_oldest": "2026-10-26",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 16,
+   "name": "Alan's Universe",
+   "category": "Entertainment",
+   "language": "English",
+   "subs_m": "103",
+   "videos_with_duration": 30,
+   "median_min": 25.65,
+   "mean_min": 27.03,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 14,
+    "video": 1
+   },
+   "rss_oldest": "2026-09-25",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 17,
+   "name": "Blackpink",
+   "category": "Music",
+   "language": "Korean",
+   "subs_m": "101",
+   "videos_with_duration": 30,
+   "median_min": 2.82,
+   "mean_min": 3.88,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 7,
+    "video": 8
+   },
+   "rss_oldest": "2026-02-28",
+   "rss_newest": "2026-08-17",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 18,
+   "name": "Zee TV",
+   "category": "Entertainment",
+   "language": "Hindi",
+   "subs_m": "99.3",
+   "videos_with_duration": 30,
+   "median_min": 8.23,
+   "mean_min": 6.06,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 1,
+    "video": 14
+   },
+   "rss_oldest": "2026-10-26",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 19,
+   "name": "ChuChu TV Nursery Rhymes & Kids Songs",
+   "category": "Entertainment",
+   "language": "Hindi",
+   "subs_m": "98.2",
+   "videos_with_duration": 30,
+   "median_min": 24.43,
+   "mean_min": 23.6,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 5,
+    "video": 10
+   },
+   "rss_oldest": "2026-09-13",
+   "rss_newest": "2026-10-24",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 20,
+   "name": "Topper Guild",
+   "category": "Entertainment",
+   "language": "English",
+   "subs_m": "95.6",
+   "videos_with_duration": 30,
+   "median_min": 27.73,
+   "mean_min": 57.75,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 12,
+    "video": 3
+   },
+   "rss_oldest": "2026-10-12",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 21,
+   "name": "A4",
+   "category": "Entertainment",
+   "language": "Russian",
+   "subs_m": "92.9",
+   "videos_with_duration": 30,
+   "median_min": 22.77,
+   "mean_min": 24.98,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 8,
+    "video": 7
+   },
+   "rss_oldest": "2025-09-15",
+   "rss_newest": "2026-08-08",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 22,
+   "name": "KL BRO Biju Rithvik",
+   "category": "Lifestyle Vlogs",
+   "language": "Malayalam",
+   "subs_m": "90.1",
+   "videos_with_duration": 30,
+   "median_min": 18.81,
+   "mean_min": 19.31,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 13,
+    "video": 2
+   },
+   "rss_oldest": "2026-10-19",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 23,
+   "name": "BANGTANTV",
+   "category": "Music",
+   "language": "Korean",
+   "subs_m": "86.3",
+   "videos_with_duration": 30,
+   "median_min": 3.45,
+   "mean_min": 9.95,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 7,
+    "short": 8
+   },
+   "rss_oldest": "2026-09-30",
+   "rss_newest": "2026-10-15",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 24,
+   "name": "Baby Shark - Pinkfong Kids’ Songs & Stories",
+   "category": "Entertainment",
+   "language": "English",
+   "subs_m": "85.3",
+   "videos_with_duration": 30,
+   "median_min": 11.73,
+   "mean_min": 31.41,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 5,
+    "video": 6,
+    "stream": 4
+   },
+   "rss_oldest": "2026-10-14",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 25,
+   "name": "ZAMZAM BROTHERS OFFICIAL",
+   "category": "Entertainment",
+   "language": "Urdu",
+   "subs_m": "84.9",
+   "videos_with_duration": 14,
+   "median_min": 11.32,
+   "mean_min": 13.99,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 15
+   },
+   "rss_oldest": "2026-10-24",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 26,
+   "name": "Mark Rober",
+   "category": "Education/Entertainment",
+   "language": "English",
+   "subs_m": "84.4",
+   "videos_with_duration": 30,
+   "median_min": 21.02,
+   "mean_min": 21.96,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 3,
+    "short": 12
+   },
+   "rss_oldest": "2026-06-20",
+   "rss_newest": "2026-10-24",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 27,
+   "name": "UR · Cristiano",
+   "category": "Entertainment/Sports",
+   "language": "Portuguese, English",
+   "subs_m": "83.5",
+   "videos_with_duration": 30,
+   "median_min": 2.51,
+   "mean_min": 9.96,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "stream": 2,
+    "short": 6,
+    "video": 6,
+    "unknown": 1
+   },
+   "rss_oldest": "2026-06-10",
+   "rss_newest": "2026-10-24",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 28,
+   "name": "T-Series Bhakti Sagar",
+   "category": "Music",
+   "language": "Hindi",
+   "subs_m": "83.4",
+   "videos_with_duration": 30,
+   "median_min": 5.22,
+   "mean_min": 13.71,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 11,
+    "short": 4
+   },
+   "rss_oldest": "2026-10-23",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 29,
+   "name": "Toys and Colors",
+   "category": "Entertainment",
+   "language": "English",
+   "subs_m": "83.1",
+   "videos_with_duration": 30,
+   "median_min": 22.12,
+   "mean_min": 22.7,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 8,
+    "short": 7
+   },
+   "rss_oldest": "2026-10-12",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 30,
+   "name": "Hybe Labels",
+   "category": "Music",
+   "language": "Korean",
+   "subs_m": "83.1",
+   "videos_with_duration": 30,
+   "median_min": 1.24,
+   "mean_min": 2.53,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 9,
+    "video": 5,
+    "stream": 1
+   },
+   "rss_oldest": "2026-10-19",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 31,
+   "name": "Colors TV",
+   "category": "Entertainment",
+   "language": "Hindi",
+   "subs_m": "82.6",
+   "videos_with_duration": 30,
+   "median_min": 13.24,
+   "mean_min": 12.87,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 6,
+    "stream": 2,
+    "unknown": 7
+   },
+   "rss_oldest": "2026-10-26",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 32,
+   "name": "Tips Official",
+   "category": "Entertainment",
+   "language": "Hindi",
+   "subs_m": "82.6",
+   "videos_with_duration": 30,
+   "median_min": 49.47,
+   "mean_min": 52.76,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 11,
+    "short": 4
+   },
+   "rss_oldest": "2026-10-23",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 33,
+   "name": "Zhong",
+   "category": "Entertainment",
+   "language": "English",
+   "subs_m": "80.8",
+   "videos_with_duration": 30,
+   "median_min": 28.37,
+   "mean_min": 35.17,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 13,
+    "video": 2
+   },
+   "rss_oldest": "2026-10-16",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 34,
+   "name": "5-Minute Crafts",
+   "category": "How-to",
+   "language": "English",
+   "subs_m": "80.5",
+   "videos_with_duration": 30,
+   "median_min": 70.16,
+   "mean_min": 89.07,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 13,
+    "stream": 2
+   },
+   "rss_oldest": "2026-10-16",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 35,
+   "name": "Fede Vigevani",
+   "category": "Entertainment",
+   "language": "Spanish",
+   "subs_m": "80.1",
+   "videos_with_duration": 30,
+   "median_min": 25.13,
+   "mean_min": 24.51,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 4,
+    "video": 11
+   },
+   "rss_oldest": "2026-09-21",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 36,
+   "name": "Justin Bieber",
+   "category": "Music",
+   "language": "English",
+   "subs_m": "79.5",
+   "videos_with_duration": 30,
+   "median_min": 3.0,
+   "mean_min": 9.0,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 15
+   },
+   "rss_oldest": "2026-07-03",
+   "rss_newest": "2026-07-03",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 37,
+   "name": "Bispo Bruno Leonardo",
+   "category": "Nonprofit",
+   "language": "Portuguese",
+   "subs_m": "77.1",
+   "videos_with_duration": 30,
+   "median_min": 11.85,
+   "mean_min": 12.18,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 12,
+    "short": 3
+   },
+   "rss_oldest": "2026-10-23",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 38,
+   "name": "Anaya Kandhal",
+   "category": "Entertainment",
+   "language": "Hindi",
+   "subs_m": "76.1",
+   "videos_with_duration": 20,
+   "median_min": 1.09,
+   "mean_min": 37.74,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "stream": 10,
+    "short": 5
+   },
+   "rss_oldest": "2026-10-21",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 39,
+   "name": "ISSEI / いっせい",
+   "category": "Comedy",
+   "language": "Japanese",
+   "subs_m": "75.7",
+   "videos_with_duration": 30,
+   "median_min": 5.41,
+   "mean_min": 7.33,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 15
+   },
+   "rss_oldest": "2026-09-04",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 40,
+   "name": "Aaj Tak",
+   "category": "News",
+   "language": "Hindi",
+   "subs_m": "75.7",
+   "videos_with_duration": 26,
+   "median_min": 3.78,
+   "mean_min": 7.22,
+   "rss_uploads": 14,
+   "rss_mix": {
+    "video": 3,
+    "stream": 7,
+    "short": 3,
+    "unknown": 1
+   },
+   "rss_oldest": "2026-10-26",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 41,
+   "name": "Shemaroo Filmi Gaane",
+   "category": "Music",
+   "language": "Hindi",
+   "subs_m": "75.1",
+   "videos_with_duration": 30,
+   "median_min": 5.74,
+   "mean_min": 21.68,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 12,
+    "short": 3
+   },
+   "rss_oldest": "2026-10-18",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 42,
+   "name": "HAR PAL GEO",
+   "category": "Entertainment",
+   "language": "Urdu",
+   "subs_m": "74.4",
+   "videos_with_duration": 30,
+   "median_min": 4.73,
+   "mean_min": 5.55,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 7,
+    "short": 8
+   },
+   "rss_oldest": "2026-10-26",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 43,
+   "name": "Sony Music India",
+   "category": "Music",
+   "language": "Hindi",
+   "subs_m": "73.4",
+   "videos_with_duration": 30,
+   "median_min": 3.54,
+   "mean_min": 7.39,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 3,
+    "video": 12
+   },
+   "rss_oldest": "2026-10-21",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 44,
+   "name": "YRF",
+   "category": "Music",
+   "language": "Hindi",
+   "subs_m": "73.0",
+   "videos_with_duration": 30,
+   "median_min": 2.97,
+   "mean_min": 11.24,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 11,
+    "video": 4
+   },
+   "rss_oldest": "2026-10-17",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 45,
+   "name": "Infobells - Hindi",
+   "category": "Entertainment",
+   "language": "Hindi",
+   "subs_m": "72.8",
+   "videos_with_duration": 30,
+   "median_min": 10.28,
+   "mean_min": 8.79,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 8,
+    "video": 7
+   },
+   "rss_oldest": "2026-09-26",
+   "rss_newest": "2026-10-23",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 46,
+   "name": "El Reino Infantil",
+   "category": "Music",
+   "language": "Spanish",
+   "subs_m": "71.6",
+   "videos_with_duration": 29,
+   "median_min": 2.25,
+   "mean_min": 5.43,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 8,
+    "video": 7
+   },
+   "rss_oldest": "2026-10-08",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 47,
+   "name": "YOLO AVENTURAS",
+   "category": "Entertainment",
+   "language": "Spanish",
+   "subs_m": "71.1",
+   "videos_with_duration": 30,
+   "median_min": 25.52,
+   "mean_min": 28.09,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "stream": 10,
+    "short": 4,
+    "video": 1
+   },
+   "rss_oldest": "2026-10-15",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 48,
+   "name": "Wave Music",
+   "category": "Music",
+   "language": "Bhojpuri",
+   "subs_m": "71.0",
+   "videos_with_duration": 30,
+   "median_min": 3.86,
+   "mean_min": 9.05,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 15
+   },
+   "rss_oldest": "2026-10-17",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 49,
+   "name": "ARY Digital HD",
+   "category": "Entertainment",
+   "language": "Urdu",
+   "subs_m": "68.7",
+   "videos_with_duration": 30,
+   "median_min": 4.92,
+   "mean_min": 8.16,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 9,
+    "short": 6
+   },
+   "rss_oldest": "2026-10-26",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 50,
+   "name": "Canal KondZilla",
+   "category": "Music",
+   "language": "Portuguese",
+   "subs_m": "68.2",
+   "videos_with_duration": 30,
+   "median_min": 2.75,
+   "mean_min": 2.96,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 15
+   },
+   "rss_oldest": "2026-10-19",
+   "rss_newest": "2026-10-22",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 51,
+   "name": "Celine Dept",
+   "category": "Sports",
+   "language": "English",
+   "subs_m": "67.8",
+   "videos_with_duration": 30,
+   "median_min": 21.66,
+   "mean_min": 21.08,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 15
+   },
+   "rss_oldest": "2026-10-18",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 52,
+   "name": "Eminem Music",
+   "category": "Music",
+   "language": "English",
+   "subs_m": "67.4",
+   "videos_with_duration": 30,
+   "median_min": 3.01,
+   "mean_min": 2.66,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 2,
+    "video": 13
+   },
+   "rss_oldest": "2024-11-18",
+   "rss_newest": "2025-12-01",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 53,
+   "name": "Movieclips",
+   "category": "Film",
+   "language": "English",
+   "subs_m": "66.8",
+   "videos_with_duration": 30,
+   "median_min": 2.48,
+   "mean_min": 2.87,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 15
+   },
+   "rss_oldest": "2026-10-24",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 54,
+   "name": "Dangal TV Channel",
+   "category": "Entertainment",
+   "language": "Hindi",
+   "subs_m": "66.5",
+   "videos_with_duration": 30,
+   "median_min": 27.58,
+   "mean_min": 25.92,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 14,
+    "short": 1
+   },
+   "rss_oldest": "2026-10-26",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 55,
+   "name": "Saregama Music",
+   "category": "Music",
+   "language": "Hindi",
+   "subs_m": "65.3",
+   "videos_with_duration": 30,
+   "median_min": 3.47,
+   "mean_min": 6.71,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 15
+   },
+   "rss_oldest": "2026-10-23",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 56,
+   "name": "Taylor Swift",
+   "category": "Music",
+   "language": "English",
+   "subs_m": "63.5",
+   "videos_with_duration": 30,
+   "median_min": 3.6,
+   "mean_min": 3.81,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 12,
+    "unknown": 1,
+    "short": 2
+   },
+   "rss_oldest": "2026-02-23",
+   "rss_newest": "2026-10-05",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 57,
+   "name": "Dude Perfect",
+   "category": "Comedy",
+   "language": "English",
+   "subs_m": "62.8",
+   "videos_with_duration": 30,
+   "median_min": 23.99,
+   "mean_min": 24.44,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 14,
+    "video": 1
+   },
+   "rss_oldest": "2026-10-10",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 58,
+   "name": "MrBeast 2",
+   "category": "Entertainment",
+   "language": "English",
+   "subs_m": "62.7",
+   "videos_with_duration": 30,
+   "median_min": 14.55,
+   "mean_min": 16.1,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 13,
+    "video": 2
+   },
+   "rss_oldest": "2026-08-04",
+   "rss_newest": "2026-10-21",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 59,
+   "name": "LooLoo Kids - Nursery Rhymes and Children's Songs",
+   "category": "Music",
+   "language": "English",
+   "subs_m": "62.7",
+   "videos_with_duration": 30,
+   "median_min": 4.86,
+   "mean_min": 4.83,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 13,
+    "short": 2
+   },
+   "rss_oldest": "2026-09-14",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 60,
+   "name": "PANDA BOI",
+   "category": "Gaming",
+   "language": "English",
+   "subs_m": "62.3",
+   "videos_with_duration": 30,
+   "median_min": 3.32,
+   "mean_min": 4.59,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 15
+   },
+   "rss_oldest": "2026-08-18",
+   "rss_newest": "2026-10-20",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 61,
+   "name": "Shemaroo",
+   "category": "Entertainment",
+   "language": "Hindi",
+   "subs_m": "62.3",
+   "videos_with_duration": 30,
+   "median_min": 89.09,
+   "mean_min": 75.08,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 15
+   },
+   "rss_oldest": "2026-10-19",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 62,
+   "name": "IShowSpeed",
+   "category": "Entertainment",
+   "language": "English",
+   "subs_m": "62.0",
+   "videos_with_duration": 30,
+   "median_min": 15.18,
+   "mean_min": 28.35,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "stream": 7,
+    "short": 8
+   },
+   "rss_oldest": "2026-09-27",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 63,
+   "name": "आचार्य प्रशान्त - Acharya Prashant",
+   "category": "Education",
+   "language": "Hindi",
+   "subs_m": "61.0",
+   "videos_with_duration": 30,
+   "median_min": 53.06,
+   "mean_min": 54.78,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 15
+   },
+   "rss_oldest": "2026-10-25",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 64,
+   "name": "MrBeast Gaming",
+   "category": "Gaming",
+   "language": "English",
+   "subs_m": "60.9",
+   "videos_with_duration": 30,
+   "median_min": 21.68,
+   "mean_min": 24.49,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 3,
+    "video": 12
+   },
+   "rss_oldest": "2026-05-09",
+   "rss_newest": "2026-10-23",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 65,
+   "name": "Маша и Медведь",
+   "category": "Education",
+   "language": "Russian",
+   "subs_m": "60.7",
+   "videos_with_duration": 30,
+   "median_min": 65.25,
+   "mean_min": 48.81,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "stream": 3,
+    "video": 7,
+    "short": 5
+   },
+   "rss_oldest": "2026-10-14",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 66,
+   "name": "Alfredo Larin",
+   "category": "Entertainment",
+   "language": "Spanish",
+   "subs_m": "60.5",
+   "videos_with_duration": 30,
+   "median_min": 10.62,
+   "mean_min": 11.44,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 12,
+    "video": 3
+   },
+   "rss_oldest": "2026-10-09",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 67,
+   "name": "SonyMusicIndiaVEVO",
+   "category": "Music",
+   "language": "Hindi",
+   "subs_m": "60.2",
+   "videos_with_duration": 30,
+   "median_min": 4.53,
+   "mean_min": 4.77,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "unknown": 7,
+    "video": 8
+   },
+   "rss_oldest": "2026-03-27",
+   "rss_newest": "2026-10-12",
+   "has_shorts_tab": false
+  },
+  {
+   "rank": 68,
+   "name": "Ed Sheeran",
+   "category": "Music",
+   "language": "English",
+   "subs_m": "59.3",
+   "videos_with_duration": 30,
+   "median_min": 3.52,
+   "mean_min": 3.51,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 14,
+    "unknown": 1
+   },
+   "rss_oldest": "2026-04-29",
+   "rss_newest": "2026-09-07",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 69,
+   "name": "ToRung",
+   "category": "Comedy",
+   "language": "Vietnamese",
+   "subs_m": "59.1",
+   "videos_with_duration": 14,
+   "median_min": 5.72,
+   "mean_min": 6.08,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 15
+   },
+   "rss_oldest": "2026-02-11",
+   "rss_newest": "2026-02-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 70,
+   "name": "Marshmello",
+   "category": "Music",
+   "language": "English",
+   "subs_m": "58.7",
+   "videos_with_duration": 30,
+   "median_min": 2.67,
+   "mean_min": 2.79,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 11,
+    "video": 4
+   },
+   "rss_oldest": "2026-08-17",
+   "rss_newest": "2026-09-23",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 71,
+   "name": "Mikecrack",
+   "category": "Gaming",
+   "language": "Spanish",
+   "subs_m": "58.7",
+   "videos_with_duration": 30,
+   "median_min": 26.19,
+   "mean_min": 31.6,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 8,
+    "video": 7
+   },
+   "rss_oldest": "2026-03-15",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 72,
+   "name": "Billie Eilish",
+   "category": "Music",
+   "language": "English",
+   "subs_m": "58.7",
+   "videos_with_duration": 30,
+   "median_min": 2.22,
+   "mean_min": 3.24,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 12,
+    "video": 3
+   },
+   "rss_oldest": "2026-06-24",
+   "rss_newest": "2026-08-19",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 73,
+   "name": "JioHotstar Kids",
+   "category": "Entertainment",
+   "language": "Hindi",
+   "subs_m": "58.5",
+   "videos_with_duration": 30,
+   "median_min": 18.54,
+   "mean_min": 16.83,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 9,
+    "short": 3,
+    "unknown": 3
+   },
+   "rss_oldest": "2026-10-25",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 74,
+   "name": "Ariana Grande",
+   "category": "Music",
+   "language": "English",
+   "subs_m": "58.3",
+   "videos_with_duration": 30,
+   "median_min": 3.32,
+   "mean_min": 4.69,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 13,
+    "video": 2
+   },
+   "rss_oldest": "2026-08-04",
+   "rss_newest": "2026-09-20",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 75,
+   "name": "Billion Surprise Toys",
+   "category": "Education",
+   "language": "English",
+   "subs_m": "57.7",
+   "videos_with_duration": 30,
+   "median_min": 39.94,
+   "mean_min": 60.37,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "stream": 5,
+    "video": 3,
+    "short": 7
+   },
+   "rss_oldest": "2026-10-20",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 76,
+   "name": "Get Movies",
+   "category": "Entertainment",
+   "language": "Russian",
+   "subs_m": "57.2",
+   "videos_with_duration": 30,
+   "median_min": 28.32,
+   "mean_min": 31.04,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 1,
+    "video": 9,
+    "stream": 5
+   },
+   "rss_oldest": "2026-10-12",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 77,
+   "name": "JuegaGerman",
+   "category": "Gaming",
+   "language": "Spanish",
+   "subs_m": "56.9",
+   "videos_with_duration": 30,
+   "median_min": 39.57,
+   "mean_min": 46.43,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 13,
+    "short": 2
+   },
+   "rss_oldest": "2026-09-12",
+   "rss_newest": "2026-10-24",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 78,
+   "name": "shfa",
+   "category": "People",
+   "language": "Arabic",
+   "subs_m": "56.8",
+   "videos_with_duration": 30,
+   "median_min": 8.11,
+   "mean_min": 8.65,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 11,
+    "short": 4
+   },
+   "rss_oldest": "2026-09-07",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 79,
+   "name": "StarPlus",
+   "category": "Entertainment",
+   "language": "Hindi",
+   "subs_m": "56.8",
+   "videos_with_duration": 30,
+   "median_min": 19.23,
+   "mean_min": 16.69,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 14,
+    "unknown": 1
+   },
+   "rss_oldest": "2026-10-26",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 80,
+   "name": "Juan de Dios Pantoja",
+   "category": "People",
+   "language": "Spanish",
+   "subs_m": "56.6",
+   "videos_with_duration": 30,
+   "median_min": 26.46,
+   "mean_min": 28.08,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 15
+   },
+   "rss_oldest": "2026-05-30",
+   "rss_newest": "2026-10-24",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 81,
+   "name": "Masha and the Bear",
+   "category": "Film",
+   "language": "English",
+   "subs_m": "55.6",
+   "videos_with_duration": 30,
+   "median_min": 50.23,
+   "mean_min": 48.28,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "stream": 3,
+    "short": 7,
+    "video": 5
+   },
+   "rss_oldest": "2026-10-14",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 82,
+   "name": "HUM TV",
+   "category": "Entertainment",
+   "language": "Urdu",
+   "subs_m": "55.5",
+   "videos_with_duration": 30,
+   "median_min": 3.34,
+   "mean_min": 4.08,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 8,
+    "video": 7
+   },
+   "rss_oldest": "2026-10-26",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 83,
+   "name": "ABS-CBN Entertainment",
+   "category": "Entertainment",
+   "language": "Filipino",
+   "subs_m": "55.3",
+   "videos_with_duration": 30,
+   "median_min": 12.36,
+   "mean_min": 15.24,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 11,
+    "short": 1,
+    "unknown": 3
+   },
+   "rss_oldest": "2026-10-26",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 84,
+   "name": "Jess No Limit",
+   "category": "Gaming",
+   "language": "Indonesian",
+   "subs_m": "54.6",
+   "videos_with_duration": 30,
+   "median_min": 13.81,
+   "mean_min": 14.41,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 10,
+    "video": 5
+   },
+   "rss_oldest": "2026-10-01",
+   "rss_newest": "2026-10-22",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 85,
+   "name": "shfa2 - شفا",
+   "category": "People",
+   "language": "Arabic",
+   "subs_m": "54.4",
+   "videos_with_duration": 30,
+   "median_min": 31.24,
+   "mean_min": 31.6,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 15
+   },
+   "rss_oldest": "2026-09-17",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 86,
+   "name": "Sierra & Rhia FAM",
+   "category": "Entertainment",
+   "language": "English",
+   "subs_m": "54.4",
+   "videos_with_duration": 30,
+   "median_min": 1.83,
+   "mean_min": 2.13,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 14,
+    "video": 1
+   },
+   "rss_oldest": "2026-10-21",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 87,
+   "name": "Shakira",
+   "category": "Music",
+   "language": "Spanish",
+   "subs_m": "54.4",
+   "videos_with_duration": 30,
+   "median_min": 3.5,
+   "mean_min": 3.35,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 10,
+    "short": 4,
+    "unknown": 1
+   },
+   "rss_oldest": "2026-07-21",
+   "rss_newest": "2026-10-14",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 88,
+   "name": "T-Series Bollywood Classics",
+   "category": "Film",
+   "language": "Hindi",
+   "subs_m": "54.1",
+   "videos_with_duration": 30,
+   "median_min": 35.59,
+   "mean_min": 26.06,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 15
+   },
+   "rss_oldest": "2026-10-23",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 89,
+   "name": "Ishtar Music",
+   "category": "Music",
+   "language": "Hindi",
+   "subs_m": "54.1",
+   "videos_with_duration": 28,
+   "median_min": 5.27,
+   "mean_min": 5.17,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 10,
+    "video": 4,
+    "unknown": 1
+   },
+   "rss_oldest": "2026-10-23",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 90,
+   "name": "LUCCAS NETO",
+   "category": "Entertainment",
+   "language": "Portuguese",
+   "subs_m": "53.6",
+   "videos_with_duration": 30,
+   "median_min": 26.8,
+   "mean_min": 28.27,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 11,
+    "stream": 1,
+    "unknown": 1,
+    "short": 2
+   },
+   "rss_oldest": "2026-09-21",
+   "rss_newest": "2026-10-22",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 91,
+   "name": "MR. INDIAN HACKER",
+   "category": "Entertainment",
+   "language": "Hindi",
+   "subs_m": "53.6",
+   "videos_with_duration": 30,
+   "median_min": 22.12,
+   "mean_min": 22.2,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 14,
+    "short": 1
+   },
+   "rss_oldest": "2026-10-20",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 92,
+   "name": "Techno Gamerz",
+   "category": "Gaming",
+   "language": "Hindi",
+   "subs_m": "53.4",
+   "videos_with_duration": 30,
+   "median_min": 55.37,
+   "mean_min": 58.56,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 15
+   },
+   "rss_oldest": "2026-07-28",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 93,
+   "name": "Bad Bunny",
+   "category": "Music",
+   "language": "Spanish",
+   "subs_m": "53.3",
+   "videos_with_duration": 30,
+   "median_min": 3.72,
+   "mean_min": 4.17,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 5,
+    "video": 10
+   },
+   "rss_oldest": "2025-01-05",
+   "rss_newest": "2025-09-29",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 94,
+   "name": "Real fools shorts official",
+   "category": "People",
+   "language": "Hindi",
+   "subs_m": "52.9",
+   "videos_with_duration": 5,
+   "median_min": 1.67,
+   "mean_min": 2.8,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 14,
+    "video": 1
+   },
+   "rss_oldest": "2026-09-01",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 95,
+   "name": "Natan por Aí",
+   "category": "Entertainment",
+   "language": "Portuguese",
+   "subs_m": "52.7",
+   "videos_with_duration": 30,
+   "median_min": 16.71,
+   "mean_min": 21.1,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 11,
+    "video": 3,
+    "stream": 1
+   },
+   "rss_oldest": "2026-10-11",
+   "rss_newest": "2026-10-25",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 96,
+   "name": "BEN EAGLE",
+   "category": "Entertainment",
+   "language": "Vietnamese",
+   "subs_m": "52.7",
+   "videos_with_duration": 9,
+   "median_min": 49.2,
+   "mean_min": 38.69,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 15
+   },
+   "rss_oldest": "2026-10-25",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 97,
+   "name": "BETER BÖCÜK",
+   "category": "Gaming",
+   "language": "Turkish",
+   "subs_m": "52.1",
+   "videos_with_duration": 29,
+   "median_min": 28.47,
+   "mean_min": 29.18,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "video": 8,
+    "short": 7
+   },
+   "rss_oldest": "2026-10-12",
+   "rss_newest": "2026-10-26",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 98,
+   "name": "BeatboxJCOP",
+   "category": "Entertainment",
+   "language": "Korean",
+   "subs_m": "52.1",
+   "videos_with_duration": 30,
+   "median_min": 3.39,
+   "mean_min": 3.41,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 15
+   },
+   "rss_oldest": "2026-09-25",
+   "rss_newest": "2026-10-21",
+   "has_shorts_tab": true
+  },
+  {
+   "rank": 99,
+   "name": "Ben Azelart",
+   "category": "Entertainment",
+   "language": "English",
+   "subs_m": "51.6",
+   "videos_with_duration": 30,
+   "median_min": 28.57,
+   "mean_min": 42.83,
+   "rss_uploads": 15,
+   "rss_mix": {
+    "short": 7,
+    "video": 8
+   },
+   "rss_oldest": "2025-09-27",
+   "rss_newest": "2026-10-20",
+   "has_shorts_tab": true
+  }
+ ]
+}
