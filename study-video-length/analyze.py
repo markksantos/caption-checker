@@ -58,6 +58,14 @@ for r in rows.values():
         elif x['id'] in r['streams']:
             tot += 1
 rss_dates = sorted(x['published'][:10] for r in rows.values() for x in r['rss'])
+from datetime import datetime
+rates = {}  # uploads a week over the span of each channel's 15 latest uploads (14 gaps)
+for rank, r in rows.items():
+    ds = sorted(datetime.fromisoformat(x['published']) for x in r['rss'])
+    if len(ds) == 15 and (ds[-1] - ds[0]).total_seconds() > 0:
+        rates[rank] = 14 / ((ds[-1] - ds[0]).total_seconds() / 86400) * 7
+for t in table:
+    t['uploads_per_week'] = round(rates[t['rank']], 2) if t['rank'] in rates else None
 cat = defaultdict(list)
 for t in ok:
     cat[t['category'].split('/')[0]].append(t)
@@ -72,6 +80,9 @@ out = {
     'channels_no_shorts_in_feed': sum(1 for t in table if t['rss_uploads'] and not t['rss_mix'].get('short')),
     'rss_classified': tot, 'rss_under_3_min': under3, 'rss_dates': [rss_dates[0], statistics.median_low(rss_dates), rss_dates[-1]],
     'channels_all_shorts': sum(1 for t in table if t['rss_uploads'] and t['rss_mix'].get('short', 0) == t['rss_uploads']),
+    'upload_rate': {'channels': len(rates), 'median_per_week': round(statistics.median(rates.values()), 1),
+                    'p25': round(statistics.quantiles(rates.values(), n=4)[0], 1), 'p75': round(statistics.quantiles(rates.values(), n=4)[2], 1),
+                    'daily_or_more': sum(1 for x in rates.values() if x >= 7), 'under_weekly': sum(1 for x in rates.values() if x < 1)},
     'by_category': {k: {'channels': len(v), 'median_of_medians': round(statistics.median(t['median_min'] for t in v), 2),
                         'videos': sum(t['videos_with_duration'] for t in v)} for k, v in sorted(cat.items(), key=lambda kv: -len(kv[1]))},
     'channels': table,
