@@ -43,6 +43,25 @@ for rank, c in chans.items():
         pooled += [(rank, x) for x in d]
 
 ok = [t for t in table if t['videos_with_duration'] >= MIN_V]
+import re
+EMOJI = re.compile('[\U0001F300-\U0001FAFF\U00002600-\U000027BF\U0001F000-\U0001F2FF]')
+caps_word = lambda t: bool(re.search(r"(?<![A-Za-z])[A-Z]{3,}(?![a-z])", t))  # a word of 3+ capitals, e.g. "NOT", "$1,000,000 WIN"
+titles = [(t['rank'], v['title']) for t in ok for v in rows[t['rank']]['videos'] if v.get('duration') and v.get('title')]
+tl = [len(x) for _, x in titles]
+eng = [x for rk, x in titles if chans[rk]['language'].startswith('English')]
+latin = [x for _, x in titles if sum(ch.isascii() for ch in x) / len(x) > 0.9]
+for t in table:
+    lens = [len(v['title']) for v in rows[t['rank']]['videos'] if v.get('duration') and v.get('title')]
+    t['title_median_chars'] = statistics.median(lens) if lens else None
+title_stats = {
+    'titles': len(tl), 'median_chars': statistics.median(tl), 'mean_chars': round(statistics.mean(tl), 1),
+    'over_60': sum(1 for x in tl if x > 60), 'over_70': sum(1 for x in tl if x > 70), 'at_100': sum(1 for x in tl if x >= 100),
+    'emoji': sum(1 for _, x in titles if EMOJI.search(x)), 'pipe': sum(1 for _, x in titles if '|' in x),
+    'question': sum(1 for _, x in titles if '?' in x), 'exclaim': sum(1 for _, x in titles if '!' in x),
+    'english_titles': len(eng), 'english_median_chars': statistics.median(len(x) for x in eng),
+    'english_over_70': sum(1 for x in eng if len(x) > 70), 'english_caps_word': sum(1 for x in eng if caps_word(x)),
+    'english_emoji': sum(1 for x in eng if EMOJI.search(x)),
+}
 allmins = [x for _, x in pooled]
 mix_all = Counter()
 for t in table:
@@ -83,6 +102,8 @@ out = {
     'upload_rate': {'channels': len(rates), 'median_per_week': round(statistics.median(rates.values()), 1),
                     'p25': round(statistics.quantiles(rates.values(), n=4)[0], 1), 'p75': round(statistics.quantiles(rates.values(), n=4)[2], 1),
                     'daily_or_more': sum(1 for x in rates.values() if x >= 7), 'under_weekly': sum(1 for x in rates.values() if x < 1)},
+    'titles': title_stats,
+    'title_median_by_category': {k: statistics.median(len(x) for rk, x in titles if meta[rk]['category'].split('/')[0] == k) for k in {meta[rk]['category'].split('/')[0] for rk, _ in titles}},
     'by_category': {k: {'channels': len(v), 'median_of_medians': round(statistics.median(t['median_min'] for t in v), 2),
                         'videos': sum(t['videos_with_duration'] for t in v)} for k, v in sorted(cat.items(), key=lambda kv: -len(kv[1]))},
     'channels': table,

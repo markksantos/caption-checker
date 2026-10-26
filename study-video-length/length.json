@@ -71,6 +71,37 @@
   "daily_or_more": 49,
   "under_weekly": 14
  },
+ "titles": {
+  "titles": 2859,
+  "median_chars": 58,
+  "mean_chars": 61.4,
+  "over_60": 1365,
+  "over_70": 1094,
+  "at_100": 110,
+  "emoji": 380,
+  "pipe": 1151,
+  "question": 173,
+  "exclaim": 658,
+  "english_titles": 1020,
+  "english_median_chars": 48.0,
+  "english_over_70": 233,
+  "english_caps_word": 274,
+  "english_emoji": 100
+ },
+ "title_median_by_category": {
+  "Entertainment": 51.0,
+  "News": 96.5,
+  "Comedy": 35.0,
+  "Music": 72,
+  "Nonprofit": 42.0,
+  "Sports": 42.5,
+  "Gaming": 51,
+  "Film": 88.0,
+  "People": 41,
+  "Lifestyle Vlogs": 57.5,
+  "Education": 83.0,
+  "How-to": 60.0
+ },
  "by_category": {
   "Entertainment": {
    "channels": 42,
@@ -151,6 +182,7 @@
    "rss_oldest": "2026-07-31",
    "rss_newest": "2026-10-23",
    "has_shorts_tab": true,
+   "title_median_chars": 36.5,
    "uploads_per_week": 1.17
   },
   {
@@ -170,6 +202,7 @@
    "rss_oldest": "2026-10-23",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 76.5,
    "uploads_per_week": 32.81
   },
   {
@@ -189,6 +222,7 @@
    "rss_oldest": "2026-10-11",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 88.0,
    "uploads_per_week": 6.98
   },
   {
@@ -209,6 +243,7 @@
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 95.0,
    "uploads_per_week": 392.2
   },
   {
@@ -228,6 +263,7 @@
    "rss_oldest": "2026-09-12",
    "rss_newest": "2026-10-23",
    "has_shorts_tab": true,
+   "title_median_chars": 49.5,
    "uploads_per_week": 2.39
   },
   {
@@ -247,6 +283,7 @@
    "rss_oldest": "2026-08-31",
    "rss_newest": "2026-10-24",
    "has_shorts_tab": true,
+   "title_median_chars": 36.0,
    "uploads_per_week": 1.8
   },
   {
@@ -266,6 +303,7 @@
    "rss_oldest": "2026-10-05",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 46.5,
    "uploads_per_week": 4.77
   },
   {
@@ -285,6 +323,7 @@
    "rss_oldest": "2026-10-20",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 46,
    "uploads_per_week": 16.05
   },
   {
@@ -304,6 +343,7 @@
    "rss_oldest": "2026-09-16",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 42.0,
    "uploads_per_week": 2.5
   },
   {
@@ -323,6 +363,7 @@
    "rss_oldest": "2026-08-31",
    "rss_newest": "2026-10-18",
    "has_shorts_tab": true,
+   "title_median_chars": 33.0,
    "uploads_per_week": 2.05
   },
   {
@@ -342,6 +383,7 @@
    "rss_oldest": "2026-10-24",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 99.0,
    "uploads_per_week": 47.04
   },
   {
@@ -362,6 +404,7 @@
    "rss_oldest": "2026-10-25",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 90.0,
    "uploads_per_week": 113.62
   },
   {
@@ -381,6 +424,7 @@
    "rss_oldest": "2026-10-25",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 90.5,
    "uploads_per_week": 78.4
   },
   {
@@ -399,6 +443,7 @@
    "rss_oldest": "2026-01-16",
    "rss_newest": "2026-10-23",
    "has_shorts_tab": false,
+   "title_median_chars": 27.5,
    "uploads_per_week": 0.35
   },
   {
@@ -418,6 +463,7 @@
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 71.0,
    "uploads_per_week": 676.78
   },
   {
@@ -437,6 +483,7 @@
    "rss_oldest": "2026-09-25",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 49.0,
    "uploads_per_week": 3.27
   },
   {
@@ -456,6 +503,7 @@
    "rss_oldest": "2026-02-28",
    "rss_newest": "2026-08-17",
    "has_shorts_tab": true,
+   "title_median_chars": 39.0,
    "uploads_per_week": 0.58
   },
   {
@@ -475,6 +523,7 @@
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 60.0,
    "uploads_per_week": 1019.78
   },
   {
@@ -494,6 +543,7 @@
    "rss_oldest": "2026-09-13",
    "rss_newest": "2026-10-24",
    "has_shorts_tab": true,
+   "title_median_chars": 87.5,
    "uploads_per_week": 2.41
   },
   {
@@ -513,6 +563,7 @@
    "rss_oldest": "2026-10-12",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 37.0,
    "uploads_per_week": 7.0
   },
   {
@@ -532,6 +583,7 @@
    "rss_oldest": "2025-09-15",
    "rss_newest": "2026-08-08",
    "has_shorts_tab": true,
+   "title_median_chars": 39.0,
    "uploads_per_week": 0.3
   },
   {
@@ -551,6 +603,7 @@
    "rss_oldest": "2026-10-19",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 57.5,
    "uploads_per_week": 13.93
   },
   {
@@ -570,6 +623,7 @@
    "rss_oldest": "2026-09-30",
    "rss_newest": "2026-10-15",
    "has_shorts_tab": true,
+   "title_median_chars": 54.5,
    "uploads_per_week": 6.57
   },
   {
@@ -590,6 +644,7 @@
    "rss_oldest": "2026-10-14",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 83.5,
    "uploads_per_week": 8.25
   },
   {
@@ -608,6 +663,7 @@
    "rss_oldest": "2026-10-24",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 29.0,
    "uploads_per_week": 43.12
   },
   {
@@ -627,6 +683,7 @@
    "rss_oldest": "2026-06-20",
    "rss_newest": "2026-10-24",
    "has_shorts_tab": true,
+   "title_median_chars": 37.0,
    "uploads_per_week": 0.78
   },
   {
@@ -648,6 +705,7 @@
    "rss_oldest": "2026-06-10",
    "rss_newest": "2026-10-24",
    "has_shorts_tab": true,
+   "title_median_chars": 47.5,
    "uploads_per_week": 0.72
   },
   {
@@ -667,6 +725,7 @@
    "rss_oldest": "2026-10-23",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 91.5,
    "uploads_per_week": 35.1
   },
   {
@@ -686,6 +745,7 @@
    "rss_oldest": "2026-10-12",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 44.5,
    "uploads_per_week": 7.0
   },
   {
@@ -706,6 +766,7 @@
    "rss_oldest": "2026-10-19",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 43.5,
    "uploads_per_week": 14.25
   },
   {
@@ -726,6 +787,7 @@
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 81.0,
    "uploads_per_week": 1290.73
   },
   {
@@ -745,6 +807,7 @@
    "rss_oldest": "2026-10-23",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 97.5,
    "uploads_per_week": 30.68
   },
   {
@@ -764,6 +827,7 @@
    "rss_oldest": "2026-10-16",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 43.0,
    "uploads_per_week": 9.6
   },
   {
@@ -783,6 +847,7 @@
    "rss_oldest": "2026-10-16",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 60.0,
    "uploads_per_week": 9.93
   },
   {
@@ -802,6 +867,7 @@
    "rss_oldest": "2026-09-21",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 30.5,
    "uploads_per_week": 2.81
   },
   {
@@ -820,6 +886,7 @@
    "rss_oldest": "2026-07-03",
    "rss_newest": "2026-07-03",
    "has_shorts_tab": true,
+   "title_median_chars": 70.0,
    "uploads_per_week": 195.85
   },
   {
@@ -839,6 +906,7 @@
    "rss_oldest": "2026-10-23",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 42.0,
    "uploads_per_week": 36.2
   },
   {
@@ -858,6 +926,7 @@
    "rss_oldest": "2026-10-21",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 45.0,
    "uploads_per_week": 19.37
   },
   {
@@ -876,6 +945,7 @@
    "rss_oldest": "2026-09-04",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 43.5,
    "uploads_per_week": 1.92
   },
   {
@@ -897,6 +967,7 @@
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 96.5,
    "uploads_per_week": null
   },
   {
@@ -916,6 +987,7 @@
    "rss_oldest": "2026-10-18",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 99.0,
    "uploads_per_week": 12.89
   },
   {
@@ -935,6 +1007,7 @@
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 76.5,
    "uploads_per_week": 1133.19
   },
   {
@@ -954,6 +1027,7 @@
    "rss_oldest": "2026-10-21",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 89.0,
    "uploads_per_week": 20.45
   },
   {
@@ -973,6 +1047,7 @@
    "rss_oldest": "2026-10-17",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 84.0,
    "uploads_per_week": 10.77
   },
   {
@@ -992,6 +1067,7 @@
    "rss_oldest": "2026-09-26",
    "rss_newest": "2026-10-23",
    "has_shorts_tab": true,
+   "title_median_chars": 98.0,
    "uploads_per_week": 3.63
   },
   {
@@ -1011,6 +1087,7 @@
    "rss_oldest": "2026-10-08",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 74,
    "uploads_per_week": 5.76
   },
   {
@@ -1031,6 +1108,7 @@
    "rss_oldest": "2026-10-15",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 34.0,
    "uploads_per_week": 9.7
   },
   {
@@ -1049,6 +1127,7 @@
    "rss_oldest": "2026-10-17",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 100.0,
    "uploads_per_week": 11.53
   },
   {
@@ -1068,6 +1147,7 @@
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 67.5,
    "uploads_per_week": 1567.13
   },
   {
@@ -1086,6 +1166,7 @@
    "rss_oldest": "2026-10-19",
    "rss_newest": "2026-10-22",
    "has_shorts_tab": true,
+   "title_median_chars": 63.0,
    "uploads_per_week": 32.44
   },
   {
@@ -1104,6 +1185,7 @@
    "rss_oldest": "2026-10-18",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 34.5,
    "uploads_per_week": 13.98
   },
   {
@@ -1123,6 +1205,7 @@
    "rss_oldest": "2024-11-18",
    "rss_newest": "2025-12-01",
    "has_shorts_tab": true,
+   "title_median_chars": 46.5,
    "uploads_per_week": 0.26
   },
   {
@@ -1141,6 +1224,7 @@
    "rss_oldest": "2026-10-24",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 72.5,
    "uploads_per_week": 84.0
   },
   {
@@ -1160,6 +1244,7 @@
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 84.5,
    "uploads_per_week": 336.07
   },
   {
@@ -1178,6 +1263,7 @@
    "rss_oldest": "2026-10-23",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 91.5,
    "uploads_per_week": 30.77
   },
   {
@@ -1198,6 +1284,7 @@
    "rss_oldest": "2026-02-23",
    "rss_newest": "2026-10-05",
    "has_shorts_tab": true,
+   "title_median_chars": 49.5,
    "uploads_per_week": 0.44
   },
   {
@@ -1217,6 +1304,7 @@
    "rss_oldest": "2026-10-10",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 31.5,
    "uploads_per_week": 6.52
   },
   {
@@ -1236,6 +1324,7 @@
    "rss_oldest": "2026-08-04",
    "rss_newest": "2026-10-21",
    "has_shorts_tab": true,
+   "title_median_chars": 37.0,
    "uploads_per_week": 1.26
   },
   {
@@ -1255,6 +1344,7 @@
    "rss_oldest": "2026-09-14",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 94.0,
    "uploads_per_week": 2.34
   },
   {
@@ -1273,6 +1363,7 @@
    "rss_oldest": "2026-08-18",
    "rss_newest": "2026-10-20",
    "has_shorts_tab": true,
+   "title_median_chars": 52.5,
    "uploads_per_week": 1.56
   },
   {
@@ -1291,6 +1382,7 @@
    "rss_oldest": "2026-10-19",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 93.5,
    "uploads_per_week": 14.08
   },
   {
@@ -1310,6 +1402,7 @@
    "rss_oldest": "2026-09-27",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 46.5,
    "uploads_per_week": 3.53
   },
   {
@@ -1328,6 +1421,7 @@
    "rss_oldest": "2026-10-25",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 77.5,
    "uploads_per_week": 80.94
   },
   {
@@ -1347,6 +1441,7 @@
    "rss_oldest": "2026-05-09",
    "rss_newest": "2026-10-23",
    "has_shorts_tab": true,
+   "title_median_chars": 31.5,
    "uploads_per_week": 0.59
   },
   {
@@ -1367,6 +1462,7 @@
    "rss_oldest": "2026-10-14",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 88.0,
    "uploads_per_week": 8.17
   },
   {
@@ -1386,6 +1482,7 @@
    "rss_oldest": "2026-10-09",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 45.0,
    "uploads_per_week": 6.1
   },
   {
@@ -1405,6 +1502,7 @@
    "rss_oldest": "2026-03-27",
    "rss_newest": "2026-10-12",
    "has_shorts_tab": false,
+   "title_median_chars": 93.5,
    "uploads_per_week": 0.49
   },
   {
@@ -1424,6 +1522,7 @@
    "rss_oldest": "2026-04-29",
    "rss_newest": "2026-09-07",
    "has_shorts_tab": true,
+   "title_median_chars": 44.0,
    "uploads_per_week": 0.75
   },
   {
@@ -1442,6 +1541,7 @@
    "rss_oldest": "2026-02-11",
    "rss_newest": "2026-02-25",
    "has_shorts_tab": true,
+   "title_median_chars": 26.0,
    "uploads_per_week": 7.0
   },
   {
@@ -1461,6 +1561,7 @@
    "rss_oldest": "2026-08-17",
    "rss_newest": "2026-09-23",
    "has_shorts_tab": true,
+   "title_median_chars": 60.5,
    "uploads_per_week": 2.67
   },
   {
@@ -1480,6 +1581,7 @@
    "rss_oldest": "2026-03-15",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 77.0,
    "uploads_per_week": 0.44
   },
   {
@@ -1499,6 +1601,7 @@
    "rss_oldest": "2026-06-24",
    "rss_newest": "2026-08-19",
    "has_shorts_tab": true,
+   "title_median_chars": 52.0,
    "uploads_per_week": 1.75
   },
   {
@@ -1519,6 +1622,7 @@
    "rss_oldest": "2026-10-25",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 50.0,
    "uploads_per_week": 90.46
   },
   {
@@ -1538,6 +1642,7 @@
    "rss_oldest": "2026-08-04",
    "rss_newest": "2026-09-20",
    "has_shorts_tab": true,
+   "title_median_chars": 46.0,
    "uploads_per_week": 2.07
   },
   {
@@ -1558,6 +1663,7 @@
    "rss_oldest": "2026-10-20",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 91.0,
    "uploads_per_week": 15.92
   },
   {
@@ -1578,6 +1684,7 @@
    "rss_oldest": "2026-10-12",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 61.0,
    "uploads_per_week": 7.54
   },
   {
@@ -1597,6 +1704,7 @@
    "rss_oldest": "2026-09-12",
    "rss_newest": "2026-10-24",
    "has_shorts_tab": true,
+   "title_median_chars": 33.0,
    "uploads_per_week": 2.34
   },
   {
@@ -1616,6 +1724,7 @@
    "rss_oldest": "2026-09-07",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 47.0,
    "uploads_per_week": 2.04
   },
   {
@@ -1635,6 +1744,7 @@
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 85.0,
    "uploads_per_week": 1178.78
   },
   {
@@ -1653,6 +1763,7 @@
    "rss_oldest": "2026-05-30",
    "rss_newest": "2026-10-24",
    "has_shorts_tab": true,
+   "title_median_chars": 35.5,
    "uploads_per_week": 0.67
   },
   {
@@ -1673,6 +1784,7 @@
    "rss_oldest": "2026-10-14",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 92.0,
    "uploads_per_week": 8.91
   },
   {
@@ -1692,6 +1804,7 @@
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 82.0,
    "uploads_per_week": 520.93
   },
   {
@@ -1712,6 +1825,7 @@
    "rss_oldest": "2026-10-26",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 69.5,
    "uploads_per_week": 5188.24
   },
   {
@@ -1731,6 +1845,7 @@
    "rss_oldest": "2026-10-01",
    "rss_newest": "2026-10-22",
    "has_shorts_tab": true,
+   "title_median_chars": 61.0,
    "uploads_per_week": 4.69
   },
   {
@@ -1749,6 +1864,7 @@
    "rss_oldest": "2026-09-17",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 47.0,
    "uploads_per_week": 2.51
   },
   {
@@ -1768,6 +1884,7 @@
    "rss_oldest": "2026-10-21",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 51.0,
    "uploads_per_week": 19.96
   },
   {
@@ -1788,6 +1905,7 @@
    "rss_oldest": "2026-07-21",
    "rss_newest": "2026-10-14",
    "has_shorts_tab": true,
+   "title_median_chars": 56.0,
    "uploads_per_week": 1.15
   },
   {
@@ -1806,6 +1924,7 @@
    "rss_oldest": "2026-10-23",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 96.0,
    "uploads_per_week": 30.95
   },
   {
@@ -1826,6 +1945,7 @@
    "rss_oldest": "2026-10-23",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 95.5,
    "uploads_per_week": 30.91
   },
   {
@@ -1847,6 +1967,7 @@
    "rss_oldest": "2026-09-21",
    "rss_newest": "2026-10-22",
    "has_shorts_tab": true,
+   "title_median_chars": 53.5,
    "uploads_per_week": 3.15
   },
   {
@@ -1866,6 +1987,7 @@
    "rss_oldest": "2026-10-20",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 51.0,
    "uploads_per_week": 16.36
   },
   {
@@ -1884,6 +2006,7 @@
    "rss_oldest": "2026-07-28",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 41.5,
    "uploads_per_week": 1.1
   },
   {
@@ -1903,6 +2026,7 @@
    "rss_oldest": "2025-01-05",
    "rss_newest": "2025-09-29",
    "has_shorts_tab": true,
+   "title_median_chars": 58.5,
    "uploads_per_week": 0.37
   },
   {
@@ -1922,6 +2046,7 @@
    "rss_oldest": "2026-09-01",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 30,
    "uploads_per_week": 1.78
   },
   {
@@ -1942,6 +2067,7 @@
    "rss_oldest": "2026-10-11",
    "rss_newest": "2026-10-25",
    "has_shorts_tab": true,
+   "title_median_chars": 45.0,
    "uploads_per_week": 6.89
   },
   {
@@ -1960,6 +2086,7 @@
    "rss_oldest": "2026-10-25",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 99,
    "uploads_per_week": 73.52
   },
   {
@@ -1979,6 +2106,7 @@
    "rss_oldest": "2026-10-12",
    "rss_newest": "2026-10-26",
    "has_shorts_tab": true,
+   "title_median_chars": 57,
    "uploads_per_week": 7.0
   },
   {
@@ -1997,6 +2125,7 @@
    "rss_oldest": "2026-09-25",
    "rss_newest": "2026-10-21",
    "has_shorts_tab": true,
+   "title_median_chars": 23.0,
    "uploads_per_week": 3.74
   },
   {
@@ -2016,6 +2145,7 @@
    "rss_oldest": "2025-09-27",
    "rss_newest": "2026-10-20",
    "has_shorts_tab": true,
+   "title_median_chars": 34.5,
    "uploads_per_week": 0.25
   }
  ]
