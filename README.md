@@ -93,6 +93,8 @@ The skill in [`skills/caption-checker/SKILL.md`](skills/caption-checker/SKILL.md
 
 [`study-dubbing/`](study-dubbing) holds the [YouTube dubbing study](https://www.markstudios.com/research/youtube-dubbing-study): every audio track on 485 videos from the 97 most-subscribed channels, split into the channels' own dubs and YouTube's automatic ones.
 
+[`study-video-length/`](study-video-length) holds the [YouTube video length study](https://www.markstudios.com/research/youtube-video-length-study): durations of 2,859 latest videos and the Shorts share of 1,484 recent uploads on the most-subscribed channels.
+
 ## Version history
 
 See [CHANGELOG.md](CHANGELOG.md) and [releases](https://github.com/markksantos/caption-checker/releases).
