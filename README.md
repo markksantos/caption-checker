@@ -89,6 +89,10 @@ The skill in [`skills/caption-checker/SKILL.md`](skills/caption-checker/SKILL.md
 
 [`study/`](study) holds the code and data behind the [caption reading speed study](https://www.markstudios.com/research/caption-reading-speed-study): 339,521 captions in 387 NASA videos and MIT OpenCourseWare lectures, measured with this library.
 
+[`study-auto-captions/`](study-auto-captions) holds the [YouTube auto-caption accuracy study](https://www.markstudios.com/research/youtube-auto-caption-accuracy-study): automatic vs human captions on 299 videos, plus caption coverage of the most-subscribed channels.
+
+[`study-dubbing/`](study-dubbing) holds the [YouTube dubbing study](https://www.markstudios.com/research/youtube-dubbing-study): every audio track on 485 videos from the 97 most-subscribed channels, split into the channels' own dubs and YouTube's automatic ones.
+
 ## Version history
 
 See [CHANGELOG.md](CHANGELOG.md) and [releases](https://github.com/markksantos/caption-checker/releases).
