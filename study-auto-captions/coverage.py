@@ -19,14 +19,16 @@ if not CH.exists():
     tbl = t[t.find('{|'):t.find('\n|}', t.find('{|'))]
     chans = []
     for row in tbl.split('|-'):
-        m = re.search(r'\{\{plk\|(https?://www\.youtube\.com/[^|}]+)', row)
+        # any YouTube host: Wikipedia's 2026-10 revision links Karla Bustillos (row 92) as youtube.com/@karlabustillos,
+        # which a www-only pattern dropped, shifting every later rank by one (MarkStudios QA-UPD-136)
+        m = re.search(r'\{\{plk\|(https?://(?:(?:www|m)\.)?youtube\.com/[^|}]+)', row)
         if not m:
             continue
         cells = [c.strip() for c in row.strip().split('\n| ') if c.strip()]
         name = re.sub(r'\[\[(?:[^|\]]*\|)?([^\]]+)\]\]', r'\1', cells[0].lstrip('| ')).split('<ref')[0].strip()
         lang = re.sub(r'\[\[(?:[^|\]]*\|)?([^\]]+)\]\]', r'\1', cells[3]).split('<ref')[0].strip() if len(cells) > 3 else ''
         subs = re.match(r'[\d.]+', cells[2]).group(0) if len(cells) > 2 and re.match(r'[\d.]+', cells[2]) else ''
-        chans.append({'rank': len(chans) + 1, 'name': name, 'url': m.group(1).rstrip('/'), 'subs_m': subs, 'language': lang})
+        chans.append({'rank': len(chans) + 1, 'name': name, 'url': re.sub(r'^https?://(?:(?:www|m)\.)?youtube\.com', 'https://www.youtube.com', m.group(1).rstrip('/')), 'subs_m': subs, 'language': lang})
     CH.write_text(json.dumps({'source_revid': j['parse'].get('revid'), 'fetched': time.strftime('%Y-%m-%d'), 'channels': chans}, indent=1, ensure_ascii=False))
 chans = json.loads(CH.read_text())['channels']
 done = {}
