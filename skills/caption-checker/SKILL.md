@@ -65,4 +65,4 @@ npx -y github:markksantos/caption-checker captions.vtt --standard bbc --vertical
 - [Free online caption checker](https://www.markstudios.com/tools/caption-checker): the same checker in the browser, no install and no upload, with an embed code for course and accessibility pages.
 - [Caption reading speed study](https://www.markstudios.com/research/caption-reading-speed-study): 339,521 captions in 387 NASA videos and MIT OpenCourseWare lectures measured with this checker against all three standards.
 - Source, CLI flags and the library API: https://github.com/markksantos/caption-checker
-- Built by [Mark Studios](https://www.markstudios.com), a video editing and production studio.
+- Built by [Mark Studios](https://www.markstudios.com), a [video editing](https://www.markstudios.com/services/video-editing) and production studio.
