@@ -107,4 +107,4 @@ npm test
 
 ## License
 
-MIT © [Mark Studios](https://www.markstudios.com), a video editing and production studio.
+MIT © [Mark Studios](https://www.markstudios.com), a [video editing](https://www.markstudios.com/services/video-editing) and production studio.
