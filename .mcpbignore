@@ -7,3 +7,4 @@ server.json
 *.mcpb
 .claude-plugin/
 skills/
+study-*/
