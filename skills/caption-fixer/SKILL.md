@@ -33,7 +33,7 @@ What it never changes: the words, any in-time, the number of captions, cue ids, 
 2. **Run `fix_captions`** with `path` (or `text`), `standard`, `fps` and `vertical`. The first content item is the report; the second is the fixed file.
 3. **Save the fixed file next to the original**, with `.fixed` before the extension (`captions.fixed.srt`). Overwrite the original only when the user asks for that.
 4. **Report** the before-and-after line ("6 of 8 captions now meet Netflix English (before: 2)") and the kinds of change, grouped ("rewrapped 14 captions, moved 31 out-times"), not every line.
-5. **Hand over what's left.** Each caption in "Left for a person" has a reason. Suggest a concrete fix for each that keeps the words: split a caption that reads too fast at a natural pause into two, merge a flash caption into its neighbour, or move the next caption's in-time if it's late against the audio. Rewrite wording only if the user asks for edited captions; condensing is an editorial call.
+5. **Hand over what's left.** Each caption in "Left for a person" has a reason. Suggest a concrete fix for each that keeps the words: split a caption that reads too fast at a natural pause into two, merge a flash caption into its neighbor, or move the next caption's in-time if it's late against the audio. Rewrite wording only if the user asks for edited captions; condensing is an editorial call.
 6. **Confirm** by running `check_captions` on the saved file when the user wants proof it passes.
 
 ## Output
@@ -58,7 +58,7 @@ What it never changes: the words, any in-time, the number of captions, cue ids, 
 #4  Rewrapped to 2 lines (38 + 35 characters)
 #6  Rewrapped to 2 lines (29 + 16 characters)
 Left for a person (2):
-#3  Still on screen only 0.52 s (minimum 5/6 of a second) with no free time after it: merge it with a neighbour or move the next caption
+#3  Still on screen only 0.52 s (minimum 5/6 of a second) with no free time after it: merge it with a neighbor or move the next caption
 #4  Still reads at 40.2 characters a second (limit 20) with no free time after it: split it, condense it or move the next caption
 ```
 

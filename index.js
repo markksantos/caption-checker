@@ -302,7 +302,7 @@ function fix(src, standard = 'netflix', opts = {}) {
         const rate = S.cps ? `${r1(chars / dur)} characters a second` : `${Math.round((words / dur) * 60)} words a minute`;
         note(unresolved, c.n, 'why', readNeed >= (S.minDur || 0)
           ? `Still reads at ${rate} (${S.speedNote}) with no free time after it: split it, condense it or move the next caption`
-          : `Still on screen only ${r2(dur)} s (minimum ${S.minDurLabel}) with no free time after it: merge it with a neighbour or move the next caption`);
+          : `Still on screen only ${r2(dur)} s (minimum ${S.minDurLabel}) with no free time after it: merge it with a neighbor or move the next caption`);
       }
     }
     if (S.chainBelow && next && latest <= longest) {
