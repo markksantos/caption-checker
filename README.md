@@ -96,6 +96,7 @@ $ caption-check film.srt --sync 1=0:04.200,640=41:12.5 --out film.synced.srt    
 
 - **Converting** keeps every caption's text and timing. Italic, bold and underline stay; SubRip `{\an8}`-style position codes become WebVTT `line`/`align` settings and back; `&` and `<` are escaped for WebVTT and unescaped for SubRip; `<v Name>` voice tags become "Name: " with `--speakers`. Whatever the other format can't hold (font colours, NOTE blocks, WebVTT position or size) is listed, not silently dropped.
 - **Retiming** works on integer milliseconds, so nothing drifts from rounding. A two-point sync says when the stretch matches a common frame-rate pair (23.976/25, 24/25, 29.97/30 ...). Times pushed before 0:00 are clamped and counted.
+- **Encodings.** Every mode reads UTF-8, UTF-16 (by its byte-order mark) and Windows-1252, the encoding SubRip itself writes by default, and writes UTF-8.
 
 It uses the same reader and writer as the online [SRT to VTT converter](https://www.markstudios.com/tools/srt-vtt-converter) and [subtitle time shifter](https://www.markstudios.com/tools/subtitle-time-shift) (`subtitles.js` is that code, unchanged). Run on 300 caption files (34,836 captions), SRT to WebVTT and back kept every caption's timing, and a shift there and back restored every time.
 

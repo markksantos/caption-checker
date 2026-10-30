@@ -50,6 +50,16 @@ const human = (ms) => {  // 1250 → "1.250 s", 83456 → "1:23.456"
   return ms < 60000 ? (ms / 1000).toFixed(3) + ' s' : S.ts(ms, 'srt').replace(/^00:/, '').replace(',', '.');
 };
 
+// A caption file's bytes as text: UTF-16 by its byte-order mark, UTF-8 when it decodes cleanly, otherwise Windows-1252,
+// which SubRip itself writes by default (the same rule as the online tools). Returns { text, encoding }.
+function decode(bytes) {
+  const buf = Buffer.isBuffer(bytes) ? bytes : Buffer.from(bytes);
+  if (buf[0] === 0xFF && buf[1] === 0xFE) return { text: new TextDecoder('utf-16le').decode(buf).replace(/^\uFEFF/, ''), encoding: 'UTF-16' };
+  if (buf[0] === 0xFE && buf[1] === 0xFF) return { text: new TextDecoder('utf-16be').decode(buf).replace(/^\uFEFF/, ''), encoding: 'UTF-16' };
+  try { return { text: new TextDecoder('utf-8', { fatal: true, ignoreBOM: true }).decode(buf), encoding: 'UTF-8' }; }  // ignoreBOM keeps the mark, so --fix can keep it
+  catch (e) { return { text: new TextDecoder('windows-1252').decode(buf), encoding: 'Windows-1252' }; }
+}
+
 function read(src, name) {
   const p = S.parse(String(src), name);
   const timed = p.cues.filter((c) => Number.isFinite(c.startMs));
@@ -158,4 +168,4 @@ function retime(src, how = {}) {
   return out;
 }
 
-module.exports = { convert, retime, parseTime };
+module.exports = { convert, retime, parseTime, decode };

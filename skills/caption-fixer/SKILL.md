@@ -1,7 +1,7 @@
 ---
 name: caption-fixer
 description: Use when the user wants an SRT or WebVTT caption or subtitle file fixed so it meets Netflix, BBC or DCMP Captioning Key limits, not just checked - lines too long, too many lines, overlapping subtitles, gaps under the minimum, captions on screen too briefly or reading too fast. Trigger with "fix these captions", "make this SRT pass Netflix's spec", "rewrap my subtitles to 42 characters" or "fix the overlapping subtitles".
-version: 1.3.0
+version: 1.3.1
 author: Mark Studios <contact@markstudios.com>
 license: MIT
 compatibility: Claude Code with the caption-checker plugin or MCP server; any agent that can run Node 18+ for the CLI fallback. Works offline.

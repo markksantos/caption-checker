@@ -80,3 +80,15 @@ test('parseTime reads the forms people type', () => {
     ['1h2m3.5s', 3723500], ['750ms', 750], ['+3', 3000], [2.25, 2250]]) assert.equal(parseTime(s), ms, String(s));
   assert.ok(Number.isNaN(parseTime('soon')));
 });
+
+test('caption files in Windows-1252 and UTF-16 are read correctly', () => {
+  const { decode } = require('../convert.js');
+  const srt = '1\n00:00:01,000 --> 00:00:02,000\nCafé, señor — ¿sí?\n';
+  assert.deepEqual(decode(Buffer.from(srt, 'utf8')), { text: srt, encoding: 'UTF-8' });
+  const cp = Buffer.from([...Buffer.from('1\n00:00:01,000 --> 00:00:02,000\nCaf', 'latin1'), 0xE9, ...Buffer.from(', se', 'latin1'), 0xF1,
+    ...Buffer.from('or ', 'latin1'), 0x97, ...Buffer.from(' ', 'latin1'), 0xBF, ...Buffer.from('s', 'latin1'), 0xED, ...Buffer.from('?\n', 'latin1')]);
+  assert.deepEqual(decode(cp), { text: srt, encoding: 'Windows-1252' });
+  const u16 = Buffer.concat([Buffer.from([0xFF, 0xFE]), Buffer.from(srt, 'utf16le')]);
+  assert.deepEqual(decode(u16), { text: srt, encoding: 'UTF-16' });
+  assert.match(convert(decode(cp).text, 'vtt').text, /Café, señor — ¿sí\?/);
+});

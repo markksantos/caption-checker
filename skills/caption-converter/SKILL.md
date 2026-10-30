@@ -1,7 +1,7 @@
 ---
 name: caption-converter
 description: Use when the user wants an SRT or WebVTT caption or subtitle file converted to the other format, or its timing fixed because it is out of sync with the video - captions that are all early or late, late from a certain point on, drifting later and later (a frame-rate mismatch such as 23.976 vs 25 fps), or that need re-syncing to two known points. Trigger with "convert this SRT to VTT", "make a WebVTT file for my HTML5 player", "the subtitles are 2 seconds late", "the captions drift out of sync", "shift these subtitles" or "sync the subtitles to the video".
-version: 1.3.0
+version: 1.3.1
 author: Mark Studios <contact@markstudios.com>
 license: MIT
 compatibility: Claude Code with the caption-checker plugin or MCP server; any agent that can run Node 18+ for the CLI fallback. Works offline.

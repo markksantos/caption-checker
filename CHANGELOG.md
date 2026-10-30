@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.1 (2026-10-30)
+
+- Fixed: caption files saved in Windows-1252 (SubRip's own default, common for older .srt files) or UTF-16 were read as UTF-8, so accented letters became replacement characters, and `--fix`, `--to` and the retiming flags wrote them into the new file that way. The CLI and the MCP server now read UTF-16 by its byte-order mark, UTF-8 when it decodes cleanly and Windows-1252 otherwise, as the online tools do, and write UTF-8.
+
 ## 1.3.0 (2026-10-30)
 
 - Convert and retime: `caption-check captions.srt --to vtt`, and `--shift`, `--start-at`, `--rate` or `--sync` to fix captions that are out of sync with the video (an offset, from caption N on, a new start for one caption, a frame-rate change such as 23.976 to 25 fps, or two pinned captions with everything stretched between them). `convert()` and `retime()` in `convert.js`, and `convert_captions` and `retime_captions` MCP tools. Built on `subtitles.js`, the reader and writer of the online SRT/VTT converter and subtitle time shifter, unchanged, so both convert a file the same way.
