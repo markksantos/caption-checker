@@ -13,7 +13,7 @@
     {
       "registryType": "mcpb",
       "identifier": "https://github.com/markksantos/caption-checker/releases/download/v1.3.0/caption-checker-1.3.0.mcpb",
-      "fileSha256": "fdd43729ef9e00a7ce01c50ba9a16def016a87e7b970dbab70a2cbf30c5db717",
+      "fileSha256": "5415a7c19bc48467b740972a9115ad21ab11bc6ac74fb8dafda0a4ca8cc309df",
       "transport": {
         "type": "stdio"
       }
