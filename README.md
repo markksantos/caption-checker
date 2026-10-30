@@ -71,7 +71,7 @@ travel-vlog.srt: 8 changes in 7 captions, written to fixed.srt
 fixed.srt: 6 of 8 captions meet Netflix English, adult programs (before: 2 of 8)
 ```
 
-- **Line breaks.** A caption with a line over the limit, or too many lines, is rewrapped into the fewest lines that fit, breaking after punctuation where it can and never after an article, preposition, conjunction or auxiliary verb ("the", "of", "and", "was"). Captions with formatting tags or two speakers are left for a person.
+- **Line breaks.** A caption with a line over the limit, or too many lines, is rewrapped into the fewest lines that fit, breaking after punctuation where it can and avoiding a break after an article, preposition, conjunction or auxiliary verb ("the", "of", "and", "was"). Captions with formatting tags or two speakers are left for a person.
 - **Out-times.** An out-time is pulled back off an overlap or a gap under the minimum, cut to the longest time on screen, and pushed into free time when a caption is too short or reads too fast. For Netflix, gaps under 0.5 s are closed to 2 frames, as its timing guide asks.
 - **Everything else stays.** Captions that needed nothing keep their exact bytes, and so do cue ids, WebVTT headers, NOTE blocks, cue settings, line endings and a byte-order mark. A second run changes nothing.
 
