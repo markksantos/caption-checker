@@ -66,7 +66,7 @@ travel-vlog.srt: 8 changes in 7 captions, written to fixed.srt
   #5  Out-time 0:17.000 -> 0:16.100 (off an overlap, to the 7 s maximum)
   ...
   Left for a person (2):
-  #3  Still on screen only 0.52 s (minimum 5/6 of a second) with no free time after it: merge it with a neighbour or move the next caption
+  #3  Still on screen only 0.52 s (minimum 5/6 of a second) with no free time after it: merge it with a neighbor or move the next caption
   #4  Still reads at 40.2 characters a second (limit 20) with no free time after it: split it, condense it or move the next caption
 fixed.srt: 6 of 8 captions meet Netflix English, adult programs (before: 2 of 8)
 ```

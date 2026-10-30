@@ -27,7 +27,7 @@ It uses the two tools of the caption-checker MCP server, which ships with the pl
 1. **Pick the standard.** Netflix (`netflix`) is the default. Use `netflix-kids` for children's programs, `bbc` for UK broadcast or BBC delivery, and a `dcmp-*` level (`dcmp-lower` 130, `dcmp-middle` 140, `dcmp-upper` 160 words a minute) for US educational media, matched to the audience level the user names. If the user names a platform without a standard, say which one you used.
 2. **Run `check_captions`** with `path` (a file on disk) or `text` (pasted captions), plus `standard`. Pass `fps` when the video isn't 24 fps, because Netflix's minimum gap is counted in frames. Pass `vertical: true` for 9:16 video, where the BBC allows three lines.
 3. **Report the result.** Lead with the count line ("6 of 8 captions meet…"), then the flagged captions with their timecodes. Group repeats ("14 captions run over 20 characters a second") rather than listing hundreds of lines.
-4. **Suggest fixes that keep the words.** Split a long caption across two, extend its out-time into a gap, or merge a flash caption into its neighbour. Only shorten the wording if the user asks for edited captions. When the user wants the file fixed, not just checked, use the caption-fixer skill: `fix_captions` does the rewrapping and out-time moves itself.
+4. **Suggest fixes that keep the words.** Split a long caption across two, extend its out-time into a gap, or merge a flash caption into its neighbor. Only shorten the wording if the user asks for edited captions. When the user wants the file fixed, not just checked, use the caption-fixer skill: `fix_captions` does the rewrapping and out-time moves itself.
 5. Use `list_standards` when the user asks what a limit is or where it comes from.
 
 ## Output
