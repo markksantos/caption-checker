@@ -3,7 +3,8 @@
 const fs = require('fs');
 const path = require('path');
 const { parse, check, fix, STANDARDS } = require('..');
-const { convert, retime } = require('../convert.js');
+const { convert, retime, decode } = require('../convert.js');
+const readCaptions = (file) => decode(fs.readFileSync(file));
 
 const HELP = `caption-check: check SRT / WebVTT captions against Netflix, BBC or DCMP limits, fix them, convert or retime them
 
@@ -84,12 +85,12 @@ if (Object.keys(conv).length) {
   if (files.length !== 1) { console.error('Convert and retime take exactly one input file'); process.exit(2); }
   if (!retiming && conv.to === undefined) { console.error('--from, --speakers, --crlf and --out go with --to, --shift, --start-at, --rate or --sync'); process.exit(2); }
   if (conv.out === '') { console.error('--out needs a path'); process.exit(2); }
-  let text, res;
-  try { text = fs.readFileSync(files[0], 'utf8'); } catch (e) { console.error(files[0] + ': ' + e.message); process.exit(2); }
+  let text, res, encoding;
+  try { ({ text, encoding } = readCaptions(files[0])); } catch (e) { console.error(files[0] + ': ' + e.message); process.exit(2); }
   try { res = retiming ? retime(text, how) : convert(text, how.to, how); } catch (e) { console.error(path.basename(files[0]) + ': ' + e.message); process.exit(2); }
   const label = { srt: 'SubRip (.srt)', vtt: 'WebVTT (.vtt)' };
-  const report = [retiming ? `${path.basename(files[0])}: ${res.summary}` : `${path.basename(files[0])}: ${res.captions} captions converted from ${label[res.from]} to ${label[res.to]}.`]
-    .concat(retiming && res.to !== res.from ? [`Written as ${label[res.to]}.`] : [], res.notes);
+  const report = [retiming ? `${path.basename(files[0])}: ${res.summary}` : `${path.basename(files[0])}: ${res.captions} ${res.captions === 1 ? 'caption' : 'captions'} converted from ${label[res.from]} to ${label[res.to]}.`]
+    .concat(retiming && res.to !== res.from ? [`Written as ${label[res.to]}.`] : [], encoding !== 'UTF-8' ? [`Read as ${encoding}; written as UTF-8.`] : [], res.notes);
   if (opts.json) report.splice(0, report.length, JSON.stringify({ file: files[0], out: conv.out || null, ...res, text: undefined }, null, 2));
   if (conv.out) {
     try { fs.writeFileSync(conv.out, res.text); } catch (e) { console.error(conv.out + ': ' + e.message); process.exit(2); }
@@ -109,7 +110,7 @@ const tc = (sec) => {
 
 if (opts.fix) {
   let text;
-  try { text = fs.readFileSync(files[0], 'utf8'); } catch (e) { console.error(files[0] + ': ' + e.message); process.exit(2); }
+  try { ({ text } = readCaptions(files[0])); } catch (e) { console.error(files[0] + ': ' + e.message); process.exit(2); }
   const res = fix(text, opts.standard, opts);
   try { fs.writeFileSync(opts.fix, res.text); } catch (e) { console.error(opts.fix + ': ' + e.message); process.exit(2); }
   const total = res.after.cues.length;
@@ -134,7 +135,7 @@ let failed = false;
 const out = [];
 for (const file of files) {
   let text;
-  try { text = fs.readFileSync(file, 'utf8'); } catch (e) { console.error(file + ': ' + e.message); process.exit(2); }
+  try { ({ text } = readCaptions(file)); } catch (e) { console.error(file + ': ' + e.message); process.exit(2); }
   const parsed = parse(text);
   const res = check(parsed, opts.standard, opts);
   if (res.flagged || !parsed.cues.length) failed = true;

@@ -3,7 +3,7 @@
   "name": "io.github.markksantos/caption-checker",
   "title": "Caption Checker",
   "description": "Check, fix, convert and retime SRT and WebVTT captions against Netflix, BBC and DCMP limits.",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "websiteUrl": "https://www.markstudios.com/tools/caption-checker",
   "repository": {
     "url": "https://github.com/markksantos/caption-checker",
@@ -12,8 +12,8 @@
   "packages": [
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/markksantos/caption-checker/releases/download/v1.3.0/caption-checker-1.3.0.mcpb",
-      "fileSha256": "5415a7c19bc48467b740972a9115ad21ab11bc6ac74fb8dafda0a4ca8cc309df",
+      "identifier": "https://github.com/markksantos/caption-checker/releases/download/v1.3.1/caption-checker-1.3.1.mcpb",
+      "fileSha256": "a3207386df3604a486bfd8936890256b4aa0fd630bef5ff4b81f004f80efb6c7",
       "transport": {
         "type": "stdio"
       }

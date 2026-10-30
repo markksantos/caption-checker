@@ -5,7 +5,7 @@
 
 const fs = require('fs');
 const { parse, check, fix, STANDARDS, SOURCES } = require('./index.js');
-const { convert, retime } = require('./convert.js');
+const { convert, retime, decode } = require('./convert.js');
 const { version } = require('./package.json');
 
 const PROTOCOL_VERSIONS = ['2025-11-25', '2025-06-18', '2025-03-26', '2024-11-05'];
@@ -168,7 +168,8 @@ function summarize(res, parsed, includeAdvice) {
   return lines.join('\n');
 }
 
-function createServer({ readFile = (p) => fs.readFileSync(p, 'utf8') } = {}) {
+// Files are read as UTF-8, UTF-16 (by byte-order mark) or, failing UTF-8, Windows-1252, which SubRip writes by default.
+function createServer({ readFile = (p) => decode(fs.readFileSync(p)).text } = {}) {
   // The arguments check_captions and fix_captions share: one of path or text, a standard and a frame rate.
   function input(args) {
     const hasPath = typeof args.path === 'string' && args.path !== '';
@@ -233,7 +234,7 @@ function createServer({ readFile = (p) => fs.readFileSync(p, 'utf8') } = {}) {
       try { res = convert(src, args.to, { speakers: args.speakers === true, keepIds: args.keep_ids !== false, eol: args.eol, name: args.path }); }
       catch (err) { throw new ToolError(err.message); }
       const label = { srt: 'SubRip (.srt)', vtt: 'WebVTT (.vtt)' };
-      const lines = [`${res.captions} captions converted from ${label[res.from]} to ${label[res.to]}.`, ...res.notes, 'The converted file is the next content item.'];
+      const lines = [`${res.captions} ${res.captions === 1 ? 'caption' : 'captions'} converted from ${label[res.from]} to ${label[res.to]}.`, ...res.notes, 'The converted file is the next content item.'];
       return { text: lines.join('\n'), extra: res.text, structured: { from: res.from, to: res.to, captions: res.captions, notes: res.notes, converted: res.text } };
     },
     async retime_captions(args) {
