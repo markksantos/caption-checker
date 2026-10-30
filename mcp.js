@@ -1,10 +1,11 @@
 'use strict';
 
 // A minimal Model Context Protocol server (stdio transport, newline-delimited
-// JSON-RPC 2.0) exposing the checker as three tools. No dependencies.
+// JSON-RPC 2.0) exposing the checker, fixer, converter and retimer as five tools. No dependencies.
 
 const fs = require('fs');
 const { parse, check, fix, STANDARDS, SOURCES } = require('./index.js');
+const { convert, retime } = require('./convert.js');
 const { version } = require('./package.json');
 
 const PROTOCOL_VERSIONS = ['2025-11-25', '2025-06-18', '2025-03-26', '2024-11-05'];
@@ -50,6 +51,62 @@ const TOOLS = [
         standard: { type: 'string', enum: STANDARD_IDS, description: 'Which standard to fix to (default netflix).' },
         fps: { type: 'number', exclusiveMinimum: 0, description: 'Frame rate for frame-based gaps (default 24).' },
         vertical: { type: 'boolean', description: '9:16 video; the BBC allows three lines.' },
+      },
+      additionalProperties: false,
+    },
+    annotations: { readOnlyHint: true, openWorldHint: false },
+  },
+  {
+    name: 'convert_captions',
+    title: 'Convert captions between SRT and WebVTT',
+    description:
+      'Convert a SubRip (.srt) caption file to WebVTT (.vtt) or back, keeping every caption\'s text and timing. Italic, bold ' +
+      'and underline are kept, SubRip {\\anN} position codes and WebVTT line/align settings are translated, and whatever the ' +
+      'other format cannot hold (font colours, voice tags, NOTE blocks) is listed. Returns the converted file as text ' +
+      '(second content item). Writes nothing to disk: save it yourself.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        path: { type: 'string', description: 'Path to a .srt or .vtt file on this machine.' },
+        text: { type: 'string', description: 'The caption file contents, when there is no file path.' },
+        to: { type: 'string', enum: ['srt', 'vtt'], description: 'Format to write (default: the other one).' },
+        speakers: { type: 'boolean', description: 'WebVTT to SubRip: write <v Name> voice tags as "Name: " instead of dropping them.' },
+        keep_ids: { type: 'boolean', description: 'SubRip to WebVTT: keep caption numbers as cue ids (default true).' },
+        eol: { type: 'string', enum: ['lf', 'crlf'], description: 'Line endings to write (default: the source\'s).' },
+      },
+      additionalProperties: false,
+    },
+    annotations: { readOnlyHint: true, openWorldHint: false },
+  },
+  {
+    name: 'retime_captions',
+    title: 'Retime captions',
+    description:
+      'Fix caption timing that is out of sync with the video, in one of four ways: offset (move every caption, or every ' +
+      'caption from number N on, by a time such as 1.5, -0:02.250 or 750ms), start_at (move the file so caption N starts at ' +
+      'a given time), rate (captions timed for one frame rate on a video at another, e.g. 23.976 to 25, which drift later ' +
+      'and later), or sync (pin two captions to their right start times and stretch everything else). Text, numbering and ' +
+      'settings are kept; times are integer milliseconds. Returns the retimed file as text (second content item).',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        path: { type: 'string', description: 'Path to a .srt or .vtt file on this machine.' },
+        text: { type: 'string', description: 'The caption file contents, when there is no file path.' },
+        offset: { type: ['string', 'number'], description: 'Move captions by this much: seconds as a number, or 1.5, -0:02.250, 2m30s, 750ms. Negative is earlier.' },
+        from: { type: 'integer', minimum: 1, description: 'With offset or start_at: leave the captions before this caption number alone.' },
+        start_at: {
+          type: 'object', description: 'Move the file so this caption starts at this time.',
+          properties: { caption: { type: 'integer', minimum: 1 }, time: { type: 'string' } }, required: ['caption', 'time'], additionalProperties: false,
+        },
+        rate: {
+          type: 'object', description: 'Frame rate the captions were timed for (from) and the video\'s frame rate (to).',
+          properties: { from: { type: 'number', exclusiveMinimum: 0 }, to: { type: 'number', exclusiveMinimum: 0 } }, required: ['from', 'to'], additionalProperties: false,
+        },
+        sync: {
+          type: 'array', minItems: 2, maxItems: 2, description: 'Two captions and the times they should start, ideally one near the start and one near the end.',
+          items: { type: 'object', properties: { caption: { type: 'integer', minimum: 1 }, time: { type: 'string' } }, required: ['caption', 'time'], additionalProperties: false },
+        },
+        to: { type: 'string', enum: ['srt', 'vtt'], description: 'Format to write (default: the same as the source).' },
       },
       additionalProperties: false,
     },
@@ -169,6 +226,28 @@ function createServer({ readFile = (p) => fs.readFileSync(p, 'utf8') } = {}) {
           changes: res.changes, unresolved: res.unresolved, fixed: res.text,
         },
       };
+    },
+    async convert_captions(args) {
+      const { src } = input({ path: args.path, text: args.text });
+      let res;
+      try { res = convert(src, args.to, { speakers: args.speakers === true, keepIds: args.keep_ids !== false, eol: args.eol, name: args.path }); }
+      catch (err) { throw new ToolError(err.message); }
+      const label = { srt: 'SubRip (.srt)', vtt: 'WebVTT (.vtt)' };
+      const lines = [`${res.captions} captions converted from ${label[res.from]} to ${label[res.to]}.`, ...res.notes, 'The converted file is the next content item.'];
+      return { text: lines.join('\n'), extra: res.text, structured: { from: res.from, to: res.to, captions: res.captions, notes: res.notes, converted: res.text } };
+    },
+    async retime_captions(args) {
+      const { src } = input({ path: args.path, text: args.text });
+      let res;
+      try {
+        res = retime(src, { offset: args.offset, from: args.from, startAt: args.start_at, rate: args.rate, sync: args.sync, to: args.to, name: args.path });
+      } catch (err) { throw new ToolError(err.message); }
+      const lines = [res.summary, ...(res.to !== res.from ? [`Written as ${res.to === 'vtt' ? 'WebVTT (.vtt)' : 'SubRip (.srt)'}.`] : []), ...res.notes,
+        'The retimed file is the next content item.'];
+      const structured = { from: res.from, to: res.to, captions: res.captions, changed: res.changed, clamped: res.clamped, summary: res.summary, notes: res.notes, retimed: res.text };
+      if (res.scale !== undefined) structured.scale = res.scale;
+      if (res.offsetMs !== undefined) structured.offsetMs = res.offsetMs;
+      return { text: lines.join('\n'), extra: res.text, structured };
     },
     async list_standards() {
       const standards = STANDARD_IDS.map((id) => ({ id, name: STANDARDS[id].name, limits: describeStandard(STANDARDS[id]), sources: sourcesFor(id) }));

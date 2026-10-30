@@ -1,7 +1,7 @@
 ---
 name: caption-checker
 description: Use when the user wants an SRT or WebVTT caption or subtitle file checked before it ships, asks whether captions read too fast, have lines that are too long or break Netflix, BBC or DCMP Captioning Key rules, or wants caption QA in CI. Trigger with "check these captions", "are my subtitles too fast?" or "will this SRT pass Netflix's spec?".
-version: 1.2.0
+version: 1.3.0
 author: Mark Studios <contact@markstudios.com>
 license: MIT
 compatibility: Claude Code with the caption-checker plugin or MCP server; any agent that can run Node 18+ for the CLI fallback. Works offline.

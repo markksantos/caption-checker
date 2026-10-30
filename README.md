@@ -1,6 +1,6 @@
 # caption-checker
 
-Check SRT and WebVTT captions against a published caption standard: **Netflix English**, the **BBC subtitle guidelines** or the **DCMP Captioning Key**. It flags captions that read too fast, lines that are too long, too many lines, captions that stay on screen too short or too long, gaps under the minimum, overlaps and broken timestamps.
+Check SRT and WebVTT captions against a published caption standard: **Netflix English**, the **BBC subtitle guidelines** or the **DCMP Captioning Key**. It flags captions that read too fast, lines that are too long, too many lines, captions that stay on screen too short or too long, gaps under the minimum, overlaps and broken timestamps. It can also fix those, convert SRT to WebVTT and back, and retime a file that's out of sync.
 
 No dependencies. Node 18+. The same checker runs in the browser, with no install and no upload, at **[markstudios.com/tools/caption-checker](https://www.markstudios.com/tools/caption-checker)**.
 
@@ -50,6 +50,10 @@ caption-check <file.srt|file.vtt> [more files] [options]
       --advice          also print advice-only notes
       --fix <out>       write a fixed copy to <out> (one input file)
       --mcp             run as an MCP server on stdio
+
+caption-check <file> --to vtt|srt [--speakers] [--crlf] [--out <file>]                     convert
+caption-check <file> --shift <time> [--from <n>] | --start-at <n=time> | --rate <from:to> | --sync <n=time,n=time>
+              [--to vtt|srt] [--out <file>]                                                retime
 ```
 
 It exits with 1 when any caption breaks a limit, so it works as a CI check before captions ship.
@@ -77,6 +81,24 @@ fixed.srt: 6 of 8 captions meet Netflix English, adult programs (before: 2 of 8)
 
 Run against 300 caption files with all six standards, it never changed a word, an in-time or the number of captions, and never left more captions failing than it started with.
 
+## Convert and retime
+
+`--to` converts SubRip to WebVTT or back; the retiming flags fix captions that are out of sync with the video. Without `--out`, the file goes to stdout and the summary to stderr.
+
+```
+$ caption-check examples/travel-vlog.srt --to vtt --out travel-vlog.vtt
+travel-vlog.srt: 8 captions converted from SubRip (.srt) to WebVTT (.vtt).
+Written to travel-vlog.vtt
+$ caption-check episode.srt --shift -2.5 --from 120 --out episode.synced.srt     # late by 2.5 s from caption 120 on
+$ caption-check film.srt --rate 23.976:25 --out film.25fps.srt                     # timed for 23.976 fps, video is 25 fps
+$ caption-check film.srt --sync 1=0:04.200,640=41:12.5 --out film.synced.srt       # pin two captions, stretch the rest
+```
+
+- **Converting** keeps every caption's text and timing. Italic, bold and underline stay; SubRip `{\an8}`-style position codes become WebVTT `line`/`align` settings and back; `&` and `<` are escaped for WebVTT and unescaped for SubRip; `<v Name>` voice tags become "Name: " with `--speakers`. Whatever the other format can't hold (font colours, NOTE blocks, WebVTT position or size) is listed, not silently dropped.
+- **Retiming** works on integer milliseconds, so nothing drifts from rounding. A two-point sync says when the stretch matches a common frame-rate pair (23.976/25, 24/25, 29.97/30 ...). Times pushed before 0:00 are clamped and counted.
+
+It uses the same reader and writer as the online [SRT to VTT converter](https://www.markstudios.com/tools/srt-vtt-converter) and [subtitle time shifter](https://www.markstudios.com/tools/subtitle-time-shift) (`subtitles.js` is that code, unchanged). Run on 300 caption files (34,836 captions), SRT to WebVTT and back kept every caption's timing, and a shift there and back restored every time.
+
 ## Library
 
 ```js
@@ -87,13 +109,17 @@ for (const cue of result.cues) for (const issue of cue.issues) console.log(cue.n
 
 const fixed = fix(fs.readFileSync('captions.srt', 'utf8'), 'netflix', { fps: 25 });
 fs.writeFileSync('captions.fixed.srt', fixed.text);   // also: fixed.changes, fixed.unresolved, fixed.before, fixed.after
+
+const { convert, retime } = require('caption-checker/convert.js');
+const vtt = convert(srtText, 'vtt');                                   // { text, from, to, captions, notes }
+const synced = retime(srtText, { rate: { from: 23.976, to: 25 } });    // or { offset: '-2.5', from: 120 }, { startAt: { caption, time } }, { sync: [a, b] }
 ```
 
 `check()` accepts a standard id or your own standard object with the same fields as `STANDARDS` in `index.js`.
 
 ## MCP server and Claude Code plugin
 
-The same checks run as an MCP server, so Claude, Cursor, VS Code and other MCP clients can check a caption file mid-task. Three tools: `check_captions` (a file path or pasted SRT/VTT text, a standard, fps, vertical), `fix_captions` (the same arguments; returns the fixed file and what changed) and `list_standards` (each limit and the page it comes from). It runs locally: no key, no network.
+The same checks run as an MCP server, so Claude, Cursor, VS Code and other MCP clients can check a caption file mid-task. Five tools: `check_captions` (a file path or pasted SRT/VTT text, a standard, fps, vertical), `fix_captions` (the same arguments; returns the fixed file and what changed), `convert_captions` (SRT to WebVTT or back), `retime_captions` (offset, start at, frame-rate change or two-point sync) and `list_standards` (each limit and the page it comes from). It runs locally: no key, no network.
 
 ```
 # Claude Code plugin (MCP server + a caption QA skill)
@@ -110,7 +136,7 @@ Other clients:
 { "mcpServers": { "caption-checker": { "command": "npx", "args": ["-y", "github:markksantos/caption-checker", "--mcp"] } } }
 ```
 
-The skill in [`skills/caption-checker/SKILL.md`](skills/caption-checker/SKILL.md) tells an agent which standard to pick, how to report results and how to fix a caption without changing its words. [`skills/caption-fixer/SKILL.md`](skills/caption-fixer/SKILL.md) covers fixing a file: what `fix_captions` changes, and what to do with the captions it leaves for a person.
+The skill in [`skills/caption-checker/SKILL.md`](skills/caption-checker/SKILL.md) tells an agent which standard to pick, how to report results and how to fix a caption without changing its words. [`skills/caption-fixer/SKILL.md`](skills/caption-fixer/SKILL.md) covers fixing a file: what `fix_captions` changes, and what to do with the captions it leaves for a person. [`skills/caption-converter/SKILL.md`](skills/caption-converter/SKILL.md) covers converting between SRT and WebVTT and working out which kind of timing fix an out-of-sync file needs.
 
 ## Study
 

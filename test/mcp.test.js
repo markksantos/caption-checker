@@ -27,9 +27,9 @@ test('notifications get no reply; unknown methods get -32601', async () => {
   assert.deepEqual((await s.handle({ jsonrpc: '2.0', id: 3, method: 'ping' })).result, {});
 });
 
-test('tools/list returns all three tools with object input schemas', async () => {
+test('tools/list returns all five tools with object input schemas', async () => {
   const { result } = await createServer().handle({ jsonrpc: '2.0', id: 1, method: 'tools/list' });
-  assert.deepEqual(result.tools.map((t) => t.name), ['check_captions', 'fix_captions', 'list_standards']);
+  assert.deepEqual(result.tools.map((t) => t.name), ['check_captions', 'fix_captions', 'convert_captions', 'retime_captions', 'list_standards']);
   for (const t of result.tools) assert.equal(t.inputSchema.type, 'object');
 });
 
@@ -79,4 +79,27 @@ test('the CLI serves MCP over stdio', async () => {
   assert.equal(msgs.length, 2);
   assert.equal(msgs[0].result.serverInfo.name, 'caption-checker');
   assert.equal(msgs[1].result.structuredContent.flagged, 6);
+});
+
+test('convert_captions returns the WebVTT file as the second content item', async () => {
+  const { result } = await createServer().handle(call(1, 'convert_captions', { path: EXAMPLE }));
+  assert.equal(result.isError, false);
+  assert.match(result.content[0].text, /^8 captions converted from SubRip \(\.srt\) to WebVTT \(\.vtt\)\./);
+  assert.match(result.content[1].text, /^WEBVTT\n\n1\n00:00:00\.500 --> 00:00:03\.000\n/);
+  assert.equal(result.structuredContent.converted, result.content[1].text);
+});
+
+test('retime_captions shifts, rescales and reports bad input as a tool error', async () => {
+  const s = createServer();
+  const r = (await s.handle(call(1, 'retime_captions', { path: EXAMPLE, offset: '1.5', from: 2 }))).result;
+  assert.equal(r.structuredContent.changed, 7);
+  assert.equal(r.structuredContent.offsetMs, 1500);
+  assert.match(r.content[1].text, /^1\n00:00:00,500 --> 00:00:03,000\n/);
+  const k = (await s.handle(call(2, 'retime_captions', { path: EXAMPLE, rate: { from: 25, to: 23.976 } }))).result;
+  assert.ok(Math.abs(k.structuredContent.scale - 25 / 23.976) < 1e-12);
+  const bad = (await s.handle(call(3, 'retime_captions', { path: EXAMPLE, offset: 'soon' }))).result;
+  assert.equal(bad.isError, true);
+  assert.match(bad.content[0].text, /can't read "soon" as a time/);
+  const none = (await s.handle(call(4, 'retime_captions', { path: EXAMPLE }))).result;
+  assert.equal(none.isError, true);
 });
