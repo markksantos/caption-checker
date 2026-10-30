@@ -27,9 +27,9 @@ test('notifications get no reply; unknown methods get -32601', async () => {
   assert.deepEqual((await s.handle({ jsonrpc: '2.0', id: 3, method: 'ping' })).result, {});
 });
 
-test('tools/list returns both tools with object input schemas', async () => {
+test('tools/list returns all three tools with object input schemas', async () => {
   const { result } = await createServer().handle({ jsonrpc: '2.0', id: 1, method: 'tools/list' });
-  assert.deepEqual(result.tools.map((t) => t.name), ['check_captions', 'list_standards']);
+  assert.deepEqual(result.tools.map((t) => t.name), ['check_captions', 'fix_captions', 'list_standards']);
   for (const t of result.tools) assert.equal(t.inputSchema.type, 'object');
 });
 
