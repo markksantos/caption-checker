@@ -17,7 +17,7 @@ This skill fixes an SRT or WebVTT file to one of three published caption standar
 
 What `fix_captions` changes:
 
-- **Line breaks.** A caption with a line over the character limit, or with too many lines, is rewrapped into the fewest lines that fit. Breaks go after punctuation where possible and never right after an article, preposition, conjunction or auxiliary verb.
+- **Line breaks.** A caption with a line over the character limit, or with too many lines, is rewrapped into the fewest lines that fit. Breaks go after punctuation where possible and avoid landing right after an article, preposition, conjunction or auxiliary verb.
 - **Out-times.** An out-time is pulled back off an overlap or a gap under the minimum, cut to the longest time on screen, and pushed into the free time after a caption that is on screen too briefly or reads too fast. For Netflix, gaps under half a second are closed to 2 frames.
 
 What it never changes: the words, any in-time, the number of captions, cue ids, WebVTT headers, NOTE blocks, cue settings and line endings. A caption that needed nothing keeps its exact bytes.
