@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.0 (2026-10-29)
+
+- Fix mode: `caption-check captions.srt --fix fixed.srt`, `fix()` in the library and a `fix_captions` MCP tool. It rewraps lines that are too long or too many (breaking after punctuation, not after "the", "and" or "was"), pulls out-times off overlaps and gaps under the minimum, cuts captions to the longest time on screen, and extends out-times into free time when a caption is too short or reads too fast. It never changes a word or an in-time, leaves every other byte of the file as it was, and lists what it couldn't fix (a caption with no free time after it, or one too long for the lines allowed) for a person.
+- A second skill, `skills/caption-fixer/SKILL.md`, for agents asked to fix a caption file rather than check it.
+
 ## 1.1.0 (2026-10-19)
 
 - MCP server: `caption-check --mcp` serves two tools over stdio, `check_captions` (a file path or pasted SRT/VTT text) and `list_standards` (each limit with its source page). No dependencies, no network.

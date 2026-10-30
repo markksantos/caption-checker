@@ -48,25 +48,52 @@ caption-check <file.srt|file.vtt> [more files] [options]
       --vertical        9:16 video (the BBC allows three lines)
       --json            JSON output
       --advice          also print advice-only notes
+      --fix <out>       write a fixed copy to <out> (one input file)
       --mcp             run as an MCP server on stdio
 ```
 
 It exits with 1 when any caption breaks a limit, so it works as a CI check before captions ship.
 
+## Fix mode
+
+`--fix` writes a copy with every fix that doesn't need a person: it never changes a word or an in-time.
+
+```
+$ caption-check examples/travel-vlog.srt --fix fixed.srt
+travel-vlog.srt: 8 changes in 7 captions, written to fixed.srt
+  #1  Out-time 0:03.000 -> 0:02.916 (to leave 2 frames before the next caption)
+  #4  Rewrapped to 2 lines (38 + 35 characters)
+  #5  Out-time 0:17.000 -> 0:16.100 (off an overlap, to the 7 s maximum)
+  ...
+  Left for a person (2):
+  #3  Still on screen only 0.52 s (minimum 5/6 of a second) with no free time after it: merge it with a neighbour or move the next caption
+  #4  Still reads at 40.2 characters a second (limit 20) with no free time after it: split it, condense it or move the next caption
+fixed.srt: 6 of 8 captions meet Netflix English, adult programs (before: 2 of 8)
+```
+
+- **Line breaks.** A caption with a line over the limit, or too many lines, is rewrapped into the fewest lines that fit, breaking after punctuation where it can and never after an article, preposition, conjunction or auxiliary verb ("the", "of", "and", "was"). Captions with formatting tags or two speakers are left for a person.
+- **Out-times.** An out-time is pulled back off an overlap or a gap under the minimum, cut to the longest time on screen, and pushed into free time when a caption is too short or reads too fast. For Netflix, gaps under 0.5 s are closed to 2 frames, as its timing guide asks.
+- **Everything else stays.** Captions that needed nothing keep their exact bytes, and so do cue ids, WebVTT headers, NOTE blocks, cue settings, line endings and a byte-order mark. A second run changes nothing.
+
+Run against 300 caption files with all six standards, it never changed a word, an in-time or the number of captions, and never left more captions failing than it started with.
+
 ## Library
 
 ```js
-const { parse, check } = require('caption-checker');
+const { parse, check, fix } = require('caption-checker');
 const result = check(parse(fs.readFileSync('captions.vtt', 'utf8')), 'bbc', { vertical: true });
 console.log(result.flagged, 'of', result.cues.length, 'captions break a limit');
 for (const cue of result.cues) for (const issue of cue.issues) console.log(cue.n, issue.severity, issue.message);
+
+const fixed = fix(fs.readFileSync('captions.srt', 'utf8'), 'netflix', { fps: 25 });
+fs.writeFileSync('captions.fixed.srt', fixed.text);   // also: fixed.changes, fixed.unresolved, fixed.before, fixed.after
 ```
 
 `check()` accepts a standard id or your own standard object with the same fields as `STANDARDS` in `index.js`.
 
 ## MCP server and Claude Code plugin
 
-The same checks run as an MCP server, so Claude, Cursor, VS Code and other MCP clients can check a caption file mid-task. Two tools: `check_captions` (a file path or pasted SRT/VTT text, a standard, fps, vertical) and `list_standards` (each limit and the page it comes from). It runs locally: no key, no network.
+The same checks run as an MCP server, so Claude, Cursor, VS Code and other MCP clients can check a caption file mid-task. Three tools: `check_captions` (a file path or pasted SRT/VTT text, a standard, fps, vertical), `fix_captions` (the same arguments; returns the fixed file and what changed) and `list_standards` (each limit and the page it comes from). It runs locally: no key, no network.
 
 ```
 # Claude Code plugin (MCP server + a caption QA skill)
@@ -83,7 +110,7 @@ Other clients:
 { "mcpServers": { "caption-checker": { "command": "npx", "args": ["-y", "github:markksantos/caption-checker", "--mcp"] } } }
 ```
 
-The skill in [`skills/caption-checker/SKILL.md`](skills/caption-checker/SKILL.md) tells an agent which standard to pick, how to report results and how to fix a caption without changing its words.
+The skill in [`skills/caption-checker/SKILL.md`](skills/caption-checker/SKILL.md) tells an agent which standard to pick, how to report results and how to fix a caption without changing its words. [`skills/caption-fixer/SKILL.md`](skills/caption-fixer/SKILL.md) covers fixing a file: what `fix_captions` changes, and what to do with the captions it leaves for a person.
 
 ## Study
 

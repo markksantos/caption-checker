@@ -11,7 +11,7 @@
     {
       "name": "caption-checker",
       "source": "./",
-      "description": "MCP server with two tools: check_captions (reading speed, line length, lines, time on screen, gaps and overlaps against Netflix, BBC or DCMP) and list_standards (each limit and its source). Works offline, no key.",
+      "description": "MCP server with three tools: check_captions (reading speed, line length, lines, time on screen, gaps and overlaps against Netflix, BBC or DCMP), fix_captions (rewraps lines and moves out-times to meet those limits without changing a word) and list_standards (each limit and its source). Works offline, no key.",
       "category": "productivity",
       "homepage": "https://www.markstudios.com/tools/caption-checker",
       "tags": ["mcp", "captions", "subtitles", "srt", "webvtt", "accessibility"]

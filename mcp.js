@@ -1,10 +1,10 @@
 'use strict';
 
 // A minimal Model Context Protocol server (stdio transport, newline-delimited
-// JSON-RPC 2.0) exposing the checker as two tools. No dependencies.
+// JSON-RPC 2.0) exposing the checker as three tools. No dependencies.
 
 const fs = require('fs');
-const { parse, check, STANDARDS, SOURCES } = require('./index.js');
+const { parse, check, fix, STANDARDS, SOURCES } = require('./index.js');
 const { version } = require('./package.json');
 
 const PROTOCOL_VERSIONS = ['2025-11-25', '2025-06-18', '2025-03-26', '2024-11-05'];
@@ -28,6 +28,28 @@ const TOOLS = [
         fps: { type: 'number', exclusiveMinimum: 0, description: 'Frame rate for frame-based gap checks (default 24).' },
         vertical: { type: 'boolean', description: '9:16 video; the BBC allows three lines.' },
         include_advice: { type: 'boolean', description: 'Also list notes a standard words as a recommendation, not a limit.' },
+      },
+      additionalProperties: false,
+    },
+    annotations: { readOnlyHint: true, openWorldHint: false },
+  },
+  {
+    name: 'fix_captions',
+    title: 'Fix captions to a standard',
+    description:
+      'Fix an SRT or WebVTT caption file to Netflix English, BBC or DCMP limits without changing a word or an in-time: ' +
+      'rewraps lines that are too long or too many, pulls out-times off overlaps and gaps under the minimum, cuts captions ' +
+      'to the longest time on screen, and extends out-times into free time when a caption is too short or reads too fast. ' +
+      'Returns the fixed file as text (second content item) with a list of changes and of captions left for a person. ' +
+      'Writes nothing to disk: save the fixed text yourself.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        path: { type: 'string', description: 'Path to a .srt or .vtt file on this machine.' },
+        text: { type: 'string', description: 'The caption file contents, when there is no file path.' },
+        standard: { type: 'string', enum: STANDARD_IDS, description: 'Which standard to fix to (default netflix).' },
+        fps: { type: 'number', exclusiveMinimum: 0, description: 'Frame rate for frame-based gaps (default 24).' },
+        vertical: { type: 'boolean', description: '9:16 video; the BBC allows three lines.' },
       },
       additionalProperties: false,
     },
@@ -90,19 +112,25 @@ function summarize(res, parsed, includeAdvice) {
 }
 
 function createServer({ readFile = (p) => fs.readFileSync(p, 'utf8') } = {}) {
+  // The arguments check_captions and fix_captions share: one of path or text, a standard and a frame rate.
+  function input(args) {
+    const hasPath = typeof args.path === 'string' && args.path !== '';
+    const hasText = typeof args.text === 'string';
+    if (hasPath === hasText) throw new ToolError('Pass exactly one of path or text.');
+    const standard = args.standard === undefined ? 'netflix' : args.standard;
+    if (!STANDARDS[standard]) throw new ToolError(`standard must be one of: ${STANDARD_IDS.join(', ')}`);
+    const fps = args.fps === undefined ? 24 : args.fps;
+    if (typeof fps !== 'number' || !(fps > 0)) throw new ToolError('fps must be a positive number');
+    let src = args.text;
+    if (hasPath) {
+      try { src = readFile(args.path); } catch (err) { throw new ToolError(`Can't read ${args.path}: ${err.message}`); }
+    }
+    return { src, standard, fps };
+  }
+
   const tools = {
     async check_captions(args) {
-      const hasPath = typeof args.path === 'string' && args.path !== '';
-      const hasText = typeof args.text === 'string';
-      if (hasPath === hasText) throw new ToolError('Pass exactly one of path or text.');
-      const standard = args.standard === undefined ? 'netflix' : args.standard;
-      if (!STANDARDS[standard]) throw new ToolError(`standard must be one of: ${STANDARD_IDS.join(', ')}`);
-      const fps = args.fps === undefined ? 24 : args.fps;
-      if (typeof fps !== 'number' || !(fps > 0)) throw new ToolError('fps must be a positive number');
-      let src = args.text;
-      if (hasPath) {
-        try { src = readFile(args.path); } catch (err) { throw new ToolError(`Can't read ${args.path}: ${err.message}`); }
-      }
+      const { src, standard, fps } = input(args);
       const parsed = parse(src);
       const res = check(parsed, standard, { fps, vertical: args.vertical === true });
       return {
@@ -119,6 +147,26 @@ function createServer({ readFile = (p) => fs.readFileSync(p, 'utf8') } = {}) {
           issues: res.cues.filter((c) => c.issues.length).map((c) => ({
             n: c.n, start: c.start, end: c.end, text: c.lines.join('\n'), issues: c.issues,
           })),
+        },
+      };
+    },
+    async fix_captions(args) {
+      const { src, standard, fps } = input(args);
+      const res = fix(src, standard, { fps, vertical: args.vertical === true });
+      const total = res.after.cues.length;
+      if (!total) throw new ToolError('No captions found. Each caption needs a timing line like 00:00:01,000 --> 00:00:03,500.');
+      const lines = [`${res.changes.length} ${res.changes.length === 1 ? 'change' : 'changes'}. ${total - res.after.flagged} of ${total} captions now meet ${res.after.standard.name} (before: ${total - res.before.flagged}).`];
+      for (const x of res.changes.slice(0, MAX_ISSUES_IN_TEXT)) lines.push(`#${x.n}  ${x.what}`);
+      if (res.changes.length > MAX_ISSUES_IN_TEXT) lines.push(`...and ${res.changes.length - MAX_ISSUES_IN_TEXT} more changes (all of them are in the structured result).`);
+      if (res.unresolved.length) lines.push(`Left for a person (${res.unresolved.length}):`, ...res.unresolved.map((x) => `#${x.n}  ${x.why}`));
+      lines.push('The fixed file is the next content item.');
+      return {
+        text: lines.join('\n'),
+        extra: res.text,
+        structured: {
+          standard, standardName: res.after.standard.name, captions: total,
+          flaggedBefore: res.before.flagged, flaggedAfter: res.after.flagged,
+          changes: res.changes, unresolved: res.unresolved, fixed: res.text,
         },
       };
     },
@@ -151,6 +199,7 @@ function createServer({ readFile = (p) => fs.readFileSync(p, 'utf8') } = {}) {
           serverInfo: { name: 'caption-checker', title: 'Caption Checker', version, websiteUrl: 'https://www.markstudios.com/tools/caption-checker' },
           instructions:
             'Use check_captions to check an SRT or WebVTT file against Netflix, BBC or DCMP caption limits, ' +
+            'fix_captions to get a copy fixed to those limits without changing any words, ' +
             'and list_standards to see each limit and its source.',
         });
       }
@@ -163,7 +212,9 @@ function createServer({ readFile = (p) => fs.readFileSync(p, 'utf8') } = {}) {
         if (!tool) return error(-32602, `Unknown tool: ${params.name}`);
         try {
           const out = await tool(params.arguments || {});
-          return reply({ content: [{ type: 'text', text: out.text }], structuredContent: out.structured, isError: false });
+          const content = [{ type: 'text', text: out.text }];
+          if (out.extra !== undefined) content.push({ type: 'text', text: out.extra });
+          return reply({ content, structuredContent: out.structured, isError: false });
         } catch (err) {
           if (!(err instanceof ToolError)) throw err;
           return reply({ content: [{ type: 'text', text: err.message }], isError: true });

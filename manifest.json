@@ -2,9 +2,9 @@
   "manifest_version": "0.3",
   "name": "caption-checker",
   "display_name": "Caption Checker",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Check SRT and WebVTT captions against Netflix, BBC and DCMP Captioning Key limits.",
-  "long_description": "Ask Claude to check a caption file before it ships. `check_captions` reports every caption that breaks a limit of Netflix English (adult or children's programs), the BBC subtitle guidelines or the DCMP Captioning Key: reading speed, characters a line, lines a caption, shortest and longest time on screen, gaps between captions and overlaps. `list_standards` shows each limit and the page it comes from.\n\nIt runs on your computer: no key, no network, no upload.",
+  "long_description": "Ask Claude to check a caption file before it ships. `check_captions` reports every caption that breaks a limit of Netflix English (adult or children's programs), the BBC subtitle guidelines or the DCMP Captioning Key: reading speed, characters a line, lines a caption, shortest and longest time on screen, gaps between captions and overlaps. `fix_captions` returns a copy fixed to those limits without changing a word or an in-time: long lines rewrapped, out-times moved off overlaps and into free time. `list_standards` shows each limit and the page it comes from.\n\nIt runs on your computer: no key, no network, no upload.",
   "author": {
     "name": "Mark Studios",
     "url": "https://www.markstudios.com"
@@ -28,6 +28,10 @@
     {
       "name": "check_captions",
       "description": "Check an SRT or WebVTT file (a path or pasted text) against Netflix, BBC or DCMP caption limits."
+    },
+    {
+      "name": "fix_captions",
+      "description": "Fix an SRT or WebVTT file to Netflix, BBC or DCMP limits without changing a word: rewraps lines and moves out-times. Returns the fixed text."
     },
     {
       "name": "list_standards",
