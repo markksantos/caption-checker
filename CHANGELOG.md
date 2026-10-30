@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.0 (2026-10-30)
+
+- Convert and retime: `caption-check captions.srt --to vtt`, and `--shift`, `--start-at`, `--rate` or `--sync` to fix captions that are out of sync with the video (an offset, from caption N on, a new start for one caption, a frame-rate change such as 23.976 to 25 fps, or two pinned captions with everything stretched between them). `convert()` and `retime()` in `convert.js`, and `convert_captions` and `retime_captions` MCP tools. Built on `subtitles.js`, the reader and writer of the online SRT/VTT converter and subtitle time shifter, unchanged, so both convert a file the same way.
+- A third skill, `skills/caption-converter/SKILL.md`, for agents asked to convert a caption file or fix its timing.
+
 ## 1.2.0 (2026-10-29)
 
 - Fix mode: `caption-check captions.srt --fix fixed.srt`, `fix()` in the library and a `fix_captions` MCP tool. It rewraps lines that are too long or too many (breaking after punctuation where it can and avoiding a break after "the", "and" or "was"), pulls out-times off overlaps and gaps under the minimum, cuts captions to the longest time on screen, and extends out-times into free time when a caption is too short or reads too fast. It never changes a word or an in-time, leaves every other byte of the file as it was, and lists what it couldn't fix (a caption with no free time after it, or one too long for the lines allowed) for a person.
