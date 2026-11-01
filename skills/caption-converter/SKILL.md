@@ -1,7 +1,7 @@
 ---
 name: caption-converter
 description: Use when the user wants an SRT or WebVTT caption or subtitle file converted to the other format, or its timing fixed because it is out of sync with the video - captions that are all early or late, late from a certain point on, drifting later and later (a frame-rate mismatch such as 23.976 vs 25 fps), or that need re-syncing to two known points. Trigger with "convert this SRT to VTT", "make a WebVTT file for my HTML5 player", "the subtitles are 2 seconds late", "the captions drift out of sync", "shift these subtitles" or "sync the subtitles to the video".
-version: 1.3.1
+version: 1.3.2
 author: Mark Studios <contact@markstudios.com>
 license: MIT
 compatibility: Claude Code with the caption-checker plugin or MCP server; any agent that can run Node 18+ for the CLI fallback. Works offline.
@@ -19,7 +19,7 @@ Use WebVTT for HTML5 `<track>` elements, most web players and course platforms. 
 
 ## Prerequisites
 
-- The caption-checker MCP server (installed with the plugin, or `claude mcp add caption-checker -- npx -y github:markksantos/caption-checker --mcp`). Without it, use the CLI in the Examples section, which needs Node 18+.
+- The caption-checker MCP server (installed with the plugin, or `claude mcp add caption-checker -- npx -y github:markksantos/caption-checker#v1.3.2 --mcp`). Without it, use the CLI in the Examples section, which needs Node 18+.
 - A caption file the agent can read and a place to write the result.
 
 ## Instructions
@@ -67,10 +67,10 @@ Use WebVTT for HTML5 `<track>` elements, most web players and course platforms. 
 The same from a terminal:
 
 ```bash
-npx github:markksantos/caption-checker episode.srt --shift -2 --out episode.synced.srt
-npx github:markksantos/caption-checker lecture.vtt --to srt --speakers --out lecture.srt
-npx github:markksantos/caption-checker film.srt --rate 23.976:25 --out film.25fps.srt
-npx github:markksantos/caption-checker film.srt --sync 1=0:04.200,640=41:12.5 --to vtt --out film.vtt
+npx github:markksantos/caption-checker#v1.3.2 episode.srt --shift -2 --out episode.synced.srt
+npx github:markksantos/caption-checker#v1.3.2 lecture.vtt --to srt --speakers --out lecture.srt
+npx github:markksantos/caption-checker#v1.3.2 film.srt --rate 23.976:25 --out film.25fps.srt
+npx github:markksantos/caption-checker#v1.3.2 film.srt --sync 1=0:04.200,640=41:12.5 --to vtt --out film.vtt
 ```
 
 ## Resources

@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.2 (2026-11-01)
+
+- Fixed: a time with minutes or seconds over 59 was accepted and carried over, so `00:00:60,000` read as one minute and a caption timed `00:00:58,000 --> 00:00:60,000` passed the check. The check now fails that caption with "The time \"00:00:60,000\" has minutes or seconds over 59", and `--to`, the retiming flags, `convert_captions` and `retime_captions` stop with an error naming the caption instead of writing it out as a different time (`00:01:75,000` had become `00:02:15,000`). Hours still have no upper limit. Boundary and malformed-time tests added.
+- The install commands in the README and the skills pin this release (`github:markksantos/caption-checker#v1.3.2`) instead of running whatever is on main.
+
 ## 1.3.1 (2026-10-30)
 
 - Fixed: caption files saved in Windows-1252 (SubRip's own default, common for older .srt files) or UTF-16 were read as UTF-8, so accented letters became replacement characters, and `--fix`, `--to` and the retiming flags wrote them into the new file that way. The CLI and the MCP server now read UTF-16 by its byte-order mark, UTF-8 when it decodes cleanly and Windows-1252 otherwise, as the online tools do, and write UTF-8.
