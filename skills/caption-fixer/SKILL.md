@@ -1,7 +1,7 @@
 ---
 name: caption-fixer
 description: Use when the user wants an SRT or WebVTT caption or subtitle file fixed so it meets Netflix, BBC or DCMP Captioning Key limits, not just checked - lines too long, too many lines, overlapping subtitles, gaps under the minimum, captions on screen too briefly or reading too fast. Trigger with "fix these captions", "make this SRT pass Netflix's spec", "rewrap my subtitles to 42 characters" or "fix the overlapping subtitles".
-version: 1.3.1
+version: 1.3.2
 author: Mark Studios <contact@markstudios.com>
 license: MIT
 compatibility: Claude Code with the caption-checker plugin or MCP server; any agent that can run Node 18+ for the CLI fallback. Works offline.
@@ -24,7 +24,7 @@ What it never changes: the words, any in-time, the number of captions, cue ids, 
 
 ## Prerequisites
 
-- The caption-checker MCP server (installed with the plugin, or `claude mcp add caption-checker -- npx -y github:markksantos/caption-checker --mcp`). Without it, use the CLI in the Examples section, which needs Node 18+.
+- The caption-checker MCP server (installed with the plugin, or `claude mcp add caption-checker -- npx -y github:markksantos/caption-checker#v1.3.2 --mcp`). Without it, use the CLI in the Examples section, which needs Node 18+.
 - A caption file the agent can read and a place to write the fixed copy.
 
 ## Instructions
@@ -65,8 +65,8 @@ Left for a person (2):
 Without the MCP server, the CLI writes the fixed copy and prints the same report. It exits with 1 while any caption still breaks a limit:
 
 ```bash
-npx -y github:markksantos/caption-checker captions.srt --fix captions.fixed.srt --fps 25
-npx -y github:markksantos/caption-checker captions.vtt --fix captions.fixed.vtt --standard bbc --vertical
+npx -y github:markksantos/caption-checker#v1.3.2 captions.srt --fix captions.fixed.srt --fps 25
+npx -y github:markksantos/caption-checker#v1.3.2 captions.vtt --fix captions.fixed.vtt --standard bbc --vertical
 ```
 
 ## Resources

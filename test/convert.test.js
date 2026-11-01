@@ -92,3 +92,13 @@ test('caption files in Windows-1252 and UTF-16 are read correctly', () => {
   assert.deepEqual(decode(u16), { text: srt, encoding: 'UTF-16' });
   assert.match(convert(decode(cp).text, 'vtt').text, /Café, señor — ¿sí\?/);
 });
+
+test('a time with minutes or seconds over 59 stops a conversion or retime instead of moving the caption', () => {
+  const srt = '1\n00:00:01,000 --> 00:00:02,000\nFine.\n\n2\n00:01:75,000 --> 00:01:77,000\nNot fine.\n';
+  const msg = /1 caption has a time with minutes or seconds over 59 \(caption 2: "00:01:75,000"\)/;
+  assert.throws(() => convert(srt, 'vtt'), msg);
+  assert.throws(() => retime(srt, { offset: 1 }), msg);
+  assert.throws(() => convert('WEBVTT\n\n00:59.000 --> 60:01.000\nHi.\n', 'srt'), /caption 1: "60:01\.000"/);
+  // the largest valid times still convert
+  assert.equal(convert('1\n00:59:58,000 --> 00:59:59,999\nLast.\n', 'vtt').text, 'WEBVTT\n\n1\n00:59:58.000 --> 00:59:59.999\nLast.\n');
+});

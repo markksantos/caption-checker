@@ -33,10 +33,10 @@ const STANDARDS = {
 
 const TIMING = /^\s*((?:\d+:)?\d{1,2}:\d{1,2}[,.]\d{1,3})\s*-->\s*((?:\d+:)?\d{1,2}:\d{1,2}[,.]\d{1,3})/;
 
-/** Seconds from "00:01:02,345", "01:02.345" or "1:02:03.4"; NaN if unreadable. */
+/** Seconds from "00:01:02,345", "01:02.345" or "1:02:03.4"; NaN if unreadable or if the minutes or seconds are over 59. */
 function stamp(t) {
   const m = /^(?:(\d+):)?(\d{1,2}):(\d{1,2})[,.](\d{1,3})$/.exec(String(t).trim());
-  if (!m) return NaN;
+  if (!m || +m[2] > 59 || +m[3] > 59) return NaN;
   return (+(m[1] || 0)) * 3600 + (+m[2]) * 60 + (+m[3]) + (+(m[4] + '00').slice(0, 3)) / 1000;
 }
 
@@ -126,7 +126,12 @@ function check(parsed, standard = 'netflix', opts = {}) {
 
   cues.forEach((c, i) => {
     const next = cues[i + 1], prev = cues[i - 1];
-    if (!Number.isFinite(c.start) || !Number.isFinite(c.end)) { add(c, 'timing', 'limit', `The timing line can't be read: "${c.raw.slice(0, 60)}"`); return; }
+    if (!Number.isFinite(c.start) || !Number.isFinite(c.end)) {
+      // A well-formed time that still reads as NaN has minutes or seconds over 59 (00:00:60,000 is not 00:01:00,000)
+      const over = (TIMING.exec(c.raw) || []).slice(1).find((t) => !Number.isFinite(stamp(t)));
+      add(c, 'timing', 'limit', over ? `The time "${over}" has minutes or seconds over 59` : `The timing line can't be read: "${c.raw.slice(0, 60)}"`);
+      return;
+    }
     const dur = c.end - c.start;
     let chars = 0;
     const lens = c.lines.map((l) => { const n = len(l); chars += n; longest = Math.max(longest, n); return n; });

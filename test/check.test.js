@@ -74,3 +74,40 @@ test('cli prints complete JSON for large files when piped', () => {
   const out = JSON.parse(run.stdout);
   assert.strictEqual(out.cues.length, 1500);
 });
+
+test('minutes and seconds over 59 are not valid times', () => {
+  // boundaries that are valid
+  assert.strictEqual(stamp('00:00:59,999'), 59.999);
+  assert.strictEqual(stamp('00:59:59,999'), 3599.999);
+  assert.strictEqual(stamp('59:59.999'), 3599.999);         // WebVTT without hours
+  assert.strictEqual(stamp('99:00:00,000'), 356400);        // hours have no upper limit
+  // one past them
+  for (const t of ['00:00:60,000', '00:60:00,000', '60:00.000', '00:01:75,000', '00:99:99,999']) assert.ok(Number.isNaN(stamp(t)), t);
+  // malformed
+  for (const t of ['00:00:01:000', '00:00:01,0000', '00:00:01', '0:0:,5', '-00:00:01,000', '00:00:01.5x']) assert.ok(Number.isNaN(stamp(t)), t);
+});
+
+test('a caption with an out-of-range time fails the check', () => {
+  // 00:00:58 -> 00:00:60 would be a passing 2 s caption if 60 seconds were read as 1:00
+  const srt = '1\n00:00:58,000 --> 00:00:60,000\nHello there.\n\n2\n00:01:00,500 --> 00:01:02,000\nAnd again.\n';
+  const res = check(parse(srt), 'netflix');
+  assert.strictEqual(res.flagged, 1);
+  assert.deepStrictEqual(res.cues[0].issues.map((x) => [x.kind, x.severity, x.message]),
+    [['timing', 'limit', 'The time "00:00:60,000" has minutes or seconds over 59']]);
+  assert.deepStrictEqual(res.cues[1].issues.filter((x) => x.severity === 'limit'), []);
+  const vtt = check(parse('WEBVTT\n\n60:00.000 --> 60:02.000\nHello there.\n'), 'netflix');
+  assert.strictEqual(vtt.cues[0].issues[0].message, 'The time "60:00.000" has minutes or seconds over 59');
+  const bad = check(parse('1\n00:00:01,000 --> 00:00:02;000\nHello there.\n'), 'netflix');
+  assert.match(bad.cues[0].issues[0].message, /^The timing line can't be read/);
+});
+
+test('the cli exits 1 on an out-of-range time', () => {
+  const { spawnSync } = require('child_process');
+  const os = require('os');
+  const f = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'cc-')), 'sixty.srt');
+  fs.writeFileSync(f, '1\n00:00:58,000 --> 00:00:60,000\nHello there.\n');
+  const r = spawnSync(process.execPath, [path.join(__dirname, '..', 'bin', 'caption-check.js'), f], { encoding: 'utf8' });
+  assert.strictEqual(r.status, 1);
+  assert.match(r.stdout, /0 of 1 captions meet/);
+  assert.match(r.stdout, /minutes or seconds over 59/);
+});

@@ -5,6 +5,7 @@
 // subtitles.js, the same reader and writer as the online SRT/VTT converter and subtitle time shifter.
 
 const S = require('./subtitles.js');
+const { stamp } = require('./index.js');
 
 const plural = (k, one, many) => k + ' ' + (k === 1 ? one : many);
 
@@ -62,6 +63,13 @@ function decode(bytes) {
 
 function read(src, name) {
   const p = S.parse(String(src), name);
+  // subtitles.js reads 00:01:75,000 as 2:15; writing that back out would silently move the caption, so stop instead
+  const over = p.cues.filter((c) => c.stamps && c.stamps.some((t) => !Number.isFinite(stamp(t))));
+  if (over.length) {
+    const t = over[0].stamps.find((x) => !Number.isFinite(stamp(x)));
+    throw new Error(`${plural(over.length, 'caption has', 'captions have')} a time with minutes or seconds over 59 (caption ${over[0].n}: "${t}"`
+      + `${over.length > 1 ? '; also ' + over.slice(1, 6).map((c) => c.n).join(', ') + (over.length > 6 ? ' and more' : '') : ''}). Fix ${over.length > 1 ? 'those times' : 'that time'} first: converting or retiming would write ${over.length > 1 ? 'each one as' : 'it as'} a different time.`);
+  }
   const timed = p.cues.filter((c) => Number.isFinite(c.startMs));
   if (!timed.length) throw new Error('No captions found. Each caption needs a timing line like 00:00:01,000 --> 00:00:03,500.');
   return { p, timed };
