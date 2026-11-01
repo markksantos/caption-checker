@@ -39,9 +39,9 @@ Sources: [Netflix English (USA) Timed Text Style Guide](https://partnerhelp.netf
 ## CLI
 
 ```
-npx github:markksantos/caption-checker#v1.3.2 captions.srt
-# or: git clone --depth 1 --branch v1.3.2 https://github.com/markksantos/caption-checker && node caption-checker/bin/caption-check.js captions.srt
-# (#v1.3.2 and --branch v1.3.2 pin a tagged release; without them you get whatever is on main)
+npx github:markksantos/caption-checker#v1.3.3 captions.srt
+# or: git clone --depth 1 --branch v1.3.3 https://github.com/markksantos/caption-checker && node caption-checker/bin/caption-check.js captions.srt
+# (#v1.3.3 and --branch v1.3.3 pin a tagged release; without them you get whatever is on main)
 
 caption-check <file.srt|file.vtt> [more files] [options]
   -s, --standard <id>   netflix | netflix-kids | bbc | dcmp-upper | dcmp-middle | dcmp-lower  (default: netflix)
@@ -129,13 +129,13 @@ The same checks run as an MCP server, so Claude, Cursor, VS Code and other MCP c
 /plugin install caption-checker@caption-checker
 
 # or the server on its own
-claude mcp add caption-checker -- npx -y github:markksantos/caption-checker#v1.3.2 --mcp
+claude mcp add caption-checker -- npx -y github:markksantos/caption-checker#v1.3.3 --mcp
 ```
 
 Other clients:
 
 ```json
-{ "mcpServers": { "caption-checker": { "command": "npx", "args": ["-y", "github:markksantos/caption-checker#v1.3.2", "--mcp"] } } }
+{ "mcpServers": { "caption-checker": { "command": "npx", "args": ["-y", "github:markksantos/caption-checker#v1.3.3", "--mcp"] } } }
 ```
 
 The skill in [`skills/caption-checker/SKILL.md`](skills/caption-checker/SKILL.md) tells an agent which standard to pick, how to report results and how to fix a caption without changing its words. [`skills/caption-fixer/SKILL.md`](skills/caption-fixer/SKILL.md) covers fixing a file: what `fix_captions` changes, and what to do with the captions it leaves for a person. [`skills/caption-converter/SKILL.md`](skills/caption-converter/SKILL.md) covers converting between SRT and WebVTT and working out which kind of timing fix an out-of-sync file needs.
