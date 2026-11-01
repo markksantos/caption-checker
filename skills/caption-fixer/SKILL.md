@@ -1,11 +1,11 @@
 ---
 name: caption-fixer
 description: Use when the user wants an SRT or WebVTT caption or subtitle file fixed so it meets Netflix, BBC or DCMP Captioning Key limits, not just checked - lines too long, too many lines, overlapping subtitles, gaps under the minimum, captions on screen too briefly or reading too fast. Trigger with "fix these captions", "make this SRT pass Netflix's spec", "rewrap my subtitles to 42 characters" or "fix the overlapping subtitles".
-version: 1.3.2
+version: 1.3.3
 author: Mark Studios <contact@markstudios.com>
 license: MIT
 compatibility: Claude Code with the caption-checker plugin or MCP server; any agent that can run Node 18+ for the CLI fallback. Works offline.
-allowed-tools: mcp__plugin_caption-checker_caption-checker__fix_captions, mcp__plugin_caption-checker_caption-checker__check_captions, mcp__caption-checker__fix_captions, mcp__caption-checker__check_captions, Write
+allowed-tools: mcp__plugin_caption-checker_caption-checker__fix_captions, mcp__plugin_caption-checker_caption-checker__check_captions, mcp__caption-checker__fix_captions, mcp__caption-checker__check_captions
 tags: [captions, subtitles, srt, webvtt, accessibility, video, mcp]
 ---
 
@@ -24,8 +24,8 @@ What it never changes: the words, any in-time, the number of captions, cue ids, 
 
 ## Prerequisites
 
-- The caption-checker MCP server (installed with the plugin, or `claude mcp add caption-checker -- npx -y github:markksantos/caption-checker#v1.3.2 --mcp`). Without it, use the CLI in the Examples section, which needs Node 18+.
-- A caption file the agent can read and a place to write the fixed copy.
+- The caption-checker MCP server (installed with the plugin, or `claude mcp add caption-checker -- npx -y github:markksantos/caption-checker#v1.3.3 --mcp`). Without it, use the CLI in the Examples section, which needs Node 18+.
+- A caption file the agent can read, and the user's OK to save the fixed copy. The skill pre-approves no file writes, so saving goes through the agent's usual permission prompt.
 
 ## Instructions
 
@@ -65,8 +65,8 @@ Left for a person (2):
 Without the MCP server, the CLI writes the fixed copy and prints the same report. It exits with 1 while any caption still breaks a limit:
 
 ```bash
-npx -y github:markksantos/caption-checker#v1.3.2 captions.srt --fix captions.fixed.srt --fps 25
-npx -y github:markksantos/caption-checker#v1.3.2 captions.vtt --fix captions.fixed.vtt --standard bbc --vertical
+npx -y github:markksantos/caption-checker#v1.3.3 captions.srt --fix captions.fixed.srt --fps 25
+npx -y github:markksantos/caption-checker#v1.3.3 captions.vtt --fix captions.fixed.vtt --standard bbc --vertical
 ```
 
 ## Resources

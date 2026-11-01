@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.3 (2026-11-01)
+
+- The caption-fixer and caption-converter skills no longer pre-approve the `Write` tool. Every skill now declares only the caption-checker MCP tools, all of which read their input and return text, so saving a fixed, converted or retimed file goes through the agent's usual permission prompt. `docs/ADR.md` and `docs/PRD.md` describe the five tools and the three skills' tool scope.
+- The install commands pin this release (`github:markksantos/caption-checker#v1.3.3`).
+
 ## 1.3.2 (2026-11-01)
 
 - Fixed: a time with minutes or seconds over 59 was accepted and carried over, so `00:00:60,000` read as one minute and a caption timed `00:00:58,000 --> 00:00:60,000` passed the check. The check now fails that caption with "The time \"00:00:60,000\" has minutes or seconds over 59", and `--to`, the retiming flags, `convert_captions` and `retime_captions` stop with an error naming the caption instead of writing it out as a different time (`00:01:75,000` had become `00:02:15,000`). Hours still have no upper limit. Boundary and malformed-time tests added.
